@@ -1,4 +1,4 @@
-# Maven Repository for Jason
+# Maven Repository for JaCaMo
 
 ## Camel and Jason integration
 
