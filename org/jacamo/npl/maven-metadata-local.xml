@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jacamo</groupId>
+  <artifactId>npl</artifactId>
+  <versioning>
+    <versions>
+      <version>0.4-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190520021309</lastUpdated>
+  </versioning>
+</metadata>
