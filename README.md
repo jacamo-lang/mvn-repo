@@ -1,8 +1,8 @@
 # Maven Repository for JaCaMo
 
-## Camel and Jason integration
+## JaCaMo REST API
 
-From https://github.com/jacamo-lang/camel-jason
+From https://github.com/jacamo-lang/jacamo-rest
 
 Using gradle:
 
@@ -15,6 +15,6 @@ repositories {
 }
 
 dependencies {
-   compile group: 'org.jacamo-lang',     name: 'camel-jason' ,   version: '1.0'
+   compile group: 'org.jacamo',     name: 'jacamo-rest' ,   version: '0.2-SNAPSHOT'
 }
 ```
