@@ -3,10 +3,12 @@
   <groupId>org.jacamo-lang</groupId>
   <artifactId>camel-jacamo</artifactId>
   <versioning>
-    <release>0.2</release>
+    <release>0.2.1</release>
     <versions>
+      <version>0.1</version>
       <version>0.2</version>
+      <version>0.2.1</version>
     </versions>
-    <lastUpdated>20191004201324</lastUpdated>
+    <lastUpdated>20191011145432</lastUpdated>
   </versioning>
 </metadata>
