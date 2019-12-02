@@ -3,9 +3,10 @@
   <groupId>org.jacamo</groupId>
   <artifactId>npl</artifactId>
   <versioning>
+    <latest>0.5-SNAPSHOT</latest>
     <versions>
-      <version>0.4-SNAPSHOT</version>
+      <version>0.5-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190520021629</lastUpdated>
+    <lastUpdated>20191202134730</lastUpdated>
   </versioning>
 </metadata>
