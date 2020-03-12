@@ -3,10 +3,11 @@
   <groupId>org.jacamo</groupId>
   <artifactId>jacamo-rest</artifactId>
   <versioning>
+    <latest>0.3-SNAPSHOT</latest>
     <versions>
-      <version>0.1-SNAPSHOT</version>
+      <version>0.2-SNAPSHOT</version>
       <version>0.3-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20200123144136</lastUpdated>
+    <lastUpdated>20200312121303</lastUpdated>
   </versioning>
 </metadata>
