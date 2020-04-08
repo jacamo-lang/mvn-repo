@@ -3,7 +3,7 @@
   "component": {
     "group": "org.jacamo",
     "module": "jacamo-rest",
-    "version": "0.4-SNAPSHOT",
+    "version": "0.5-SNAPSHOT",
     "attributes": {
       "org.gradle.status": "integration"
     }
@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.2.2",
-      "buildId": "2t2o6vjjqvca5ntrnfh442nsnq"
+      "buildId": "kb6ytr2cavclbceisocwtmyiw4"
     }
   },
   "variants": [
@@ -43,21 +43,21 @@
           "group": "javax.xml.bind",
           "module": "jaxb-api",
           "version": {
-            "requires": "+"
+            "requires": "2.3.1"
           }
         },
         {
           "group": "com.sun.xml.bind",
           "module": "jaxb-core",
           "version": {
-            "requires": "+"
+            "requires": "2.3.0.1"
           }
         },
         {
           "group": "com.sun.xml.bind",
           "module": "jaxb-impl",
           "version": {
-            "requires": "+"
+            "requires": "2.3.1"
           }
         },
         {
@@ -191,17 +191,24 @@
           "version": {
             "requires": "2.6"
           }
+        },
+        {
+          "group": "io.swagger",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "1.6.1"
+          }
         }
       ],
       "files": [
         {
-          "name": "jacamo-rest-0.4-SNAPSHOT.jar",
-          "url": "jacamo-rest-0.4-SNAPSHOT.jar",
-          "size": 53489,
-          "sha512": "421eb452743c07e7be4aec1321c287dff628962347f5087f29b5ef5173abe864a7f23a37d494dc3455e44776c4252bfe7bfa0605db361fb70398909420a77de7",
-          "sha256": "808ea32744ff1bb1d46d0ab8c02cb074c8770dc91475c0a14a8a8b327b1e3ce7",
-          "sha1": "c52556da9ff09ba827c1125466135b003fd4fd4d",
-          "md5": "44611b0f820d79d6838dfdfdae34ff97"
+          "name": "jacamo-rest-0.5-SNAPSHOT.jar",
+          "url": "jacamo-rest-0.5-SNAPSHOT.jar",
+          "size": 50124,
+          "sha512": "a5541ba43700413d46ba4e7edc19e0ad991e48b280f8c51bd70e908a26ee623a430205e230337aef782cd47e48f76d71e13062e8f241fb257607a06b8378b5f2",
+          "sha256": "366b8e9383278910f738357bf73af7288fce9069f4f348400c82250aabf5753c",
+          "sha1": "c267a00c5afa2b13d7de41593d21d13d059567ff",
+          "md5": "ef6f2f430f3d8acdbcf0ed56fcfa42af"
         }
       ]
     },
@@ -233,21 +240,21 @@
           "group": "javax.xml.bind",
           "module": "jaxb-api",
           "version": {
-            "requires": "+"
+            "requires": "2.3.1"
           }
         },
         {
           "group": "com.sun.xml.bind",
           "module": "jaxb-core",
           "version": {
-            "requires": "+"
+            "requires": "2.3.0.1"
           }
         },
         {
           "group": "com.sun.xml.bind",
           "module": "jaxb-impl",
           "version": {
-            "requires": "+"
+            "requires": "2.3.1"
           }
         },
         {
@@ -381,17 +388,24 @@
           "version": {
             "requires": "2.6"
           }
+        },
+        {
+          "group": "io.swagger",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "1.6.1"
+          }
         }
       ],
       "files": [
         {
-          "name": "jacamo-rest-0.4-SNAPSHOT.jar",
-          "url": "jacamo-rest-0.4-SNAPSHOT.jar",
-          "size": 53489,
-          "sha512": "421eb452743c07e7be4aec1321c287dff628962347f5087f29b5ef5173abe864a7f23a37d494dc3455e44776c4252bfe7bfa0605db361fb70398909420a77de7",
-          "sha256": "808ea32744ff1bb1d46d0ab8c02cb074c8770dc91475c0a14a8a8b327b1e3ce7",
-          "sha1": "c52556da9ff09ba827c1125466135b003fd4fd4d",
-          "md5": "44611b0f820d79d6838dfdfdae34ff97"
+          "name": "jacamo-rest-0.5-SNAPSHOT.jar",
+          "url": "jacamo-rest-0.5-SNAPSHOT.jar",
+          "size": 50124,
+          "sha512": "a5541ba43700413d46ba4e7edc19e0ad991e48b280f8c51bd70e908a26ee623a430205e230337aef782cd47e48f76d71e13062e8f241fb257607a06b8378b5f2",
+          "sha256": "366b8e9383278910f738357bf73af7288fce9069f4f348400c82250aabf5753c",
+          "sha1": "c267a00c5afa2b13d7de41593d21d13d059567ff",
+          "md5": "ef6f2f430f3d8acdbcf0ed56fcfa42af"
         }
       ]
     }
