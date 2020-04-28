@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jacamo",
+    "module": "jacamo-camel",
+    "version": "0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.2",
+      "buildId": "3m4s6dk7preorddfaurysvpywy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jacamo",
+          "module": "jacamo",
+          "version": {
+            "requires": "0.8"
+          }
+        },
+        {
+          "group": "org.apache.camel",
+          "module": "camel-core",
+          "version": {
+            "requires": "2.22.1"
+          }
+        },
+        {
+          "group": "javax.xml",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.1"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.0.10.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-camel-0.4-SNAPSHOT.jar",
+          "url": "jacamo-camel-0.4-SNAPSHOT.jar",
+          "size": 87293,
+          "sha512": "46082eb5128b92b3fd85a160ba0bd60154ac82f8029a78f272d9ff8bd8e48e6e1dd787b255e6730befbf810ee63423807c0b94a2d03970cf445717e09769c9e5",
+          "sha256": "cff37f5e055ae9b2ca635afc617bd6df6e383093e5fd357cc811fde4b1d4b12d",
+          "sha1": "efca3401b9c7c1464fec120b38b03854d475ed57",
+          "md5": "b5f636160bbdd084dec23697a9a34925"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jacamo",
+          "module": "jacamo",
+          "version": {
+            "requires": "0.8"
+          }
+        },
+        {
+          "group": "org.apache.camel",
+          "module": "camel-core",
+          "version": {
+            "requires": "2.22.1"
+          }
+        },
+        {
+          "group": "javax.xml",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.1"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.0.10.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-camel-0.4-SNAPSHOT.jar",
+          "url": "jacamo-camel-0.4-SNAPSHOT.jar",
+          "size": 87293,
+          "sha512": "46082eb5128b92b3fd85a160ba0bd60154ac82f8029a78f272d9ff8bd8e48e6e1dd787b255e6730befbf810ee63423807c0b94a2d03970cf445717e09769c9e5",
+          "sha256": "cff37f5e055ae9b2ca635afc617bd6df6e383093e5fd357cc811fde4b1d4b12d",
+          "sha1": "efca3401b9c7c1464fec120b38b03854d475ed57",
+          "md5": "b5f636160bbdd084dec23697a9a34925"
+        }
+      ]
+    }
+  ]
+}
