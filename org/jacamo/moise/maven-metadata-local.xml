@@ -3,11 +3,10 @@
   <groupId>org.jacamo</groupId>
   <artifactId>moise</artifactId>
   <versioning>
-    <release>0.11</release>
+    <latest>0.13-SNAPSHOT</latest>
     <versions>
-      <version>0.11</version>
-      <version>0.12-SNAPSHOT</version>
+      <version>0.13-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190521120140</lastUpdated>
+    <lastUpdated>20200518225048</lastUpdated>
   </versioning>
 </metadata>
