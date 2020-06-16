@@ -10,13 +10,13 @@
       <groupId>org.jacamo</groupId>
       <artifactId>jacamo</artifactId>
       <version>0.9-SNAPSHOT</version>
-      <scope>runtime</scope>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jacamo</groupId>
       <artifactId>jacamo-rest</artifactId>
       <version>0.5-SNAPSHOT</version>
-      <scope>runtime</scope>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>javax.websocket</groupId>
