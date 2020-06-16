@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jacamo</groupId>
+  <artifactId>jacamo-web</artifactId>
+  <versioning>
+    <latest>0.5-SNAPSHOT</latest>
+    <versions>
+      <version>0.5-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200616001957</lastUpdated>
+  </versioning>
+</metadata>
