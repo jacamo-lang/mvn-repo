@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.2.2",
-      "buildId": "2q4j5bbiijfqdesujedzqjyl3e"
+      "buildId": "jycw6xvkmfawzp2ptspvpp3gii"
     }
   },
   "variants": [
@@ -204,11 +204,11 @@
         {
           "name": "jacamo-rest-0.5-SNAPSHOT.jar",
           "url": "jacamo-rest-0.5-SNAPSHOT.jar",
-          "size": 53314,
-          "sha512": "025071894e3dcb82bc1663b01bacc86949e04dd49be22228affa7270d4df50630bc5cdf20d4ce04835f66904287f1de4c46f170ac652a8d87bd37d68a45e5cd8",
-          "sha256": "01b13b381904d9aa5a9fc918ffa938d325dea2e978281d55542d7a8c104b5065",
-          "sha1": "58c377f0157b4ff41eba36c08324e6c04657d86a",
-          "md5": "55f786721580e7c046507e26093ed87e"
+          "size": 52939,
+          "sha512": "671e41fc732e3dce267f83895b93ea28ac692bca406ddec9d79773cc55f96a401219c47e6e8f6a073da663151322e539c643acf0a42e3d274363ad297eef5893",
+          "sha256": "d0fcd225010d108b9ee5023b4bd5bcfa94142355679943cb2c8c0c9158e75c86",
+          "sha1": "b956f3bb303809b1b717b305ff86edef72785a04",
+          "md5": "59244190298f8012fe795c4014644ece"
         }
       ]
     },
@@ -401,11 +401,11 @@
         {
           "name": "jacamo-rest-0.5-SNAPSHOT.jar",
           "url": "jacamo-rest-0.5-SNAPSHOT.jar",
-          "size": 53314,
-          "sha512": "025071894e3dcb82bc1663b01bacc86949e04dd49be22228affa7270d4df50630bc5cdf20d4ce04835f66904287f1de4c46f170ac652a8d87bd37d68a45e5cd8",
-          "sha256": "01b13b381904d9aa5a9fc918ffa938d325dea2e978281d55542d7a8c104b5065",
-          "sha1": "58c377f0157b4ff41eba36c08324e6c04657d86a",
-          "md5": "55f786721580e7c046507e26093ed87e"
+          "size": 52939,
+          "sha512": "671e41fc732e3dce267f83895b93ea28ac692bca406ddec9d79773cc55f96a401219c47e6e8f6a073da663151322e539c643acf0a42e3d274363ad297eef5893",
+          "sha256": "d0fcd225010d108b9ee5023b4bd5bcfa94142355679943cb2c8c0c9158e75c86",
+          "sha1": "b956f3bb303809b1b717b305ff86edef72785a04",
+          "md5": "59244190298f8012fe795c4014644ece"
         }
       ]
     }
