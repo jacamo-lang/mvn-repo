@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.2.2",
-      "buildId": "jycw6xvkmfawzp2ptspvpp3gii"
+      "buildId": "pzhvxcwzunbtzo73yxcqbh45um"
     }
   },
   "variants": [
@@ -205,10 +205,10 @@
           "name": "jacamo-rest-0.5-SNAPSHOT.jar",
           "url": "jacamo-rest-0.5-SNAPSHOT.jar",
           "size": 52939,
-          "sha512": "671e41fc732e3dce267f83895b93ea28ac692bca406ddec9d79773cc55f96a401219c47e6e8f6a073da663151322e539c643acf0a42e3d274363ad297eef5893",
-          "sha256": "d0fcd225010d108b9ee5023b4bd5bcfa94142355679943cb2c8c0c9158e75c86",
-          "sha1": "b956f3bb303809b1b717b305ff86edef72785a04",
-          "md5": "59244190298f8012fe795c4014644ece"
+          "sha512": "f907f14767f6a738bbac9145318ed786311658427d7405b5ef2291fab540a925e1062eebd4b70622949cf7c480ee30b50ef7a3a380923010605cb15cc612769e",
+          "sha256": "05a4da0db145279cd1b283ead78998984c8d75aa9f84439fc0bab277d50d86ca",
+          "sha1": "6cc0a34ba99d9bfc32755eb1542d05e025ba6490",
+          "md5": "2fd13b961af6f7a98cbceb7109e9cac6"
         }
       ]
     },
@@ -402,10 +402,10 @@
           "name": "jacamo-rest-0.5-SNAPSHOT.jar",
           "url": "jacamo-rest-0.5-SNAPSHOT.jar",
           "size": 52939,
-          "sha512": "671e41fc732e3dce267f83895b93ea28ac692bca406ddec9d79773cc55f96a401219c47e6e8f6a073da663151322e539c643acf0a42e3d274363ad297eef5893",
-          "sha256": "d0fcd225010d108b9ee5023b4bd5bcfa94142355679943cb2c8c0c9158e75c86",
-          "sha1": "b956f3bb303809b1b717b305ff86edef72785a04",
-          "md5": "59244190298f8012fe795c4014644ece"
+          "sha512": "f907f14767f6a738bbac9145318ed786311658427d7405b5ef2291fab540a925e1062eebd4b70622949cf7c480ee30b50ef7a3a380923010605cb15cc612769e",
+          "sha256": "05a4da0db145279cd1b283ead78998984c8d75aa9f84439fc0bab277d50d86ca",
+          "sha1": "6cc0a34ba99d9bfc32755eb1542d05e025ba6490",
+          "md5": "2fd13b961af6f7a98cbceb7109e9cac6"
         }
       ]
     }
