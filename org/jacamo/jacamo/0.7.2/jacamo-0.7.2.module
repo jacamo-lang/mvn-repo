@@ -1,0 +1,227 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jacamo",
+    "module": "jacamo",
+    "version": "0.7.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.2",
+      "buildId": "7obn2qwkovapplmhqntwocznlu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.tilab.jade",
+          "module": "jade",
+          "version": {
+            "requires": "4.5.0"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.+"
+          }
+        },
+        {
+          "group": "org.jason-lang",
+          "module": "jason",
+          "version": {
+            "requires": "2.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "moise",
+          "version": {
+            "requires": "0.11"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "intmas",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.gradle",
+          "module": "gradle-tooling-api",
+          "version": {
+            "requires": "6.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-0.7.2.jar",
+          "url": "jacamo-0.7.2.jar",
+          "size": 126918,
+          "sha512": "e61344d22aa0497a7bb8fec7f9d5e6e1af176d2b70b822cfea45affd68680d0a6a31d097e6affd9507787352c948705f72fb5ba7ab0c3c0f2ddd92b00462b60c",
+          "sha256": "46793d92113b1940dc77a429bf6ac68222ac6ab58d4c89931d357ab19a37ec07",
+          "sha1": "767ef89b6c222b702ffd6a338773f9d2c28194de",
+          "md5": "134c9739d61c1ee0c47d114b41aeae9e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jason-lang",
+          "module": "jason",
+          "version": {
+            "requires": "2.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "moise",
+          "version": {
+            "requires": "0.11"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "intmas",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.gradle",
+          "module": "gradle-tooling-api",
+          "version": {
+            "requires": "6.2.2"
+          }
+        },
+        {
+          "group": "com.tilab.jade",
+          "module": "jade",
+          "version": {
+            "requires": "4.5.0"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.+"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-0.7.2.jar",
+          "url": "jacamo-0.7.2.jar",
+          "size": 126918,
+          "sha512": "e61344d22aa0497a7bb8fec7f9d5e6e1af176d2b70b822cfea45affd68680d0a6a31d097e6affd9507787352c948705f72fb5ba7ab0c3c0f2ddd92b00462b60c",
+          "sha256": "46793d92113b1940dc77a429bf6ac68222ac6ab58d4c89931d357ab19a37ec07",
+          "sha1": "767ef89b6c222b702ffd6a338773f9d2c28194de",
+          "md5": "134c9739d61c1ee0c47d114b41aeae9e"
+        }
+      ]
+    }
+  ]
+}
