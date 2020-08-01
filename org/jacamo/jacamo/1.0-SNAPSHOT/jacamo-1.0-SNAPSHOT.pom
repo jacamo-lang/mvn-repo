@@ -8,18 +8,6 @@
   <dependencies>
     <dependency>
       <groupId>org.jacamo</groupId>
-      <artifactId>npl</artifactId>
-      <version>0.5</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.jacamo</groupId>
       <artifactId>intmas</artifactId>
       <version>1.0.0</version>
       <scope>compile</scope>
@@ -99,7 +87,7 @@
     <dependency>
       <groupId>org.jacamo</groupId>
       <artifactId>moise</artifactId>
-      <version>0.13</version>
+      <version>0.14-SNAPSHOT</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
@@ -107,6 +95,12 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jacamo</groupId>
+      <artifactId>npl</artifactId>
+      <version>0.5</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>guru.nidi</groupId>
