@@ -4,14 +4,9 @@
   <artifactId>jacamo-rest</artifactId>
   <versioning>
     <latest>0.6-SNAPSHOT</latest>
-    <release>0.5</release>
     <versions>
-      <version>0.2-SNAPSHOT</version>
-      <version>0.3-SNAPSHOT</version>
-      <version>0.5-SNAPSHOT</version>
       <version>0.6-SNAPSHOT</version>
-      <version>0.5</version>
     </versions>
-    <lastUpdated>20200715145627</lastUpdated>
+    <lastUpdated>20200908111021</lastUpdated>
   </versioning>
 </metadata>
