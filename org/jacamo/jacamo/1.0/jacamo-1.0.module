@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "6ntktaw33rdhthrukox4ckyeme"
+      "buildId": "p5uoqcioobecpogoqurphr35zm"
     }
   },
   "variants": [
@@ -199,11 +199,11 @@
         {
           "name": "jacamo-1.0.jar",
           "url": "jacamo-1.0.jar",
-          "size": 486499,
-          "sha512": "b9b6b647751de9dee0c932762fba0de4d6316b2e1851869e899714984b171d356facd1d56a29e85ecde99bb8726f1eeb0a5b2d84efff37f8543f9246dbb05e7e",
-          "sha256": "dceb13a1cc8c41c2dd7d19b91f9efa64879756015b89c23e818bc26ad8efb5cf",
-          "sha1": "09cd367eb2b452226207dd161eac8086dd015148",
-          "md5": "385214b20e3854a36979338822e52cf2"
+          "size": 486544,
+          "sha512": "0fdc2e4fc57be98887bea7e1f3fa8d950e6a35f30351599ea19f12ceeb95d2f74a095af76a1471034720532fb7b04838c481f715e9be24c13c0c12b7a7d22e88",
+          "sha256": "c6a5309d6f817e864ab2c78522dd35457ea0ce1b198685bb35a257723824455a",
+          "sha1": "43de10541d2991507ca67e1cd001318cf86bc1cf",
+          "md5": "5405ebad4b0970b96fdeb3d132609967"
         }
       ]
     },
@@ -391,11 +391,11 @@
         {
           "name": "jacamo-1.0.jar",
           "url": "jacamo-1.0.jar",
-          "size": 486499,
-          "sha512": "b9b6b647751de9dee0c932762fba0de4d6316b2e1851869e899714984b171d356facd1d56a29e85ecde99bb8726f1eeb0a5b2d84efff37f8543f9246dbb05e7e",
-          "sha256": "dceb13a1cc8c41c2dd7d19b91f9efa64879756015b89c23e818bc26ad8efb5cf",
-          "sha1": "09cd367eb2b452226207dd161eac8086dd015148",
-          "md5": "385214b20e3854a36979338822e52cf2"
+          "size": 486544,
+          "sha512": "0fdc2e4fc57be98887bea7e1f3fa8d950e6a35f30351599ea19f12ceeb95d2f74a095af76a1471034720532fb7b04838c481f715e9be24c13c0c12b7a7d22e88",
+          "sha256": "c6a5309d6f817e864ab2c78522dd35457ea0ce1b198685bb35a257723824455a",
+          "sha1": "43de10541d2991507ca67e1cd001318cf86bc1cf",
+          "md5": "5405ebad4b0970b96fdeb3d132609967"
         }
       ]
     }
