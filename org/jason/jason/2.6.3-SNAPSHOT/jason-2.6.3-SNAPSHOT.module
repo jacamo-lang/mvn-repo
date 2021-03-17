@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jason",
+    "module": "jason",
+    "version": "2.6.3-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "h3soy7isyzandnsmlw35ljrbv4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-2.6.3-SNAPSHOT.jar",
+          "url": "jason-2.6.3-SNAPSHOT.jar",
+          "size": 1155461,
+          "sha512": "75f0e31e9cec2fec9fb1c1758c1cb5c06ab39c4260a8afd0656ad48b6776612ebcb3331fd0891e9ce6fd5fd732768aa9c7cda4d0da93104f340be07465084f61",
+          "sha256": "271bc232ae13fdf71f9661688e97e871f58170e675813c221a4d5a9321566baf",
+          "sha1": "9b86b09a8f78db7c55e33dc8066584974584c830",
+          "md5": "07c8d91c77ec7e21b90a0f36b24208ae"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-2.6.3-SNAPSHOT.jar",
+          "url": "jason-2.6.3-SNAPSHOT.jar",
+          "size": 1155461,
+          "sha512": "75f0e31e9cec2fec9fb1c1758c1cb5c06ab39c4260a8afd0656ad48b6776612ebcb3331fd0891e9ce6fd5fd732768aa9c7cda4d0da93104f340be07465084f61",
+          "sha256": "271bc232ae13fdf71f9661688e97e871f58170e675813c221a4d5a9321566baf",
+          "sha1": "9b86b09a8f78db7c55e33dc8066584974584c830",
+          "md5": "07c8d91c77ec7e21b90a0f36b24208ae"
+        }
+      ]
+    }
+  ]
+}
