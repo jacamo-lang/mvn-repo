@@ -3,15 +3,15 @@
   "component": {
     "group": "org.jacamo",
     "module": "jacamo-rest",
-    "version": "0.6-SNAPSHOT",
+    "version": "0.7-SNAPSHOT",
     "attributes": {
       "org.gradle.status": "integration"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "6.2.2",
-      "buildId": "t3re3upwr5fojiwcssvpigt57m"
+      "version": "6.8",
+      "buildId": "7kevnrefwzbnbli3g7vmtarp2y"
     }
   },
   "variants": [
@@ -20,7 +20,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 8,
+        "org.gradle.jvm.version": 15,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -29,7 +29,7 @@
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "0.9-SNAPSHOT"
+            "requires": "1.1-SNAPSHOT"
           },
           "excludes": [
             {
@@ -39,10 +39,17 @@
           ]
         },
         {
-          "group": "org.jason-lang",
+          "group": "org.jason",
           "module": "jason",
           "version": {
-            "requires": "2.5-SNAPSHOT"
+            "requires": "3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "3.1-SNAPSHOT"
           }
         },
         {
@@ -187,13 +194,13 @@
       ],
       "files": [
         {
-          "name": "jacamo-rest-0.6-SNAPSHOT.jar",
-          "url": "jacamo-rest-0.6-SNAPSHOT.jar",
-          "size": 51914,
-          "sha512": "4da1bd0fa31bb333c4a80adb3913b22f5dea6de19c5e7887f3ed1491e795f7615b6a92834e15bb05015be956fcbc4c4b29bf335d2d4216e335f4089722dd3bbe",
-          "sha256": "c6bed014a17d7f77cca2da0884b7ae836baf71ffe8480c17f4e63adcbbf93cbc",
-          "sha1": "70f293f0b15cd03d9b01efa03d67033baf33740e",
-          "md5": "58461171e113d26e55408a4baae1e587"
+          "name": "jacamo-rest-0.7-SNAPSHOT.jar",
+          "url": "jacamo-rest-0.7-SNAPSHOT.jar",
+          "size": 57958,
+          "sha512": "78b934e985008d8266a68ae5892a70a9360e924f627991e09826b4fd27917891ef6fd61529bdf2b24d29233b37f3c1809b6c3af6bfe1eb00592bd1bcd82be3a2",
+          "sha256": "439dcbce2e32ed50f447a8032154a5277b19fea7ac72d5b02e0e12c72d0f43d5",
+          "sha1": "808713072acf8b1171ca694fae2ee4274f759140",
+          "md5": "ca36127c63b1e1e914be89f56dc39355"
         }
       ]
     },
@@ -202,16 +209,30 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 8,
+        "org.gradle.jvm.version": 15,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
         {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "0.9-SNAPSHOT"
+            "requires": "1.1-SNAPSHOT"
           },
           "excludes": [
             {
@@ -221,10 +242,17 @@
           ]
         },
         {
-          "group": "org.jason-lang",
+          "group": "org.jason",
           "module": "jason",
           "version": {
-            "requires": "2.5-SNAPSHOT"
+            "requires": "3.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "3.1-SNAPSHOT"
           }
         },
         {
@@ -369,13 +397,13 @@
       ],
       "files": [
         {
-          "name": "jacamo-rest-0.6-SNAPSHOT.jar",
-          "url": "jacamo-rest-0.6-SNAPSHOT.jar",
-          "size": 51914,
-          "sha512": "4da1bd0fa31bb333c4a80adb3913b22f5dea6de19c5e7887f3ed1491e795f7615b6a92834e15bb05015be956fcbc4c4b29bf335d2d4216e335f4089722dd3bbe",
-          "sha256": "c6bed014a17d7f77cca2da0884b7ae836baf71ffe8480c17f4e63adcbbf93cbc",
-          "sha1": "70f293f0b15cd03d9b01efa03d67033baf33740e",
-          "md5": "58461171e113d26e55408a4baae1e587"
+          "name": "jacamo-rest-0.7-SNAPSHOT.jar",
+          "url": "jacamo-rest-0.7-SNAPSHOT.jar",
+          "size": 57958,
+          "sha512": "78b934e985008d8266a68ae5892a70a9360e924f627991e09826b4fd27917891ef6fd61529bdf2b24d29233b37f3c1809b6c3af6bfe1eb00592bd1bcd82be3a2",
+          "sha256": "439dcbce2e32ed50f447a8032154a5277b19fea7ac72d5b02e0e12c72d0f43d5",
+          "sha1": "808713072acf8b1171ca694fae2ee4274f759140",
+          "md5": "ca36127c63b1e1e914be89f56dc39355"
         }
       ]
     }
