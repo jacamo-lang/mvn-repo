@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "h3soy7isyzandnsmlw35ljrbv4"
+      "buildId": "z6jtussx4vbybn7g2i4idqlr3u"
     }
   },
   "variants": [
@@ -38,17 +38,31 @@
           "version": {
             "requires": "4.3"
           }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "2.5"
+          }
         }
       ],
       "files": [
         {
           "name": "jason-2.6.3-SNAPSHOT.jar",
           "url": "jason-2.6.3-SNAPSHOT.jar",
-          "size": 1155461,
-          "sha512": "75f0e31e9cec2fec9fb1c1758c1cb5c06ab39c4260a8afd0656ad48b6776612ebcb3331fd0891e9ce6fd5fd732768aa9c7cda4d0da93104f340be07465084f61",
-          "sha256": "271bc232ae13fdf71f9661688e97e871f58170e675813c221a4d5a9321566baf",
-          "sha1": "9b86b09a8f78db7c55e33dc8066584974584c830",
-          "md5": "07c8d91c77ec7e21b90a0f36b24208ae"
+          "size": 1156158,
+          "sha512": "10626e38366c46f8240ea92d46f0fb7872d8bf11ab9c8c11a9f57c90bc04bef4a56cfb446252fc104884c9da157cad2eeeac6e0efe496666cc99122ff1b8e298",
+          "sha256": "fdd82c6db40154d2fee81cad24b68f4c152a12b0795016116933838b0c467de6",
+          "sha1": "fd6be0754948c82f6d1e85cad2639728fdcdee84",
+          "md5": "b49d85b07c6b47fa9fa93dc3ed82353e"
         }
       ]
     },
@@ -70,6 +84,20 @@
           }
         },
         {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
           "group": "org.apache.ant",
           "module": "ant",
           "version": {
@@ -81,11 +109,11 @@
         {
           "name": "jason-2.6.3-SNAPSHOT.jar",
           "url": "jason-2.6.3-SNAPSHOT.jar",
-          "size": 1155461,
-          "sha512": "75f0e31e9cec2fec9fb1c1758c1cb5c06ab39c4260a8afd0656ad48b6776612ebcb3331fd0891e9ce6fd5fd732768aa9c7cda4d0da93104f340be07465084f61",
-          "sha256": "271bc232ae13fdf71f9661688e97e871f58170e675813c221a4d5a9321566baf",
-          "sha1": "9b86b09a8f78db7c55e33dc8066584974584c830",
-          "md5": "07c8d91c77ec7e21b90a0f36b24208ae"
+          "size": 1156158,
+          "sha512": "10626e38366c46f8240ea92d46f0fb7872d8bf11ab9c8c11a9f57c90bc04bef4a56cfb446252fc104884c9da157cad2eeeac6e0efe496666cc99122ff1b8e298",
+          "sha256": "fdd82c6db40154d2fee81cad24b68f4c152a12b0795016116933838b0c467de6",
+          "sha1": "fd6be0754948c82f6d1e85cad2639728fdcdee84",
+          "md5": "b49d85b07c6b47fa9fa93dc3ed82353e"
         }
       ]
     }

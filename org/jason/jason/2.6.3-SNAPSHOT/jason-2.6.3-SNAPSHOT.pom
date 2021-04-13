@@ -23,5 +23,17 @@
       <version>4.3</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>org.jacamo</groupId>
+      <artifactId>cartago</artifactId>
+      <version>2.5</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jacamo</groupId>
+      <artifactId>jaca</artifactId>
+      <version>2.5</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
 </project>
