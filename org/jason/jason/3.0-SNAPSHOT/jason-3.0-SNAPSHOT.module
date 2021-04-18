@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "qqglgr774vamdgn4eqjmzgsvsm"
+      "buildId": "y5ib6wwsurdkxacwm4yfgwthda"
     }
   },
   "variants": [
@@ -40,17 +40,17 @@
           }
         },
         {
-          "group": "org.jacamo",
-          "module": "cartago",
+          "group": "javax.json",
+          "module": "javax.json-api",
           "version": {
-            "requires": "2.5"
+            "requires": "1.1.4"
           }
         },
         {
-          "group": "org.jacamo",
-          "module": "jaca",
+          "group": "org.glassfish",
+          "module": "javax.json",
           "version": {
-            "requires": "2.5"
+            "requires": "1.1.4"
           }
         }
       ],
@@ -58,11 +58,11 @@
         {
           "name": "jason-3.0-SNAPSHOT.jar",
           "url": "jason-3.0-SNAPSHOT.jar",
-          "size": 1186707,
-          "sha512": "a7d7c068077808df3cac5d922ebb9f0b3127aaa4f4fb221a81135f39284cb8db3a91a2ea562df6a7b2bb8c2d7d2c56b816bd9cd55c567b3a70a457ba59de4145",
-          "sha256": "7c0c92471fdb2044823a0229c500d8cb71d5303b1e8fab43ca274e17546cbc90",
-          "sha1": "9f95b4cf9fe9649617fdead4d96fed2fe9c5648b",
-          "md5": "3d442d33c42df5c2f4e4afbc0c3926e6"
+          "size": 1191019,
+          "sha512": "147a374c19eb4ffa3ab94ac3f9482025064ec960e822975d3a3f6cc2f59d135575867a66c54170ea53c1e1f3990f3cdd3e641ef6973343ce75d0d3c96b361f68",
+          "sha256": "7925386f65d9315c172ba1337c0232eaa7f744a6f6928ef1327b6b0930dfa727",
+          "sha1": "24aa7bd0fa12d955867f74f2f5ef809227f1a360",
+          "md5": "83fe4474fd4c47142b1944b64e3949b7"
         }
       ]
     },
@@ -76,6 +76,13 @@
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
         {
           "group": "javax.json",
           "module": "javax.json-api",
@@ -91,27 +98,6 @@
           }
         },
         {
-          "group": "net.sf.ingenias",
-          "module": "jade",
-          "version": {
-            "requires": "4.3"
-          }
-        },
-        {
-          "group": "org.jacamo",
-          "module": "cartago",
-          "version": {
-            "requires": "2.5"
-          }
-        },
-        {
-          "group": "org.jacamo",
-          "module": "jaca",
-          "version": {
-            "requires": "2.5"
-          }
-        },
-        {
           "group": "org.apache.ant",
           "module": "ant",
           "version": {
@@ -123,11 +109,11 @@
         {
           "name": "jason-3.0-SNAPSHOT.jar",
           "url": "jason-3.0-SNAPSHOT.jar",
-          "size": 1186707,
-          "sha512": "a7d7c068077808df3cac5d922ebb9f0b3127aaa4f4fb221a81135f39284cb8db3a91a2ea562df6a7b2bb8c2d7d2c56b816bd9cd55c567b3a70a457ba59de4145",
-          "sha256": "7c0c92471fdb2044823a0229c500d8cb71d5303b1e8fab43ca274e17546cbc90",
-          "sha1": "9f95b4cf9fe9649617fdead4d96fed2fe9c5648b",
-          "md5": "3d442d33c42df5c2f4e4afbc0c3926e6"
+          "size": 1191019,
+          "sha512": "147a374c19eb4ffa3ab94ac3f9482025064ec960e822975d3a3f6cc2f59d135575867a66c54170ea53c1e1f3990f3cdd3e641ef6973343ce75d0d3c96b361f68",
+          "sha256": "7925386f65d9315c172ba1337c0232eaa7f744a6f6928ef1327b6b0930dfa727",
+          "sha1": "24aa7bd0fa12d955867f74f2f5ef809227f1a360",
+          "md5": "83fe4474fd4c47142b1944b64e3949b7"
         }
       ]
     }

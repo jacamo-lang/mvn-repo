@@ -3,7 +3,7 @@
   <groupId>org.jason</groupId>
   <artifactId>jason</artifactId>
   <versioning>
-    <latest>2.6.3-SNAPSHOT</latest>
+    <latest>3.0-SNAPSHOT</latest>
     <release>2.6.2</release>
     <versions>
       <version>2.6-SNAPSHOT</version>
@@ -14,6 +14,6 @@
       <version>2.6.3-SNAPSHOT</version>
       <version>3.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210413153410</lastUpdated>
+    <lastUpdated>20210418185744</lastUpdated>
   </versioning>
 </metadata>
