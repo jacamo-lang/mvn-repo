@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jason",
+    "module": "jason",
+    "version": "3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "3jwkcv2xdbdonmsrimeffp3uy4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-3.0.jar",
+          "url": "jason-3.0.jar",
+          "size": 1195040,
+          "sha512": "d340b6529d94ce81ba82cf6ad193da15354460d1e6db2d4f5c05e0aebce10f7889210c53c23ce4f1249e3490639808a907e7e979b46d6688cc372710cfbd5773",
+          "sha256": "2d9b58431b3f493e43d51d86146ae441fb4b952b5a6acc27a10b39ccc727f264",
+          "sha1": "2ffeb7a315ab6e053d971199cc59ba6a28437dc4",
+          "md5": "bdd03edd216bce4a6ab03484a1699f5c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-3.0.jar",
+          "url": "jason-3.0.jar",
+          "size": 1195040,
+          "sha512": "d340b6529d94ce81ba82cf6ad193da15354460d1e6db2d4f5c05e0aebce10f7889210c53c23ce4f1249e3490639808a907e7e979b46d6688cc372710cfbd5773",
+          "sha256": "2d9b58431b3f493e43d51d86146ae441fb4b952b5a6acc27a10b39ccc727f264",
+          "sha1": "2ffeb7a315ab6e053d971199cc59ba6a28437dc4",
+          "md5": "bdd03edd216bce4a6ab03484a1699f5c"
+        }
+      ]
+    }
+  ]
+}
