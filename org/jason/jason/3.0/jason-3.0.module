@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "3jwkcv2xdbdonmsrimeffp3uy4"
+      "buildId": "nqeltwvfxncidpgyxzcd7oz44q"
     }
   },
   "variants": [
@@ -58,11 +58,11 @@
         {
           "name": "jason-3.0.jar",
           "url": "jason-3.0.jar",
-          "size": 1195040,
-          "sha512": "d340b6529d94ce81ba82cf6ad193da15354460d1e6db2d4f5c05e0aebce10f7889210c53c23ce4f1249e3490639808a907e7e979b46d6688cc372710cfbd5773",
-          "sha256": "2d9b58431b3f493e43d51d86146ae441fb4b952b5a6acc27a10b39ccc727f264",
-          "sha1": "2ffeb7a315ab6e053d971199cc59ba6a28437dc4",
-          "md5": "bdd03edd216bce4a6ab03484a1699f5c"
+          "size": 1195127,
+          "sha512": "3892f7818771615c1f6a67ec7d44e43ffe2a247a15fd7cba310d91d8943eeee09e66418f6d0aea2f3d6ac31da4f9fd20a96d7a53001a76bd3b7b82d20738706e",
+          "sha256": "f68a39ef6a84817b2e062514e6c8f965de86ad7805ed4c358e0ac85287798ca3",
+          "sha1": "21a345af8b2a31bcc2f08d408c43fabded3e6afc",
+          "md5": "bd7121dfa623dea47f30bb17f1ff3c7b"
         }
       ]
     },
@@ -109,11 +109,11 @@
         {
           "name": "jason-3.0.jar",
           "url": "jason-3.0.jar",
-          "size": 1195040,
-          "sha512": "d340b6529d94ce81ba82cf6ad193da15354460d1e6db2d4f5c05e0aebce10f7889210c53c23ce4f1249e3490639808a907e7e979b46d6688cc372710cfbd5773",
-          "sha256": "2d9b58431b3f493e43d51d86146ae441fb4b952b5a6acc27a10b39ccc727f264",
-          "sha1": "2ffeb7a315ab6e053d971199cc59ba6a28437dc4",
-          "md5": "bdd03edd216bce4a6ab03484a1699f5c"
+          "size": 1195127,
+          "sha512": "3892f7818771615c1f6a67ec7d44e43ffe2a247a15fd7cba310d91d8943eeee09e66418f6d0aea2f3d6ac31da4f9fd20a96d7a53001a76bd3b7b82d20738706e",
+          "sha256": "f68a39ef6a84817b2e062514e6c8f965de86ad7805ed4c358e0ac85287798ca3",
+          "sha1": "21a345af8b2a31bcc2f08d408c43fabded3e6afc",
+          "md5": "bd7121dfa623dea47f30bb17f1ff3c7b"
         }
       ]
     }
