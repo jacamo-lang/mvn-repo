@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "rhud3djknnbuhfvmtvzea5wap4"
+      "buildId": "dxrfdid345e6vocrf4gy47tsvu"
     }
   },
   "variants": [
@@ -29,10 +29,10 @@
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
           "size": 490332,
-          "sha512": "11a1c61ce792069ad8df96a28fa792fad7fa3ce975a4b82b6bb8ef04b1a2d6d0dfae91487074569f62ad89903d5fafa9a938b227c7ed881ed621e7bc0142b926",
-          "sha256": "a37941ff712fb0cce42a874a43a5ca56c913455af670d63886bc2dc7575e7a6a",
-          "sha1": "9c6c2ddb171361373bc5eab999310256ec527234",
-          "md5": "667746476088939913ba1f3ce77f794b"
+          "sha512": "6442c482d66eae71ae85c7374b9e3a6d14b95a2374a9269f44efc533621800897c248de8bf1c13f0cbd68a2e0edc3fc16d33d0101b7f4b27efafccd8c11cfffc",
+          "sha256": "1d726940d660244149220263702a8750c232e75700b8ba5a449e17fad8374684",
+          "sha1": "2d8f1d81785c42eefde4fff0ebebb1b855c75eff",
+          "md5": "8ddb1f36b82c476532186fc3e4ce385b"
         }
       ]
     },
@@ -108,19 +108,6 @@
             {
               "group": "*",
               "module": "*"
-            }
-          ]
-        },
-        {
-          "group": "org.jacamo",
-          "module": "jacamo-rest",
-          "version": {
-            "requires": "0.7-SNAPSHOT"
-          },
-          "excludes": [
-            {
-              "group": "org.jacamo",
-              "module": "jacamo"
             }
           ]
         },
@@ -234,10 +221,10 @@
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
           "size": 490332,
-          "sha512": "11a1c61ce792069ad8df96a28fa792fad7fa3ce975a4b82b6bb8ef04b1a2d6d0dfae91487074569f62ad89903d5fafa9a938b227c7ed881ed621e7bc0142b926",
-          "sha256": "a37941ff712fb0cce42a874a43a5ca56c913455af670d63886bc2dc7575e7a6a",
-          "sha1": "9c6c2ddb171361373bc5eab999310256ec527234",
-          "md5": "667746476088939913ba1f3ce77f794b"
+          "sha512": "6442c482d66eae71ae85c7374b9e3a6d14b95a2374a9269f44efc533621800897c248de8bf1c13f0cbd68a2e0edc3fc16d33d0101b7f4b27efafccd8c11cfffc",
+          "sha256": "1d726940d660244149220263702a8750c232e75700b8ba5a449e17fad8374684",
+          "sha1": "2d8f1d81785c42eefde4fff0ebebb1b855c75eff",
+          "md5": "8ddb1f36b82c476532186fc3e4ce385b"
         }
       ]
     }

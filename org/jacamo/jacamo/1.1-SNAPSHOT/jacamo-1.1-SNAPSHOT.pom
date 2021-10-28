@@ -72,18 +72,6 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.jacamo</groupId>
-      <artifactId>jacamo-rest</artifactId>
-      <version>0.7-SNAPSHOT</version>
-      <scope>runtime</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>jacamo</artifactId>
-          <groupId>org.jacamo</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
       <groupId>guru.nidi</groupId>
       <artifactId>graphviz-java</artifactId>
       <version>0.7.0</version>
