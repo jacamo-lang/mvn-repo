@@ -78,8 +78,8 @@
       <scope>runtime</scope>
       <exclusions>
         <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>*</groupId>
+          <artifactId>jacamo</artifactId>
+          <groupId>org.jacamo</groupId>
         </exclusion>
       </exclusions>
     </dependency>

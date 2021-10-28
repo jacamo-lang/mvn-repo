@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "po2owy6zdvhhpcce3glzllk2ti"
+      "buildId": "rhud3djknnbuhfvmtvzea5wap4"
     }
   },
   "variants": [
@@ -28,11 +28,11 @@
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 490329,
-          "sha512": "b8bc6cf1fc78903cfe2e8b137d5e399be9f165c54e47c4277e008b54cbce32a5b626c77f7069c988490a682d360c2787eb80c003bba9841438655097b4391df2",
-          "sha256": "6bc977344904b0e514b67bc020b5761d7bb2094fe8514303b27ef8664659197a",
-          "sha1": "aaeb629b858dda267d1efd7d9ebd33f97dd77726",
-          "md5": "0d35d7a5e65ddbba644d7aef877c5bde"
+          "size": 490332,
+          "sha512": "11a1c61ce792069ad8df96a28fa792fad7fa3ce975a4b82b6bb8ef04b1a2d6d0dfae91487074569f62ad89903d5fafa9a938b227c7ed881ed621e7bc0142b926",
+          "sha256": "a37941ff712fb0cce42a874a43a5ca56c913455af670d63886bc2dc7575e7a6a",
+          "sha1": "9c6c2ddb171361373bc5eab999310256ec527234",
+          "md5": "667746476088939913ba1f3ce77f794b"
         }
       ]
     },
@@ -119,8 +119,8 @@
           },
           "excludes": [
             {
-              "group": "*",
-              "module": "*"
+              "group": "org.jacamo",
+              "module": "jacamo"
             }
           ]
         },
@@ -233,11 +233,11 @@
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 490329,
-          "sha512": "b8bc6cf1fc78903cfe2e8b137d5e399be9f165c54e47c4277e008b54cbce32a5b626c77f7069c988490a682d360c2787eb80c003bba9841438655097b4391df2",
-          "sha256": "6bc977344904b0e514b67bc020b5761d7bb2094fe8514303b27ef8664659197a",
-          "sha1": "aaeb629b858dda267d1efd7d9ebd33f97dd77726",
-          "md5": "0d35d7a5e65ddbba644d7aef877c5bde"
+          "size": 490332,
+          "sha512": "11a1c61ce792069ad8df96a28fa792fad7fa3ce975a4b82b6bb8ef04b1a2d6d0dfae91487074569f62ad89903d5fafa9a938b227c7ed881ed621e7bc0142b926",
+          "sha256": "a37941ff712fb0cce42a874a43a5ca56c913455af670d63886bc2dc7575e7a6a",
+          "sha1": "9c6c2ddb171361373bc5eab999310256ec527234",
+          "md5": "667746476088939913ba1f3ce77f794b"
         }
       ]
     }
