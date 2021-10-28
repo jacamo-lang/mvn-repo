@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "i6e5ddfr2fdz3npj4ar67zkfpq"
+      "buildId": "po2owy6zdvhhpcce3glzllk2ti"
     }
   },
   "variants": [
@@ -24,186 +24,15 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
-      "dependencies": [
-        {
-          "group": "org.jacamo",
-          "module": "intmas",
-          "version": {
-            "requires": "1.0.0"
-          }
-        },
-        {
-          "group": "org.jacamo",
-          "module": "sai",
-          "version": {
-            "requires": "0.4"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
-          "group": "org.antlr",
-          "module": "antlr4",
-          "version": {
-            "requires": "4.8"
-          }
-        },
-        {
-          "group": "org.slf4j",
-          "module": "slf4j-nop",
-          "version": {
-            "requires": "1.7.30"
-          }
-        },
-        {
-          "group": "net.sf.ingenias",
-          "module": "jade",
-          "version": {
-            "requires": "4.3"
-          }
-        },
-        {
-          "group": "org.apache.ant",
-          "module": "ant",
-          "version": {
-            "requires": "1.10.5"
-          }
-        },
-        {
-          "group": "org.jason",
-          "module": "jason",
-          "version": {
-            "requires": "3.0-SNAPSHOT"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
-          "group": "org.jacamo",
-          "module": "cartago",
-          "version": {
-            "requires": "3.1-SNAPSHOT"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
-          "group": "org.jacamo",
-          "module": "jaca",
-          "version": {
-            "requires": "3.1-SNAPSHOT"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
-          "group": "org.jacamo",
-          "module": "moise",
-          "version": {
-            "requires": "1.0"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
-          "group": "org.jacamo",
-          "module": "npl",
-          "version": {
-            "requires": "0.5"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
-          "group": "guru.nidi",
-          "module": "graphviz-java",
-          "version": {
-            "requires": "0.7.0"
-          }
-        },
-        {
-          "group": "org.gradle",
-          "module": "gradle-tooling-api",
-          "version": {
-            "requires": "6.8.3"
-          }
-        },
-        {
-          "group": "io.vertx",
-          "module": "vertx-core",
-          "version": {
-            "requires": "3.7.0"
-          }
-        },
-        {
-          "group": "io.vertx",
-          "module": "vertx-sync",
-          "version": {
-            "requires": "3.7.0"
-          }
-        },
-        {
-          "group": "io.vertx",
-          "module": "vertx-unit",
-          "version": {
-            "requires": "3.7.0"
-          }
-        },
-        {
-          "group": "io.vertx",
-          "module": "vertx-web",
-          "version": {
-            "requires": "3.7.0"
-          }
-        },
-        {
-          "group": "io.vertx",
-          "module": "vertx-web-client",
-          "version": {
-            "requires": "3.7.0"
-          }
-        },
-        {
-          "group": "com.fasterxml.jackson.core",
-          "module": "jackson-databind",
-          "version": {
-            "requires": "2.9.8"
-          }
-        }
-      ],
       "files": [
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 490184,
-          "sha512": "91f64e96aeec312e2743c5d0043536e1f85bb2f7f8dd46dc6d5a6ae705bb5dbde7ef8f750d740d7bb26431cab576c0de502a8feddf6069b18466a03e8b7fd4d9",
-          "sha256": "d895d4caca656a59b96a6412a4921842dfbb955f2698ab24ccca2c382f5edf70",
-          "sha1": "812b320842f63ee80b19f948a030f12a44971ac1",
-          "md5": "2ef184a77b64c37b2aa0e67784c0ae71"
+          "size": 490329,
+          "sha512": "b8bc6cf1fc78903cfe2e8b137d5e399be9f165c54e47c4277e008b54cbce32a5b626c77f7069c988490a682d360c2787eb80c003bba9841438655097b4391df2",
+          "sha256": "6bc977344904b0e514b67bc020b5761d7bb2094fe8514303b27ef8664659197a",
+          "sha1": "aaeb629b858dda267d1efd7d9ebd33f97dd77726",
+          "md5": "0d35d7a5e65ddbba644d7aef877c5bde"
         }
       ]
     },
@@ -221,7 +50,7 @@
           "group": "org.jason",
           "module": "jason",
           "version": {
-            "requires": "3.0-SNAPSHOT"
+            "requires": "3.0"
           },
           "excludes": [
             {
@@ -283,6 +112,19 @@
           ]
         },
         {
+          "group": "org.jacamo",
+          "module": "jacamo-rest",
+          "version": {
+            "requires": "0.7-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
           "group": "guru.nidi",
           "module": "graphviz-java",
           "version": {
@@ -294,48 +136,6 @@
           "module": "gradle-tooling-api",
           "version": {
             "requires": "6.8.3"
-          }
-        },
-        {
-          "group": "io.vertx",
-          "module": "vertx-core",
-          "version": {
-            "requires": "3.7.0"
-          }
-        },
-        {
-          "group": "io.vertx",
-          "module": "vertx-sync",
-          "version": {
-            "requires": "3.7.0"
-          }
-        },
-        {
-          "group": "io.vertx",
-          "module": "vertx-unit",
-          "version": {
-            "requires": "3.7.0"
-          }
-        },
-        {
-          "group": "io.vertx",
-          "module": "vertx-web",
-          "version": {
-            "requires": "3.7.0"
-          }
-        },
-        {
-          "group": "io.vertx",
-          "module": "vertx-web-client",
-          "version": {
-            "requires": "3.7.0"
-          }
-        },
-        {
-          "group": "com.fasterxml.jackson.core",
-          "module": "jackson-databind",
-          "version": {
-            "requires": "2.9.8"
           }
         },
         {
@@ -385,17 +185,59 @@
           "version": {
             "requires": "1.10.5"
           }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-core",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-sync",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-unit",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-web",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-web-client",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.9.8"
+          }
         }
       ],
       "files": [
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 490184,
-          "sha512": "91f64e96aeec312e2743c5d0043536e1f85bb2f7f8dd46dc6d5a6ae705bb5dbde7ef8f750d740d7bb26431cab576c0de502a8feddf6069b18466a03e8b7fd4d9",
-          "sha256": "d895d4caca656a59b96a6412a4921842dfbb955f2698ab24ccca2c382f5edf70",
-          "sha1": "812b320842f63ee80b19f948a030f12a44971ac1",
-          "md5": "2ef184a77b64c37b2aa0e67784c0ae71"
+          "size": 490329,
+          "sha512": "b8bc6cf1fc78903cfe2e8b137d5e399be9f165c54e47c4277e008b54cbce32a5b626c77f7069c988490a682d360c2787eb80c003bba9841438655097b4391df2",
+          "sha256": "6bc977344904b0e514b67bc020b5761d7bb2094fe8514303b27ef8664659197a",
+          "sha1": "aaeb629b858dda267d1efd7d9ebd33f97dd77726",
+          "md5": "0d35d7a5e65ddbba644d7aef877c5bde"
         }
       ]
     }
