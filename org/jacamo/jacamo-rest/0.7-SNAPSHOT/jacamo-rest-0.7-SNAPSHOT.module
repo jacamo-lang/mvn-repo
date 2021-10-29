@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "7kevnrefwzbnbli3g7vmtarp2y"
+      "buildId": "fz6t2exicbevfmt3sxv4i6ndwq"
     }
   },
   "variants": [
@@ -23,6 +23,27 @@
         "org.gradle.jvm.version": 15,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jacamo-rest-0.7-SNAPSHOT.jar",
+          "url": "jacamo-rest-0.7-SNAPSHOT.jar",
+          "size": 57612,
+          "sha512": "c02bdaea083b2dfbaad8c247fdbb54e2a034bf6343a38b7111c65d0a9e1345a1b754320f7bfd9bed774781188672ea3999981f9f81366df19fad7f268c1fc263",
+          "sha256": "1da3d2c6185ea71cdac7081eec269cfb0ea385a84f613240c765a7028c584c7b",
+          "sha1": "48054aa290d2479072979a8c885e5337c7b2acf7",
+          "md5": "0e8e57449eb85d692e2f7772e122cce4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
         {
@@ -42,14 +63,72 @@
           "group": "org.jason",
           "module": "jason",
           "version": {
-            "requires": "3.0-SNAPSHOT"
-          }
+            "requires": "3.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
         },
         {
           "group": "org.jacamo",
           "module": "cartago",
           "version": {
             "requires": "3.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "3.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "moise",
+          "version": {
+            "requires": "1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
           }
         },
         {
@@ -184,36 +263,6 @@
             "requires": "2.6"
           }
         },
-        {
-          "group": "io.swagger",
-          "module": "swagger-annotations",
-          "version": {
-            "requires": "1.6.1"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "jacamo-rest-0.7-SNAPSHOT.jar",
-          "url": "jacamo-rest-0.7-SNAPSHOT.jar",
-          "size": 57958,
-          "sha512": "78b934e985008d8266a68ae5892a70a9360e924f627991e09826b4fd27917891ef6fd61529bdf2b24d29233b37f3c1809b6c3af6bfe1eb00592bd1bcd82be3a2",
-          "sha256": "439dcbce2e32ed50f447a8032154a5277b19fea7ac72d5b02e0e12c72d0f43d5",
-          "sha1": "808713072acf8b1171ca694fae2ee4274f759140",
-          "md5": "ca36127c63b1e1e914be89f56dc39355"
-        }
-      ]
-    },
-    {
-      "name": "runtimeElements",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
-        "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime"
-      },
-      "dependencies": [
         {
           "group": "javax.json",
           "module": "javax.json-api",
@@ -229,165 +278,6 @@
           }
         },
         {
-          "group": "org.jacamo",
-          "module": "jacamo",
-          "version": {
-            "requires": "1.1-SNAPSHOT"
-          },
-          "excludes": [
-            {
-              "group": "org.slf4j",
-              "module": "slf4j-nop"
-            }
-          ]
-        },
-        {
-          "group": "org.jason",
-          "module": "jason",
-          "version": {
-            "requires": "3.0-SNAPSHOT"
-          }
-        },
-        {
-          "group": "org.jacamo",
-          "module": "cartago",
-          "version": {
-            "requires": "3.1-SNAPSHOT"
-          }
-        },
-        {
-          "group": "javax.xml.bind",
-          "module": "jaxb-api",
-          "version": {
-            "requires": "2.3.1"
-          }
-        },
-        {
-          "group": "com.sun.xml.bind",
-          "module": "jaxb-core",
-          "version": {
-            "requires": "2.3.0.1"
-          }
-        },
-        {
-          "group": "com.sun.xml.bind",
-          "module": "jaxb-impl",
-          "version": {
-            "requires": "2.3.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.containers",
-          "module": "jersey-container-servlet",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.containers",
-          "module": "jersey-container-servlet-core",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.inject",
-          "module": "jersey-hk2",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey",
-          "module": "jersey-bom",
-          "version": {
-            "requires": "2.29.1"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ],
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "jersey-bom",
-              "type": "pom",
-              "extension": "pom"
-            }
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.core",
-          "module": "jersey-server",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.core",
-          "module": "jersey-client",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.media",
-          "module": "jersey-media-multipart",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.media",
-          "module": "jersey-media-json-jackson",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.containers",
-          "module": "jersey-container-grizzly2-http",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.grizzly",
-          "module": "grizzly-http-server",
-          "version": {
-            "requires": "2.4.4"
-          }
-        },
-        {
-          "group": "guru.nidi",
-          "module": "graphviz-java",
-          "version": {
-            "requires": "0.7.0"
-          }
-        },
-        {
-          "group": "com.google.guava",
-          "module": "guava",
-          "version": {
-            "requires": "11.0.2"
-          }
-        },
-        {
-          "group": "com.google.code.gson",
-          "module": "gson",
-          "version": {
-            "requires": "2.8.5"
-          }
-        },
-        {
-          "group": "commons-io",
-          "module": "commons-io",
-          "version": {
-            "requires": "2.6"
-          }
-        },
-        {
           "group": "io.swagger",
           "module": "swagger-annotations",
           "version": {
@@ -399,11 +289,11 @@
         {
           "name": "jacamo-rest-0.7-SNAPSHOT.jar",
           "url": "jacamo-rest-0.7-SNAPSHOT.jar",
-          "size": 57958,
-          "sha512": "78b934e985008d8266a68ae5892a70a9360e924f627991e09826b4fd27917891ef6fd61529bdf2b24d29233b37f3c1809b6c3af6bfe1eb00592bd1bcd82be3a2",
-          "sha256": "439dcbce2e32ed50f447a8032154a5277b19fea7ac72d5b02e0e12c72d0f43d5",
-          "sha1": "808713072acf8b1171ca694fae2ee4274f759140",
-          "md5": "ca36127c63b1e1e914be89f56dc39355"
+          "size": 57612,
+          "sha512": "c02bdaea083b2dfbaad8c247fdbb54e2a034bf6343a38b7111c65d0a9e1345a1b754320f7bfd9bed774781188672ea3999981f9f81366df19fad7f268c1fc263",
+          "sha256": "1da3d2c6185ea71cdac7081eec269cfb0ea385a84f613240c765a7028c584c7b",
+          "sha1": "48054aa290d2479072979a8c885e5337c7b2acf7",
+          "md5": "0e8e57449eb85d692e2f7772e122cce4"
         }
       ]
     }
