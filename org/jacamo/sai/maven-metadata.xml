@@ -3,12 +3,11 @@
   <groupId>org.jacamo</groupId>
   <artifactId>sai</artifactId>
   <versioning>
-    <latest>0.5-SNAPSHOT</latest>
+    <latest>0.4</latest>
     <release>0.4</release>
     <versions>
       <version>0.4</version>
-      <version>0.5-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20211106222640</lastUpdated>
+    <lastUpdated>20200616143430</lastUpdated>
   </versioning>
 </metadata>
