@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "vls653zpwna6hl4lrqn2yi7saq"
+      "buildId": "dinqye47azdihkpugtercn7ghi"
     }
   },
   "variants": [
@@ -101,7 +101,7 @@
           "group": "org.jacamo",
           "module": "sai",
           "version": {
-            "requires": "0.4"
+            "requires": "0.5-SNAPSHOT"
           },
           "excludes": [
             {
@@ -111,17 +111,40 @@
           ]
         },
         {
-          "group": "org.antlr",
-          "module": "antlr4",
-          "version": {
-            "requires": "4.8"
-          }
-        },
-        {
           "group": "net.sf.ingenias",
           "module": "jade",
           "version": {
             "requires": "4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-1.1-SNAPSHOT.jar",
+          "url": "jacamo-1.1-SNAPSHOT.jar",
+          "size": 490321,
+          "sha512": "4794751d684b05f5dfc1067a89651f7b203458b7f04b2f44bafd0d0ef2fe47c00661ae3056b7dc754ec0a4d47f9fdfa63e725f707a9f07e117b04e175c91b596",
+          "sha256": "5404dad3dbcaa4cd72ddae290f34f9a4e2483590e7f8a5d4d3dacf7a8970ee21",
+          "sha1": "fba9ef025d3d63c6b073afcab9eaa95dd33c8afe",
+          "md5": "49b9282733f1e0165b71966ff02b7ebb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.8"
           }
         },
         {
@@ -137,30 +160,7 @@
           "version": {
             "requires": "6.8.3"
           }
-        }
-      ],
-      "files": [
-        {
-          "name": "jacamo-1.1-SNAPSHOT.jar",
-          "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 490330,
-          "sha512": "e1f8b120074020b70cfa88ff233de99e11975f19fba405635df81377dfc82282deff5eb086bb572cb2d0782034dbc72b063dbd6be68fecf8fb3f48b59435604e",
-          "sha256": "199b3ff9ce7d75b6b42ee4eb9999329b4dfefda6b7dbdc063cd7563061083234",
-          "sha1": "cb862814a873577b91e0323f80fc36f13b9aa3d9",
-          "md5": "f39705349a102f170164ca2d8c4d0627"
-        }
-      ]
-    },
-    {
-      "name": "runtimeElements",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
-        "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime"
-      },
-      "dependencies": [
+        },
         {
           "group": "guru.nidi",
           "module": "graphviz-java",
@@ -293,7 +293,7 @@
           "group": "org.jacamo",
           "module": "sai",
           "version": {
-            "requires": "0.4"
+            "requires": "0.5-SNAPSHOT"
           },
           "excludes": [
             {
@@ -303,31 +303,10 @@
           ]
         },
         {
-          "group": "org.antlr",
-          "module": "antlr4",
-          "version": {
-            "requires": "4.8"
-          }
-        },
-        {
           "group": "net.sf.ingenias",
           "module": "jade",
           "version": {
             "requires": "4.3"
-          }
-        },
-        {
-          "group": "org.apache.ant",
-          "module": "ant",
-          "version": {
-            "requires": "1.10.5"
-          }
-        },
-        {
-          "group": "org.gradle",
-          "module": "gradle-tooling-api",
-          "version": {
-            "requires": "6.8.3"
           }
         }
       ],
@@ -335,11 +314,11 @@
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 490330,
-          "sha512": "e1f8b120074020b70cfa88ff233de99e11975f19fba405635df81377dfc82282deff5eb086bb572cb2d0782034dbc72b063dbd6be68fecf8fb3f48b59435604e",
-          "sha256": "199b3ff9ce7d75b6b42ee4eb9999329b4dfefda6b7dbdc063cd7563061083234",
-          "sha1": "cb862814a873577b91e0323f80fc36f13b9aa3d9",
-          "md5": "f39705349a102f170164ca2d8c4d0627"
+          "size": 490321,
+          "sha512": "4794751d684b05f5dfc1067a89651f7b203458b7f04b2f44bafd0d0ef2fe47c00661ae3056b7dc754ec0a4d47f9fdfa63e725f707a9f07e117b04e175c91b596",
+          "sha256": "5404dad3dbcaa4cd72ddae290f34f9a4e2483590e7f8a5d4d3dacf7a8970ee21",
+          "sha1": "fba9ef025d3d63c6b073afcab9eaa95dd33c8afe",
+          "md5": "49b9282733f1e0165b71966ff02b7ebb"
         }
       ]
     }

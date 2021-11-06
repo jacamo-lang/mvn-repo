@@ -80,7 +80,7 @@
     <dependency>
       <groupId>org.jacamo</groupId>
       <artifactId>sai</artifactId>
-      <version>0.4</version>
+      <version>0.5-SNAPSHOT</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
@@ -90,28 +90,28 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.antlr</groupId>
-      <artifactId>antlr4</artifactId>
-      <version>4.8</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>net.sf.ingenias</groupId>
       <artifactId>jade</artifactId>
       <version>4.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>org.antlr</groupId>
+      <artifactId>antlr4</artifactId>
+      <version>4.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>org.apache.ant</groupId>
       <artifactId>ant</artifactId>
       <version>1.10.5</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.gradle</groupId>
       <artifactId>gradle-tooling-api</artifactId>
       <version>6.8.3</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>guru.nidi</groupId>
