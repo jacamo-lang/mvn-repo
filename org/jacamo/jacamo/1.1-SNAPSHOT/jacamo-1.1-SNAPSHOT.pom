@@ -102,6 +102,18 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>org.jacamo</groupId>
+      <artifactId>jacamo-rest</artifactId>
+      <version>0.7-SNAPSHOT</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>jacamo</artifactId>
+          <groupId>org.jacamo</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
       <groupId>org.apache.ant</groupId>
       <artifactId>ant</artifactId>
       <version>1.10.5</version>

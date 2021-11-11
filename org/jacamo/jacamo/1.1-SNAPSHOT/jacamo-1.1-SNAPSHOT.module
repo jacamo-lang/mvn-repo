@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.8",
-      "buildId": "dinqye47azdihkpugtercn7ghi"
+      "buildId": "24ydnicbkjflpjuxfwb4737r3m"
     }
   },
   "variants": [
@@ -122,11 +122,11 @@
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 490321,
-          "sha512": "4794751d684b05f5dfc1067a89651f7b203458b7f04b2f44bafd0d0ef2fe47c00661ae3056b7dc754ec0a4d47f9fdfa63e725f707a9f07e117b04e175c91b596",
-          "sha256": "5404dad3dbcaa4cd72ddae290f34f9a4e2483590e7f8a5d4d3dacf7a8970ee21",
-          "sha1": "fba9ef025d3d63c6b073afcab9eaa95dd33c8afe",
-          "md5": "49b9282733f1e0165b71966ff02b7ebb"
+          "size": 490570,
+          "sha512": "64711ada92c795156a78784d1ad3b595fe5be50cbba0eadb2884f534aeecbdecbdaf4e12a9ef152a2c02a6b9792bada0d6221f5c878ba96f681946b81b091e07",
+          "sha256": "4fdf85578859c71710950b6402298218bdfdbf98ac54b97cd07478f3929b8e18",
+          "sha1": "b443cf023f63c995e0b23827bb0e65316d4279cf",
+          "md5": "63d72ba84c704994e05844a1288a854e"
         }
       ]
     },
@@ -146,6 +146,19 @@
           "version": {
             "requires": "4.8"
           }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jacamo-rest",
+          "version": {
+            "requires": "0.7-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.jacamo",
+              "module": "jacamo"
+            }
+          ]
         },
         {
           "group": "org.apache.ant",
@@ -314,11 +327,11 @@
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 490321,
-          "sha512": "4794751d684b05f5dfc1067a89651f7b203458b7f04b2f44bafd0d0ef2fe47c00661ae3056b7dc754ec0a4d47f9fdfa63e725f707a9f07e117b04e175c91b596",
-          "sha256": "5404dad3dbcaa4cd72ddae290f34f9a4e2483590e7f8a5d4d3dacf7a8970ee21",
-          "sha1": "fba9ef025d3d63c6b073afcab9eaa95dd33c8afe",
-          "md5": "49b9282733f1e0165b71966ff02b7ebb"
+          "size": 490570,
+          "sha512": "64711ada92c795156a78784d1ad3b595fe5be50cbba0eadb2884f534aeecbdecbdaf4e12a9ef152a2c02a6b9792bada0d6221f5c878ba96f681946b81b091e07",
+          "sha256": "4fdf85578859c71710950b6402298218bdfdbf98ac54b97cd07478f3929b8e18",
+          "sha1": "b443cf023f63c995e0b23827bb0e65316d4279cf",
+          "md5": "63d72ba84c704994e05844a1288a854e"
         }
       ]
     }
