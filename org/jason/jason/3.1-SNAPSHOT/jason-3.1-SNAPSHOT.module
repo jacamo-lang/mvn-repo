@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jason",
+    "module": "jason",
+    "version": "3.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "qby4hzpravhzzmawbisveb2dre"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jason-3.1-SNAPSHOT.jar",
+          "url": "jason-3.1-SNAPSHOT.jar",
+          "size": 1195140,
+          "sha512": "e2b9d309af38c2068d7743e95af86fe3f35681e8f856e4778be9ec3c3334e454a2c9c857e536a4872fbd755855e2193546e397c0b7116fcf42027e1a5a63de36",
+          "sha256": "888c5d2cc97fea507d66330406f45d02490bd44bf92c5b63d4d8347800c70982",
+          "sha1": "1e3b2c152269ef52c4569c6a6dfe26cfcd8139be",
+          "md5": "35acddbd8e4bb365edbfe4d34cc0c077"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-3.1-SNAPSHOT.jar",
+          "url": "jason-3.1-SNAPSHOT.jar",
+          "size": 1195140,
+          "sha512": "e2b9d309af38c2068d7743e95af86fe3f35681e8f856e4778be9ec3c3334e454a2c9c857e536a4872fbd755855e2193546e397c0b7116fcf42027e1a5a63de36",
+          "sha256": "888c5d2cc97fea507d66330406f45d02490bd44bf92c5b63d4d8347800c70982",
+          "sha1": "1e3b2c152269ef52c4569c6a6dfe26cfcd8139be",
+          "md5": "35acddbd8e4bb365edbfe4d34cc0c077"
+        }
+      ]
+    }
+  ]
+}
