@@ -10,8 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "6.8",
-      "buildId": "bavu4cot5rf63arzc2xpqvvepi"
+      "version": "7.4"
     }
   },
   "variants": [
@@ -122,11 +121,11 @@
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 490570,
-          "sha512": "bbd795410b1c20d572f23555b47663b7a4eeb5e1cc2ba6f1d0196412f2fbe555ed13c952b726c6682350eb44eed88f43bfa23756868897ca7d0c712ddece992f",
-          "sha256": "1f89bb65dce03014e2d4eb3c1ec17f1518e7b28329ad11e04c5b155bbf5cba11",
-          "sha1": "869dc34ee3d265dc4f1d292830e9b49d694a0f26",
-          "md5": "65e7cd982a52279c8b4c6928769be27a"
+          "size": 490490,
+          "sha512": "8628aaaf53d503ce7b835146234b6f085d86a73759b86f4bde2b49d4699d46f4e5eeaecef9ebbfdd0ff70e06826205f49f08e4efc21545c1d0e131b0babc7487",
+          "sha256": "723de8260d2b59f213135a3b07374b0b79e21113ef2a2b3a7475f1162106e336",
+          "sha1": "faaa3f71a6a5071506ab683f378bd14acb9166de",
+          "md5": "fd7e00dea6e0c53a74f67ffa3ea2b39c"
         }
       ]
     },
@@ -327,11 +326,11 @@
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 490570,
-          "sha512": "bbd795410b1c20d572f23555b47663b7a4eeb5e1cc2ba6f1d0196412f2fbe555ed13c952b726c6682350eb44eed88f43bfa23756868897ca7d0c712ddece992f",
-          "sha256": "1f89bb65dce03014e2d4eb3c1ec17f1518e7b28329ad11e04c5b155bbf5cba11",
-          "sha1": "869dc34ee3d265dc4f1d292830e9b49d694a0f26",
-          "md5": "65e7cd982a52279c8b4c6928769be27a"
+          "size": 490490,
+          "sha512": "8628aaaf53d503ce7b835146234b6f085d86a73759b86f4bde2b49d4699d46f4e5eeaecef9ebbfdd0ff70e06826205f49f08e4efc21545c1d0e131b0babc7487",
+          "sha256": "723de8260d2b59f213135a3b07374b0b79e21113ef2a2b3a7475f1162106e336",
+          "sha1": "faaa3f71a6a5071506ab683f378bd14acb9166de",
+          "md5": "fd7e00dea6e0c53a74f67ffa3ea2b39c"
         }
       ]
     }
