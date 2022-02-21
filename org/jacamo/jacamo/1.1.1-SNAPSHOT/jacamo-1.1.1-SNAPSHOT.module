@@ -1,0 +1,338 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jacamo",
+    "module": "jacamo",
+    "version": "1.1.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jason",
+          "module": "jason",
+          "version": {
+            "requires": "3.0"
+          },
+          "excludes": [
+            {
+              "group": "net.sf.ingenias",
+              "module": "jade"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "3.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "3.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "moise",
+          "version": {
+            "requires": "1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "intmas",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "sai",
+          "version": {
+            "requires": "0.5-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-1.1.1-SNAPSHOT.jar",
+          "url": "jacamo-1.1.1-SNAPSHOT.jar",
+          "size": 490508,
+          "sha512": "a621c9b0cedc07abcb4fb24add601cf94252b43c999680ee2165a1c7dd23e58c214c8b8417b3dbfd5ccdfb5616495be132c21cdebc53673191eaa61be6a3b644",
+          "sha256": "a282e0d10255e9f10ed14429032272fbfbd54868dd401e92b6e8ca70a6caa6d6",
+          "sha1": "eb2c2b0efb6849620e1aff29d86fbd98893a8c09",
+          "md5": "bdbda0d400b3c8a938d79bd3e98f9b04"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.8"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jacamo-rest",
+          "version": {
+            "requires": "0.7-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.jacamo",
+              "module": "jacamo"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "org.gradle",
+          "module": "gradle-tooling-api",
+          "version": {
+            "requires": "6.8.3"
+          }
+        },
+        {
+          "group": "guru.nidi",
+          "module": "graphviz-java",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-core",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-sync",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-unit",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-web",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-web-client",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.9.8"
+          }
+        },
+        {
+          "group": "org.jason",
+          "module": "jason",
+          "version": {
+            "requires": "3.0"
+          },
+          "excludes": [
+            {
+              "group": "net.sf.ingenias",
+              "module": "jade"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "3.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "3.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "moise",
+          "version": {
+            "requires": "1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "intmas",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "sai",
+          "version": {
+            "requires": "0.5-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-1.1.1-SNAPSHOT.jar",
+          "url": "jacamo-1.1.1-SNAPSHOT.jar",
+          "size": 490508,
+          "sha512": "a621c9b0cedc07abcb4fb24add601cf94252b43c999680ee2165a1c7dd23e58c214c8b8417b3dbfd5ccdfb5616495be132c21cdebc53673191eaa61be6a3b644",
+          "sha256": "a282e0d10255e9f10ed14429032272fbfbd54868dd401e92b6e8ca70a6caa6d6",
+          "sha1": "eb2c2b0efb6849620e1aff29d86fbd98893a8c09",
+          "md5": "bdbda0d400b3c8a938d79bd3e98f9b04"
+        }
+      ]
+    }
+  ]
+}
