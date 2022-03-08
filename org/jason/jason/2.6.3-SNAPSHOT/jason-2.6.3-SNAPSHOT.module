@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jason",
+    "module": "jason",
+    "version": "2.6.3-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "cntlzz2wkvc2dhqfovljfwhre4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "2.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-2.6.3-SNAPSHOT.jar",
+          "url": "jason-2.6.3-SNAPSHOT.jar",
+          "size": 1159811,
+          "sha512": "7856524f2200dd26c14aa6d95e9a5826961db1d744659560496e27f73aae1b88ef4b187e8241678eb137a29c95cafa494611874956fecc53b255392cc911ea82",
+          "sha256": "35187dad4abb6cbefc479c79807e2a6237e5aca227a56f2ebca3179764cdbb67",
+          "sha1": "67921f54c2e2b6d112a95508bc750c42d6cffe6e",
+          "md5": "48bc88a31cecea41e93c23c6a6479d6c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-2.6.3-SNAPSHOT.jar",
+          "url": "jason-2.6.3-SNAPSHOT.jar",
+          "size": 1159811,
+          "sha512": "7856524f2200dd26c14aa6d95e9a5826961db1d744659560496e27f73aae1b88ef4b187e8241678eb137a29c95cafa494611874956fecc53b255392cc911ea82",
+          "sha256": "35187dad4abb6cbefc479c79807e2a6237e5aca227a56f2ebca3179764cdbb67",
+          "sha1": "67921f54c2e2b6d112a95508bc750c42d6cffe6e",
+          "md5": "48bc88a31cecea41e93c23c6a6479d6c"
+        }
+      ]
+    }
+  ]
+}
