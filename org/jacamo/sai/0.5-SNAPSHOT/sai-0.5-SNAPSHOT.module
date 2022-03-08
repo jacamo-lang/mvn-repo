@@ -10,8 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "6.6.1",
-      "buildId": "5vkxjqndbjdqtn3yk7u27x5jja"
+      "version": "7.4"
     }
   },
   "variants": [
@@ -20,76 +19,11 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
       "dependencies": [
-        {
-          "group": "org.jason",
-          "module": "jason",
-          "version": {
-            "requires": "3.0"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
-          "group": "org.jacamo",
-          "module": "moise",
-          "version": {
-            "requires": "1.0"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
-          "group": "org.jacamo",
-          "module": "npl",
-          "version": {
-            "requires": "0.5"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
-          "group": "org.jacamo",
-          "module": "cartago",
-          "version": {
-            "requires": "3.1-SNAPSHOT"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
-        {
-          "group": "org.jacamo",
-          "module": "jaca",
-          "version": {
-            "requires": "3.1-SNAPSHOT"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ]
-        },
         {
           "group": "org.antlr",
           "module": "antlr4",
@@ -102,11 +36,11 @@
         {
           "name": "sai-0.5-SNAPSHOT.jar",
           "url": "sai-0.5-SNAPSHOT.jar",
-          "size": 317780,
-          "sha512": "007b7327afd6f2bfd806de2cfeac0c6e0ae788d9928aacf02d53325a1284e70e39efaa24a34fda683f133d1092820b1c0743504b3f8b616373dad6020659c846",
-          "sha256": "de1ae4ad6b064166cf6134cf180b37bbd1360ce6941c1e886c517458dcc9b1c1",
-          "sha1": "0f0fc0f85fdf6d99467108225b10bbbddee7a418",
-          "md5": "e71304518e6b4fd2cbf54b48c9994fe4"
+          "size": 318425,
+          "sha512": "6d2e47f3598687d7826fe06877f578766909e12e5ecc4658ed7ecb682e2f7bf8d8f4e3345ee69d63c1fee9ca9c281cbe0c4bab50fa40a4275254157124d77f9e",
+          "sha256": "39300939a6797a45486001c914ac8f942f68fbe79bee389cc06e649229b17edb",
+          "sha1": "d139fab9085a762b8bc1d9b549b2629a8d7fa8e5",
+          "md5": "e3d03f7190b1ba9b17eb21bb61623b00"
         }
       ]
     },
@@ -115,7 +49,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -197,11 +131,11 @@
         {
           "name": "sai-0.5-SNAPSHOT.jar",
           "url": "sai-0.5-SNAPSHOT.jar",
-          "size": 317780,
-          "sha512": "007b7327afd6f2bfd806de2cfeac0c6e0ae788d9928aacf02d53325a1284e70e39efaa24a34fda683f133d1092820b1c0743504b3f8b616373dad6020659c846",
-          "sha256": "de1ae4ad6b064166cf6134cf180b37bbd1360ce6941c1e886c517458dcc9b1c1",
-          "sha1": "0f0fc0f85fdf6d99467108225b10bbbddee7a418",
-          "md5": "e71304518e6b4fd2cbf54b48c9994fe4"
+          "size": 318425,
+          "sha512": "6d2e47f3598687d7826fe06877f578766909e12e5ecc4658ed7ecb682e2f7bf8d8f4e3345ee69d63c1fee9ca9c281cbe0c4bab50fa40a4275254157124d77f9e",
+          "sha256": "39300939a6797a45486001c914ac8f942f68fbe79bee389cc06e649229b17edb",
+          "sha1": "d139fab9085a762b8bc1d9b549b2629a8d7fa8e5",
+          "md5": "e3d03f7190b1ba9b17eb21bb61623b00"
         }
       ]
     }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!-- This module was also published with a richer model, Gradle metadata,  -->
   <!-- which should be used instead. Do not delete the following line which  -->
@@ -12,10 +12,16 @@
   <version>0.5-SNAPSHOT</version>
   <dependencies>
     <dependency>
+      <groupId>org.antlr</groupId>
+      <artifactId>antlr4</artifactId>
+      <version>4.8</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>org.jason</groupId>
       <artifactId>jason</artifactId>
       <version>3.0</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -27,7 +33,7 @@
       <groupId>org.jacamo</groupId>
       <artifactId>moise</artifactId>
       <version>1.0</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -39,7 +45,7 @@
       <groupId>org.jacamo</groupId>
       <artifactId>npl</artifactId>
       <version>0.5</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -51,7 +57,7 @@
       <groupId>org.jacamo</groupId>
       <artifactId>cartago</artifactId>
       <version>3.1-SNAPSHOT</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -63,19 +69,13 @@
       <groupId>org.jacamo</groupId>
       <artifactId>jaca</artifactId>
       <version>3.1-SNAPSHOT</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.antlr</groupId>
-      <artifactId>antlr4</artifactId>
-      <version>4.8</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>
