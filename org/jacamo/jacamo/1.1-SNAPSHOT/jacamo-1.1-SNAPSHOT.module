@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 15,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -100,7 +100,7 @@
           "group": "org.jacamo",
           "module": "sai",
           "version": {
-            "requires": "0.5-SNAPSHOT"
+            "requires": "0.5.1-SNAPSHOT"
           },
           "excludes": [
             {
@@ -121,11 +121,11 @@
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 491221,
-          "sha512": "4bbf399b4ec1c31a7a844548475af12c46607adafde9130a0454db79cdb782c46706a2b730cf4d694b61a04b19265bc25d6207a7019cd2373f3baa904ffd0111",
-          "sha256": "6b74faa104d48c7c538e72b2bc7999ea8a411ec33945810fd001e2932adae35a",
-          "sha1": "e040bb1014a4427d1ea8d4acb10ddf36083b5f27",
-          "md5": "9d96c7e6ec5db42dd0a96ad08b0cef19"
+          "size": 491215,
+          "sha512": "4bf8d4c79bd503cb25d42b594ac12140d0529ad36884e4736dfb617db432a34c3334d5f3a1184dbfdf47248c82cb21f80ef0e203cd2b51d420c7dc3a73fc0e5b",
+          "sha256": "f5b2e0bd938974a03a49967967887fd64dd083282d1fcb4bc51a40902a8738d1",
+          "sha1": "d05858124ef3a644e2c77adc34227603d61ce387",
+          "md5": "932627a229c7069fa0dafa50f2901814"
         }
       ]
     },
@@ -134,7 +134,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 15,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -305,7 +305,7 @@
           "group": "org.jacamo",
           "module": "sai",
           "version": {
-            "requires": "0.5-SNAPSHOT"
+            "requires": "0.5.1-SNAPSHOT"
           },
           "excludes": [
             {
@@ -326,11 +326,11 @@
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 491221,
-          "sha512": "4bbf399b4ec1c31a7a844548475af12c46607adafde9130a0454db79cdb782c46706a2b730cf4d694b61a04b19265bc25d6207a7019cd2373f3baa904ffd0111",
-          "sha256": "6b74faa104d48c7c538e72b2bc7999ea8a411ec33945810fd001e2932adae35a",
-          "sha1": "e040bb1014a4427d1ea8d4acb10ddf36083b5f27",
-          "md5": "9d96c7e6ec5db42dd0a96ad08b0cef19"
+          "size": 491215,
+          "sha512": "4bf8d4c79bd503cb25d42b594ac12140d0529ad36884e4736dfb617db432a34c3334d5f3a1184dbfdf47248c82cb21f80ef0e203cd2b51d420c7dc3a73fc0e5b",
+          "sha256": "f5b2e0bd938974a03a49967967887fd64dd083282d1fcb4bc51a40902a8738d1",
+          "sha1": "d05858124ef3a644e2c77adc34227603d61ce387",
+          "md5": "932627a229c7069fa0dafa50f2901814"
         }
       ]
     }
