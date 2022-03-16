@@ -4,9 +4,11 @@
   <artifactId>sai</artifactId>
   <versioning>
     <latest>0.5-SNAPSHOT</latest>
+    <release>0.4</release>
     <versions>
+      <version>0.4</version>
       <version>0.5-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220308184715</lastUpdated>
+    <lastUpdated>20220316134206</lastUpdated>
   </versioning>
 </metadata>

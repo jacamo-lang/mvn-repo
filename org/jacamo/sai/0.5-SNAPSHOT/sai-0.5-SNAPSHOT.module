@@ -37,10 +37,10 @@
           "name": "sai-0.5-SNAPSHOT.jar",
           "url": "sai-0.5-SNAPSHOT.jar",
           "size": 318425,
-          "sha512": "6d2e47f3598687d7826fe06877f578766909e12e5ecc4658ed7ecb682e2f7bf8d8f4e3345ee69d63c1fee9ca9c281cbe0c4bab50fa40a4275254157124d77f9e",
-          "sha256": "39300939a6797a45486001c914ac8f942f68fbe79bee389cc06e649229b17edb",
-          "sha1": "d139fab9085a762b8bc1d9b549b2629a8d7fa8e5",
-          "md5": "e3d03f7190b1ba9b17eb21bb61623b00"
+          "sha512": "3b2458ad80e879a11faabc8f7da443958d5248af6b01dc4e6417f89035047048eac0031e75f5c2ea458b4e0dda374f02aab90bb6bbacb7301d0a9dc91b564f2a",
+          "sha256": "be17d844e23c65a152b24bff0f750926d47391610711cdb79e2959aa4e110a55",
+          "sha1": "998cdbf084d70a0eaf36181afaa570dab02edd3c",
+          "md5": "cebf594a59d0708773c52faafcccc852"
         }
       ]
     },
@@ -132,10 +132,10 @@
           "name": "sai-0.5-SNAPSHOT.jar",
           "url": "sai-0.5-SNAPSHOT.jar",
           "size": 318425,
-          "sha512": "6d2e47f3598687d7826fe06877f578766909e12e5ecc4658ed7ecb682e2f7bf8d8f4e3345ee69d63c1fee9ca9c281cbe0c4bab50fa40a4275254157124d77f9e",
-          "sha256": "39300939a6797a45486001c914ac8f942f68fbe79bee389cc06e649229b17edb",
-          "sha1": "d139fab9085a762b8bc1d9b549b2629a8d7fa8e5",
-          "md5": "e3d03f7190b1ba9b17eb21bb61623b00"
+          "sha512": "3b2458ad80e879a11faabc8f7da443958d5248af6b01dc4e6417f89035047048eac0031e75f5c2ea458b4e0dda374f02aab90bb6bbacb7301d0a9dc91b564f2a",
+          "sha256": "be17d844e23c65a152b24bff0f750926d47391610711cdb79e2959aa4e110a55",
+          "sha1": "998cdbf084d70a0eaf36181afaa570dab02edd3c",
+          "md5": "cebf594a59d0708773c52faafcccc852"
         }
       ]
     }
