@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jason",
+    "module": "jason",
+    "version": "3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jason-3.1.jar",
+          "url": "jason-3.1.jar",
+          "size": 1316384,
+          "sha512": "eb3d094bded5b4cca4c9dc0971dca2fc459d830c2ef9ea66d38d24b31323025e74b2425a5c3e686753adb0b9f60149ed5ae5323869c8f855664545be9a526240",
+          "sha256": "d3dcb14bb74fd1e009655f55474f454938c8768f9e7c9440cb2d3c58e45cdf37",
+          "sha1": "25502bc66182dca6a811148b348e91db1a8d426b",
+          "md5": "4e9304b59c722b55617f056af0ff57da"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-3.1.jar",
+          "url": "jason-3.1.jar",
+          "size": 1316384,
+          "sha512": "eb3d094bded5b4cca4c9dc0971dca2fc459d830c2ef9ea66d38d24b31323025e74b2425a5c3e686753adb0b9f60149ed5ae5323869c8f855664545be9a526240",
+          "sha256": "d3dcb14bb74fd1e009655f55474f454938c8768f9e7c9440cb2d3c58e45cdf37",
+          "sha1": "25502bc66182dca6a811148b348e91db1a8d426b",
+          "md5": "4e9304b59c722b55617f056af0ff57da"
+        }
+      ]
+    }
+  ]
+}
