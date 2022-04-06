@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.4"
+      "version": "7.4.2"
     }
   },
   "variants": [
@@ -28,7 +28,7 @@
           "group": "org.jason",
           "module": "jason",
           "version": {
-            "requires": "3.1-SNAPSHOT"
+            "requires": "3.1"
           },
           "excludes": [
             {
@@ -41,7 +41,7 @@
           "group": "org.jacamo",
           "module": "cartago",
           "version": {
-            "requires": "3.1-SNAPSHOT"
+            "requires": "3.1"
           },
           "excludes": [
             {
@@ -54,7 +54,7 @@
           "group": "org.jacamo",
           "module": "jaca",
           "version": {
-            "requires": "3.1-SNAPSHOT"
+            "requires": "3.1"
           },
           "excludes": [
             {
@@ -121,11 +121,11 @@
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 491215,
-          "sha512": "4bf8d4c79bd503cb25d42b594ac12140d0529ad36884e4736dfb617db432a34c3334d5f3a1184dbfdf47248c82cb21f80ef0e203cd2b51d420c7dc3a73fc0e5b",
-          "sha256": "f5b2e0bd938974a03a49967967887fd64dd083282d1fcb4bc51a40902a8738d1",
-          "sha1": "d05858124ef3a644e2c77adc34227603d61ce387",
-          "md5": "932627a229c7069fa0dafa50f2901814"
+          "size": 549805,
+          "sha512": "9d95f0154f06adb1fff4d0eb80faa94d330b5efb7e1f5afa18c8c57bb7be7ed646daa90071186750955d1ea9a90102d514907785763eb77cff1cc79af3f9bd9d",
+          "sha256": "09c8b406825c352b6ca46a91b07d674e8e9ab9e964b4ac2c7a0876af5ebcc16a",
+          "sha1": "3f82239136f1370b6746df45b0fdfdc7563a7b0f",
+          "md5": "6ba0bf28b69eba21a2f899980325bb7e"
         }
       ]
     },
@@ -150,7 +150,7 @@
           "group": "org.jacamo",
           "module": "jacamo-rest",
           "version": {
-            "requires": "0.7-SNAPSHOT"
+            "requires": "0.7"
           },
           "excludes": [
             {
@@ -170,7 +170,7 @@
           "group": "org.gradle",
           "module": "gradle-tooling-api",
           "version": {
-            "requires": "6.8.3"
+            "requires": "7.4.2"
           }
         },
         {
@@ -233,7 +233,7 @@
           "group": "org.jason",
           "module": "jason",
           "version": {
-            "requires": "3.1-SNAPSHOT"
+            "requires": "3.1"
           },
           "excludes": [
             {
@@ -246,7 +246,7 @@
           "group": "org.jacamo",
           "module": "cartago",
           "version": {
-            "requires": "3.1-SNAPSHOT"
+            "requires": "3.1"
           },
           "excludes": [
             {
@@ -259,7 +259,7 @@
           "group": "org.jacamo",
           "module": "jaca",
           "version": {
-            "requires": "3.1-SNAPSHOT"
+            "requires": "3.1"
           },
           "excludes": [
             {
@@ -326,11 +326,11 @@
         {
           "name": "jacamo-1.1-SNAPSHOT.jar",
           "url": "jacamo-1.1-SNAPSHOT.jar",
-          "size": 491215,
-          "sha512": "4bf8d4c79bd503cb25d42b594ac12140d0529ad36884e4736dfb617db432a34c3334d5f3a1184dbfdf47248c82cb21f80ef0e203cd2b51d420c7dc3a73fc0e5b",
-          "sha256": "f5b2e0bd938974a03a49967967887fd64dd083282d1fcb4bc51a40902a8738d1",
-          "sha1": "d05858124ef3a644e2c77adc34227603d61ce387",
-          "md5": "932627a229c7069fa0dafa50f2901814"
+          "size": 549805,
+          "sha512": "9d95f0154f06adb1fff4d0eb80faa94d330b5efb7e1f5afa18c8c57bb7be7ed646daa90071186750955d1ea9a90102d514907785763eb77cff1cc79af3f9bd9d",
+          "sha256": "09c8b406825c352b6ca46a91b07d674e8e9ab9e964b4ac2c7a0876af5ebcc16a",
+          "sha1": "3f82239136f1370b6746df45b0fdfdc7563a7b0f",
+          "md5": "6ba0bf28b69eba21a2f899980325bb7e"
         }
       ]
     }
