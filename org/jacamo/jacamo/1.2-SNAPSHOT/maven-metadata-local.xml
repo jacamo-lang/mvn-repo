@@ -7,34 +7,34 @@
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
-    <lastUpdated>20220831201916</lastUpdated>
+    <lastUpdated>20220831203104</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.2-SNAPSHOT</value>
-        <updated>20220831201916</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.2-SNAPSHOT</value>
-        <updated>20220831201916</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.2-SNAPSHOT</value>
-        <updated>20220831201916</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>1.2-SNAPSHOT</value>
-        <updated>20220831201916</updated>
+        <updated>20220831203104</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.2-SNAPSHOT</value>
+        <updated>20220831203104</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2-SNAPSHOT</value>
+        <updated>20220831203104</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
         <value>1.2-SNAPSHOT</value>
-        <updated>20220831201916</updated>
+        <updated>20220831203104</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.2-SNAPSHOT</value>
+        <updated>20220831203104</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
