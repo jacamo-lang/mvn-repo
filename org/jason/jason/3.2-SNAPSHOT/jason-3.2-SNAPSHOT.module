@@ -27,11 +27,11 @@
         {
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
-          "size": 1316655,
-          "sha512": "a7d8143084efab979a821c87b6330fb50f64b6452d709b9d607d54af561dd58114ba5ebf5ef71dfb0c4539279d3e8ef530e6129a3bb7645c459a24e638f65a36",
-          "sha256": "b9fd02c172ca6cabb29dd0f50e6ac30ff84207c10a62880fa30f7a34bdb31a7a",
-          "sha1": "c61dca7fe3054c516c0ff9774ca7561b12b8327e",
-          "md5": "f75ed7d86154810f544442f89a234a44"
+          "size": 1317061,
+          "sha512": "66a60c132c15657cb2833c478bff419aa0668e477ef42fc466e52a490ac028b56f76bcd05dbba6a314425958a46833f52314ac8a12dc60ad0e628a5e7da9ebf7",
+          "sha256": "bab62f38a33014156fd8526d313f632ebc02360f524f7a623340004bcb7babe1",
+          "sha1": "dd3e175f2908ef994c5ad5a551966579908f8fc4",
+          "md5": "d801409bd0ac63e55ac11d8e3c2cee4d"
         }
       ]
     },
@@ -60,6 +60,13 @@
           }
         },
         {
+          "group": "org.gradle",
+          "module": "gradle-tooling-api",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
           "group": "javax.json",
           "module": "javax.json-api",
           "version": {
@@ -78,11 +85,11 @@
         {
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
-          "size": 1316655,
-          "sha512": "a7d8143084efab979a821c87b6330fb50f64b6452d709b9d607d54af561dd58114ba5ebf5ef71dfb0c4539279d3e8ef530e6129a3bb7645c459a24e638f65a36",
-          "sha256": "b9fd02c172ca6cabb29dd0f50e6ac30ff84207c10a62880fa30f7a34bdb31a7a",
-          "sha1": "c61dca7fe3054c516c0ff9774ca7561b12b8327e",
-          "md5": "f75ed7d86154810f544442f89a234a44"
+          "size": 1317061,
+          "sha512": "66a60c132c15657cb2833c478bff419aa0668e477ef42fc466e52a490ac028b56f76bcd05dbba6a314425958a46833f52314ac8a12dc60ad0e628a5e7da9ebf7",
+          "sha256": "bab62f38a33014156fd8526d313f632ebc02360f524f7a623340004bcb7babe1",
+          "sha1": "dd3e175f2908ef994c5ad5a551966579908f8fc4",
+          "md5": "d801409bd0ac63e55ac11d8e3c2cee4d"
         }
       ]
     }
