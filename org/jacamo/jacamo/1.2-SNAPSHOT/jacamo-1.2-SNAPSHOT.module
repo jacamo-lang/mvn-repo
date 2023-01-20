@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -28,7 +28,7 @@
           "group": "org.jason",
           "module": "jason",
           "version": {
-            "requires": "3.1"
+            "requires": "3.2-SNAPSHOT"
           },
           "excludes": [
             {
@@ -121,11 +121,11 @@
         {
           "name": "jacamo-1.2-SNAPSHOT.jar",
           "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 506164,
-          "sha512": "778c33bce9bdab1a1bcc3932a18d3fcba54c2e280e4d1d8ed40980de211e3a2b2837c28deac8c270ec6412e2a8384369682053185d0380d5a21fb581ecc18ad8",
-          "sha256": "b1ad0098dcb3ab22afa96be8802cb776308ac60d10d8f39f6bd0bccd636b1733",
-          "sha1": "0edbdcc390c3e0f5f8e0ebfe229be282f7c805e1",
-          "md5": "67cc099660fa360816be62872a9e846a"
+          "size": 558577,
+          "sha512": "cbaf229861dca768174d122aaffa658dc145403d5fe20c36d4e2ccfb540ad82fad47bc0a5565c2580a70d8a3384075aa896fcc6e8952a323e27ece1a54fe8758",
+          "sha256": "4e01e1b6b95bd31ff2d4b158b75dddcfa2fcbb0f91b8ef0cbf064d0918e9c65b",
+          "sha1": "22d63e523dfc37945c4f031daf7ca9781daeedb1",
+          "md5": "d57dbf48d806b2c4c66cfd6bb25af876"
         }
       ]
     },
@@ -134,7 +134,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -233,7 +233,7 @@
           "group": "org.jason",
           "module": "jason",
           "version": {
-            "requires": "3.1"
+            "requires": "3.2-SNAPSHOT"
           },
           "excludes": [
             {
@@ -326,11 +326,11 @@
         {
           "name": "jacamo-1.2-SNAPSHOT.jar",
           "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 506164,
-          "sha512": "778c33bce9bdab1a1bcc3932a18d3fcba54c2e280e4d1d8ed40980de211e3a2b2837c28deac8c270ec6412e2a8384369682053185d0380d5a21fb581ecc18ad8",
-          "sha256": "b1ad0098dcb3ab22afa96be8802cb776308ac60d10d8f39f6bd0bccd636b1733",
-          "sha1": "0edbdcc390c3e0f5f8e0ebfe229be282f7c805e1",
-          "md5": "67cc099660fa360816be62872a9e846a"
+          "size": 558577,
+          "sha512": "cbaf229861dca768174d122aaffa658dc145403d5fe20c36d4e2ccfb540ad82fad47bc0a5565c2580a70d8a3384075aa896fcc6e8952a323e27ece1a54fe8758",
+          "sha256": "4e01e1b6b95bd31ff2d4b158b75dddcfa2fcbb0f91b8ef0cbf064d0918e9c65b",
+          "sha1": "22d63e523dfc37945c4f031daf7ca9781daeedb1",
+          "md5": "d57dbf48d806b2c4c66cfd6bb25af876"
         }
       ]
     }
