@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -27,11 +27,11 @@
         {
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
-          "size": 1317061,
-          "sha512": "66a60c132c15657cb2833c478bff419aa0668e477ef42fc466e52a490ac028b56f76bcd05dbba6a314425958a46833f52314ac8a12dc60ad0e628a5e7da9ebf7",
-          "sha256": "bab62f38a33014156fd8526d313f632ebc02360f524f7a623340004bcb7babe1",
-          "sha1": "dd3e175f2908ef994c5ad5a551966579908f8fc4",
-          "md5": "d801409bd0ac63e55ac11d8e3c2cee4d"
+          "size": 1258098,
+          "sha512": "5cb5599bda94f5a288a3c4d8e3999a6667c7bb963c473421cd6b2d6d9bf9fb0a9df0ee5023e3869158b402df84bc1a8f0da335696a39617493bca6b80f601d2b",
+          "sha256": "d59f727f4a4500be01d006fc6cf0a69c83bff105361addeae58064c1316ac347",
+          "sha1": "ff892201fc0efee85e0d13355d16342eaf70d815",
+          "md5": "037bb6f89a64bd306fe660d9d256f3c1"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -85,11 +85,11 @@
         {
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
-          "size": 1317061,
-          "sha512": "66a60c132c15657cb2833c478bff419aa0668e477ef42fc466e52a490ac028b56f76bcd05dbba6a314425958a46833f52314ac8a12dc60ad0e628a5e7da9ebf7",
-          "sha256": "bab62f38a33014156fd8526d313f632ebc02360f524f7a623340004bcb7babe1",
-          "sha1": "dd3e175f2908ef994c5ad5a551966579908f8fc4",
-          "md5": "d801409bd0ac63e55ac11d8e3c2cee4d"
+          "size": 1258098,
+          "sha512": "5cb5599bda94f5a288a3c4d8e3999a6667c7bb963c473421cd6b2d6d9bf9fb0a9df0ee5023e3869158b402df84bc1a8f0da335696a39617493bca6b80f601d2b",
+          "sha256": "d59f727f4a4500be01d006fc6cf0a69c83bff105361addeae58064c1316ac347",
+          "sha1": "ff892201fc0efee85e0d13355d16342eaf70d815",
+          "md5": "037bb6f89a64bd306fe660d9d256f3c1"
         }
       ]
     }
