@@ -1,0 +1,244 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jacamo",
+    "module": "moise",
+    "version": "1.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jason",
+          "module": "jason",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "net.sf.ingenias",
+              "module": "jade"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "guru.nidi",
+          "module": "graphviz-java",
+          "version": {
+            "requires": "0.7.0"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            },
+            {
+              "group": "xml-apis",
+              "module": "xml-apis-ext"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "moise-1.1-SNAPSHOT.jar",
+          "url": "moise-1.1-SNAPSHOT.jar",
+          "size": 338462,
+          "sha512": "cac9f751e6868ef1d32421995037d516f1a75714d1a00f9d26c6953cd6bf808493e8e15fa58cca07c753ba63f6872594e18de2686c716ae7c495ba9661957376",
+          "sha256": "2cf41e1cd4e76c2b45831436b50626ff5a99b9fe757958b8963b3e41a7490c48",
+          "sha1": "aad519ad111244440fe2aaf98fd7b184d5a47710",
+          "md5": "f157b793b4472b7835273de9ec8d3300"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.vertx",
+          "module": "vertx-core",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-sync",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-unit",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-web",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-web-client",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.9.8"
+          }
+        },
+        {
+          "group": "org.jason",
+          "module": "jason",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "net.sf.ingenias",
+              "module": "jade"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "guru.nidi",
+          "module": "graphviz-java",
+          "version": {
+            "requires": "0.7.0"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            },
+            {
+              "group": "xml-apis",
+              "module": "xml-apis-ext"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "moise-1.1-SNAPSHOT.jar",
+          "url": "moise-1.1-SNAPSHOT.jar",
+          "size": 338462,
+          "sha512": "cac9f751e6868ef1d32421995037d516f1a75714d1a00f9d26c6953cd6bf808493e8e15fa58cca07c753ba63f6872594e18de2686c716ae7c495ba9661957376",
+          "sha256": "2cf41e1cd4e76c2b45831436b50626ff5a99b9fe757958b8963b3e41a7490c48",
+          "sha1": "aad519ad111244440fe2aaf98fd7b184d5a47710",
+          "md5": "f157b793b4472b7835273de9ec8d3300"
+        }
+      ]
+    }
+  ]
+}

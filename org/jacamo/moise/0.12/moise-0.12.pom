@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jacamo</groupId>
   <artifactId>moise</artifactId>
-  <version>0.13-SNAPSHOT</version>
+  <version>0.12</version>
   <dependencies>
     <dependency>
       <groupId>org.jason-lang</groupId>
