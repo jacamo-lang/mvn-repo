@@ -121,11 +121,11 @@
         {
           "name": "jacamo-1.2-SNAPSHOT.jar",
           "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 491324,
-          "sha512": "2f79346b651ef27b4cd770a44be152f869062f0ad923749a313a610cbaecbb4cc8a7d4fab2753061e3648bd74bf7e0f565b30e3ddf64ab80f838cee6acaa9423",
-          "sha256": "03d1f26f4293c6d8b7c58a87a909c3fa1892b31435489dfd40ee6963c78fdae4",
-          "sha1": "83c36a72dc9a1048b69adccefa4a6dac28ddf73f",
-          "md5": "5146eb0aa7573fc83e06dca086cca1a3"
+          "size": 498867,
+          "sha512": "45858f20e82703bd810e59bed3e807b46c6264a0d97c58ff98440777c5957c8769f96389eceac0982a2f7a65cce9aad04c1a2ea76021b8421f8bafbe804ba47e",
+          "sha256": "a059c42ea2044a5606f39ba3c6ce01cd089f1a592bd260bfa4527c5e9e1a3b3c",
+          "sha1": "ed036a7240c8f6f05818564ad0909922d2b6b8a1",
+          "md5": "997809abe2abfbb7abf02d059b39e384"
         }
       ]
     },
@@ -170,7 +170,7 @@
           "group": "org.gradle",
           "module": "gradle-tooling-api",
           "version": {
-            "requires": "7.4.2"
+            "requires": "7.6"
           }
         },
         {
@@ -326,11 +326,11 @@
         {
           "name": "jacamo-1.2-SNAPSHOT.jar",
           "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 491324,
-          "sha512": "2f79346b651ef27b4cd770a44be152f869062f0ad923749a313a610cbaecbb4cc8a7d4fab2753061e3648bd74bf7e0f565b30e3ddf64ab80f838cee6acaa9423",
-          "sha256": "03d1f26f4293c6d8b7c58a87a909c3fa1892b31435489dfd40ee6963c78fdae4",
-          "sha1": "83c36a72dc9a1048b69adccefa4a6dac28ddf73f",
-          "md5": "5146eb0aa7573fc83e06dca086cca1a3"
+          "size": 498867,
+          "sha512": "45858f20e82703bd810e59bed3e807b46c6264a0d97c58ff98440777c5957c8769f96389eceac0982a2f7a65cce9aad04c1a2ea76021b8421f8bafbe804ba47e",
+          "sha256": "a059c42ea2044a5606f39ba3c6ce01cd089f1a592bd260bfa4527c5e9e1a3b3c",
+          "sha1": "ed036a7240c8f6f05818564ad0909922d2b6b8a1",
+          "md5": "997809abe2abfbb7abf02d059b39e384"
         }
       ]
     }
