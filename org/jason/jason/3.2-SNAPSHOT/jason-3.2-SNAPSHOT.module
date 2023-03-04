@@ -27,11 +27,11 @@
         {
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
-          "size": 1251061,
-          "sha512": "5ac65b5648a2d2e81110e13767b051f4bbb4d223746302f6c75edbba5d6eef0eed1d1fc91e1f238ebbb5943728c072781a8244d249a68af64877d66587eb6755",
-          "sha256": "4ba93835f9693f22c11a76e45a2383214815b55ca49968f9e5600a413158aeba",
-          "sha1": "2e379b820b192290cd85361f8a68674fbbdd51b1",
-          "md5": "b096c007e10a5c73bf830b06b8f7c147"
+          "size": 1251042,
+          "sha512": "ec5b4a4316fbcd9ae51f068f7985314b8ef99c0e2d6e839c1df72e4d2f55f5723ea7e0ffa1b2aa77901182744864a50d555c125e6694839e70e92ff7276a8b0c",
+          "sha256": "57185ccfdf9977a251d464c5921fbaad4ca2538352446e0a0af2b80619b2af0d",
+          "sha1": "c274747b8a2d0f0007b87e2457ba223466be66e4",
+          "md5": "2627d91f7d62131a51b386bb80e8c18d"
         }
       ]
     },
@@ -63,7 +63,7 @@
           "group": "org.gradle",
           "module": "gradle-tooling-api",
           "version": {
-            "requires": "7.4.2"
+            "requires": "7.3-20210825160000+0000"
           }
         },
         {
@@ -85,11 +85,11 @@
         {
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
-          "size": 1251061,
-          "sha512": "5ac65b5648a2d2e81110e13767b051f4bbb4d223746302f6c75edbba5d6eef0eed1d1fc91e1f238ebbb5943728c072781a8244d249a68af64877d66587eb6755",
-          "sha256": "4ba93835f9693f22c11a76e45a2383214815b55ca49968f9e5600a413158aeba",
-          "sha1": "2e379b820b192290cd85361f8a68674fbbdd51b1",
-          "md5": "b096c007e10a5c73bf830b06b8f7c147"
+          "size": 1251042,
+          "sha512": "ec5b4a4316fbcd9ae51f068f7985314b8ef99c0e2d6e839c1df72e4d2f55f5723ea7e0ffa1b2aa77901182744864a50d555c125e6694839e70e92ff7276a8b0c",
+          "sha256": "57185ccfdf9977a251d464c5921fbaad4ca2538352446e0a0af2b80619b2af0d",
+          "sha1": "c274747b8a2d0f0007b87e2457ba223466be66e4",
+          "md5": "2627d91f7d62131a51b386bb80e8c18d"
         }
       ]
     }
