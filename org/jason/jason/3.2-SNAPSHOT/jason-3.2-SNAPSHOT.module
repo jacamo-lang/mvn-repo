@@ -28,10 +28,10 @@
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
           "size": 1251042,
-          "sha512": "ec5b4a4316fbcd9ae51f068f7985314b8ef99c0e2d6e839c1df72e4d2f55f5723ea7e0ffa1b2aa77901182744864a50d555c125e6694839e70e92ff7276a8b0c",
-          "sha256": "57185ccfdf9977a251d464c5921fbaad4ca2538352446e0a0af2b80619b2af0d",
-          "sha1": "c274747b8a2d0f0007b87e2457ba223466be66e4",
-          "md5": "2627d91f7d62131a51b386bb80e8c18d"
+          "sha512": "a655da3e3ff31dfc45c4ee957eb0059e178f445166ca1e26140ae49788c6ad4e6ff36fd81baeeb1e0076299fefbaec75142a902210155c0838cbb8675a75e159",
+          "sha256": "e375d7c4a8a08a7e6221a788190466a04a86e0a0333d48d1a7e19d5f446456ce",
+          "sha1": "64e8a35c49f596020255f1742249fcca28166b6c",
+          "md5": "94c6b84ff574bea0350f3c093560724e"
         }
       ]
     },
@@ -63,7 +63,7 @@
           "group": "org.gradle",
           "module": "gradle-tooling-api",
           "version": {
-            "requires": "7.3-20210825160000+0000"
+            "requires": "7.4.2"
           }
         },
         {
@@ -86,10 +86,10 @@
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
           "size": 1251042,
-          "sha512": "ec5b4a4316fbcd9ae51f068f7985314b8ef99c0e2d6e839c1df72e4d2f55f5723ea7e0ffa1b2aa77901182744864a50d555c125e6694839e70e92ff7276a8b0c",
-          "sha256": "57185ccfdf9977a251d464c5921fbaad4ca2538352446e0a0af2b80619b2af0d",
-          "sha1": "c274747b8a2d0f0007b87e2457ba223466be66e4",
-          "md5": "2627d91f7d62131a51b386bb80e8c18d"
+          "sha512": "a655da3e3ff31dfc45c4ee957eb0059e178f445166ca1e26140ae49788c6ad4e6ff36fd81baeeb1e0076299fefbaec75142a902210155c0838cbb8675a75e159",
+          "sha256": "e375d7c4a8a08a7e6221a788190466a04a86e0a0333d48d1a7e19d5f446456ce",
+          "sha1": "64e8a35c49f596020255f1742249fcca28166b6c",
+          "md5": "94c6b84ff574bea0350f3c093560724e"
         }
       ]
     }
