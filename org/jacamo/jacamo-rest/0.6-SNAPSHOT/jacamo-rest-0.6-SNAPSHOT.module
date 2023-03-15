@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.2.2",
-      "buildId": "t3re3upwr5fojiwcssvpigt57m"
+      "buildId": "liyv4uejrnemphlpzwauvlme3u"
     }
   },
   "variants": [
@@ -29,7 +29,7 @@
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "0.9-SNAPSHOT"
+            "requires": "0.10-SNAPSHOT"
           },
           "excludes": [
             {
@@ -37,13 +37,6 @@
               "module": "slf4j-nop"
             }
           ]
-        },
-        {
-          "group": "org.jason-lang",
-          "module": "jason",
-          "version": {
-            "requires": "2.5-SNAPSHOT"
-          }
         },
         {
           "group": "javax.xml.bind",
@@ -150,6 +143,27 @@
           }
         },
         {
+          "group": "org.apache.zookeeper",
+          "module": "zookeeper",
+          "version": {
+            "requires": "3.5.4-beta"
+          }
+        },
+        {
+          "group": "org.apache.curator",
+          "module": "curator-framework",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.apache.curator",
+          "module": "curator-x-async",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
           "group": "guru.nidi",
           "module": "graphviz-java",
           "version": {
@@ -189,11 +203,11 @@
         {
           "name": "jacamo-rest-0.6-SNAPSHOT.jar",
           "url": "jacamo-rest-0.6-SNAPSHOT.jar",
-          "size": 51914,
-          "sha512": "4da1bd0fa31bb333c4a80adb3913b22f5dea6de19c5e7887f3ed1491e795f7615b6a92834e15bb05015be956fcbc4c4b29bf335d2d4216e335f4089722dd3bbe",
-          "sha256": "c6bed014a17d7f77cca2da0884b7ae836baf71ffe8480c17f4e63adcbbf93cbc",
-          "sha1": "70f293f0b15cd03d9b01efa03d67033baf33740e",
-          "md5": "58461171e113d26e55408a4baae1e587"
+          "size": 55015,
+          "sha512": "3be7eac4f3f6378216a559472d0be56c356238774fbb385c31f88d448433b3c85e0a5b32dc10c67d8aba2fdaf729e9f83541a7bbe5facf046ca519e8c2e014d1",
+          "sha256": "f68cc7df657476dd119fabaf94db5da23795e36314b57dcb89647629afee1d5e",
+          "sha1": "77dae2c23b4ac73a1a491e9b3bb0123acd47515b",
+          "md5": "947cdfedd14f6373a0c618485ba06b2b"
         }
       ]
     },
@@ -211,7 +225,7 @@
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "0.9-SNAPSHOT"
+            "requires": "0.10-SNAPSHOT"
           },
           "excludes": [
             {
@@ -219,13 +233,6 @@
               "module": "slf4j-nop"
             }
           ]
-        },
-        {
-          "group": "org.jason-lang",
-          "module": "jason",
-          "version": {
-            "requires": "2.5-SNAPSHOT"
-          }
         },
         {
           "group": "javax.xml.bind",
@@ -332,6 +339,27 @@
           }
         },
         {
+          "group": "org.apache.zookeeper",
+          "module": "zookeeper",
+          "version": {
+            "requires": "3.5.4-beta"
+          }
+        },
+        {
+          "group": "org.apache.curator",
+          "module": "curator-framework",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "org.apache.curator",
+          "module": "curator-x-async",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
           "group": "guru.nidi",
           "module": "graphviz-java",
           "version": {
@@ -371,11 +399,11 @@
         {
           "name": "jacamo-rest-0.6-SNAPSHOT.jar",
           "url": "jacamo-rest-0.6-SNAPSHOT.jar",
-          "size": 51914,
-          "sha512": "4da1bd0fa31bb333c4a80adb3913b22f5dea6de19c5e7887f3ed1491e795f7615b6a92834e15bb05015be956fcbc4c4b29bf335d2d4216e335f4089722dd3bbe",
-          "sha256": "c6bed014a17d7f77cca2da0884b7ae836baf71ffe8480c17f4e63adcbbf93cbc",
-          "sha1": "70f293f0b15cd03d9b01efa03d67033baf33740e",
-          "md5": "58461171e113d26e55408a4baae1e587"
+          "size": 55015,
+          "sha512": "3be7eac4f3f6378216a559472d0be56c356238774fbb385c31f88d448433b3c85e0a5b32dc10c67d8aba2fdaf729e9f83541a7bbe5facf046ca519e8c2e014d1",
+          "sha256": "f68cc7df657476dd119fabaf94db5da23795e36314b57dcb89647629afee1d5e",
+          "sha1": "77dae2c23b4ac73a1a491e9b3bb0123acd47515b",
+          "md5": "947cdfedd14f6373a0c618485ba06b2b"
         }
       ]
     }

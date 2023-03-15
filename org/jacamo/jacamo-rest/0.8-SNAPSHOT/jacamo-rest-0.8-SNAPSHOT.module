@@ -23,27 +23,6 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
-      "files": [
-        {
-          "name": "jacamo-rest-0.8-SNAPSHOT.jar",
-          "url": "jacamo-rest-0.8-SNAPSHOT.jar",
-          "size": 57326,
-          "sha512": "13b066edcd96e5d00faacdaf72de085412e11f111cfef633a23563ab3b9e92f9fae3d8ae19ab6ebc4271c8b0a7fccaa56018f807d4b44c34ef18fdf924cbcdae",
-          "sha256": "4978b4dda804c397c3abfd3c6ef5b81479c98c8b5807c25c7220c24f7b23e40c",
-          "sha1": "c2d4cc6f0e9e68fd8ff8fa3c1ce9f3390b4117c6",
-          "md5": "4d19e6aef7f3d98f9c3069d24f7b1edc"
-        }
-      ]
-    },
-    {
-      "name": "runtimeElements",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
-        "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime"
-      },
       "dependencies": [
         {
           "group": "org.jacamo",
@@ -170,31 +149,10 @@
           }
         },
         {
-          "group": "guru.nidi",
-          "module": "graphviz-java",
-          "version": {
-            "requires": "0.7.0"
-          }
-        },
-        {
-          "group": "com.google.guava",
-          "module": "guava",
-          "version": {
-            "requires": "11.0.2"
-          }
-        },
-        {
           "group": "com.google.code.gson",
           "module": "gson",
           "version": {
             "requires": "2.8.5"
-          }
-        },
-        {
-          "group": "commons-io",
-          "module": "commons-io",
-          "version": {
-            "requires": "2.6"
           }
         },
         {
@@ -210,6 +168,50 @@
           "version": {
             "requires": "1.1.4"
           }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-rest-0.8-SNAPSHOT.jar",
+          "url": "jacamo-rest-0.8-SNAPSHOT.jar",
+          "size": 57328,
+          "sha512": "7e7f610d481905ade797c5b89a49bf9ccc78df61a22be22e5bc6f3d06eae0decb20a3d48cd84c8fe7df7a64fccb36184b7d3391a534cac5c4f3cd0697f727159",
+          "sha256": "9909c31e28185d28140196946214ec9480138e59a6b9c640c0271467eba87fd3",
+          "sha1": "39ae7444be51038699c83754052952da95dc6721",
+          "md5": "3c6f94c7aca37597595418f4646c3141"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "guru.nidi",
+          "module": "graphviz-java",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "11.0.2"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.6"
+          }
         },
         {
           "group": "io.swagger",
@@ -217,17 +219,162 @@
           "version": {
             "requires": "1.6.5"
           }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jacamo",
+          "version": {
+            "requires": "1.2-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-nop"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "javax.xml.bind",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "com.sun.xml.bind",
+          "module": "jaxb-core",
+          "version": {
+            "requires": "2.3.0.1"
+          }
+        },
+        {
+          "group": "com.sun.xml.bind",
+          "module": "jaxb-impl",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.containers",
+          "module": "jersey-container-servlet",
+          "version": {
+            "requires": "2.29.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.containers",
+          "module": "jersey-container-servlet-core",
+          "version": {
+            "requires": "2.29.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.inject",
+          "module": "jersey-hk2",
+          "version": {
+            "requires": "2.29.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey",
+          "module": "jersey-bom",
+          "version": {
+            "requires": "2.29.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "jersey-bom",
+              "type": "pom",
+              "extension": "pom"
+            }
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.core",
+          "module": "jersey-server",
+          "version": {
+            "requires": "2.29.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.core",
+          "module": "jersey-client",
+          "version": {
+            "requires": "2.29.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.media",
+          "module": "jersey-media-multipart",
+          "version": {
+            "requires": "2.29.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.media",
+          "module": "jersey-media-json-jackson",
+          "version": {
+            "requires": "2.29.1"
+          }
+        },
+        {
+          "group": "org.glassfish.jersey.containers",
+          "module": "jersey-container-grizzly2-http",
+          "version": {
+            "requires": "2.29.1"
+          }
+        },
+        {
+          "group": "org.glassfish.grizzly",
+          "module": "grizzly-http-server",
+          "version": {
+            "requires": "2.4.4"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
         }
       ],
       "files": [
         {
           "name": "jacamo-rest-0.8-SNAPSHOT.jar",
           "url": "jacamo-rest-0.8-SNAPSHOT.jar",
-          "size": 57326,
-          "sha512": "13b066edcd96e5d00faacdaf72de085412e11f111cfef633a23563ab3b9e92f9fae3d8ae19ab6ebc4271c8b0a7fccaa56018f807d4b44c34ef18fdf924cbcdae",
-          "sha256": "4978b4dda804c397c3abfd3c6ef5b81479c98c8b5807c25c7220c24f7b23e40c",
-          "sha1": "c2d4cc6f0e9e68fd8ff8fa3c1ce9f3390b4117c6",
-          "md5": "4d19e6aef7f3d98f9c3069d24f7b1edc"
+          "size": 57328,
+          "sha512": "7e7f610d481905ade797c5b89a49bf9ccc78df61a22be22e5bc6f3d06eae0decb20a3d48cd84c8fe7df7a64fccb36184b7d3391a534cac5c4f3cd0697f727159",
+          "sha256": "9909c31e28185d28140196946214ec9480138e59a6b9c640c0271467eba87fd3",
+          "sha1": "39ae7444be51038699c83754052952da95dc6721",
+          "md5": "3c6f94c7aca37597595418f4646c3141"
         }
       ]
     }
