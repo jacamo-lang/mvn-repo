@@ -28,16 +28,12 @@
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "1.1"
+            "requires": "1.2-SNAPSHOT"
           },
           "excludes": [
             {
               "group": "org.slf4j",
               "module": "slf4j-nop"
-            },
-            {
-              "group": "org.jacamo",
-              "module": "jacamo-rest"
             }
           ]
         },
@@ -179,10 +175,10 @@
           "name": "jacamo-rest-0.8-SNAPSHOT.jar",
           "url": "jacamo-rest-0.8-SNAPSHOT.jar",
           "size": 57328,
-          "sha512": "376d85e1aac75ec6e97bf55ac6da0b92b37bf3d687c1277efbaf9585f1494092dc91f7ef6f1f47ae67d6cef517e88f12288c9eab9ff671d4997bca0e2f816653",
-          "sha256": "0bbb3a1c027cc4450c87692d449f0331bfd79ed7f5746f60d28facaf74ab1b04",
-          "sha1": "678ee8ebd400f461a2e2d059a981ff31cf83d24b",
-          "md5": "355a3ef932b777aa23e4e767322dc43c"
+          "sha512": "4904dd3c1a956266160272c26ee3293e40068791d2271b1fc0ce08163ef60fd4e61b5f90568dbb26abdaac86358c94d363ac81292188c7b9f99b73df3204db21",
+          "sha256": "025bba2dd4c608cb783fad4caf816c9de08954eef37adba25a1f8b254dc5556d",
+          "sha1": "91920e487a7fc28548ce212de786731477c7c968",
+          "md5": "8115abe3b47be781ae3708e678db8595"
         }
       ]
     },
@@ -228,16 +224,12 @@
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "1.1"
+            "requires": "1.2-SNAPSHOT"
           },
           "excludes": [
             {
               "group": "org.slf4j",
               "module": "slf4j-nop"
-            },
-            {
-              "group": "org.jacamo",
-              "module": "jacamo-rest"
             }
           ]
         },
@@ -379,10 +371,10 @@
           "name": "jacamo-rest-0.8-SNAPSHOT.jar",
           "url": "jacamo-rest-0.8-SNAPSHOT.jar",
           "size": 57328,
-          "sha512": "376d85e1aac75ec6e97bf55ac6da0b92b37bf3d687c1277efbaf9585f1494092dc91f7ef6f1f47ae67d6cef517e88f12288c9eab9ff671d4997bca0e2f816653",
-          "sha256": "0bbb3a1c027cc4450c87692d449f0331bfd79ed7f5746f60d28facaf74ab1b04",
-          "sha1": "678ee8ebd400f461a2e2d059a981ff31cf83d24b",
-          "md5": "355a3ef932b777aa23e4e767322dc43c"
+          "sha512": "4904dd3c1a956266160272c26ee3293e40068791d2271b1fc0ce08163ef60fd4e61b5f90568dbb26abdaac86358c94d363ac81292188c7b9f99b73df3204db21",
+          "sha256": "025bba2dd4c608cb783fad4caf816c9de08954eef37adba25a1f8b254dc5556d",
+          "sha1": "91920e487a7fc28548ce212de786731477c7c968",
+          "md5": "8115abe3b47be781ae3708e678db8595"
         }
       ]
     }
