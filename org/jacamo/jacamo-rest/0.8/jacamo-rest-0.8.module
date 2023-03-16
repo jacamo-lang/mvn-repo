@@ -3,7 +3,7 @@
   "component": {
     "group": "org.jacamo",
     "module": "jacamo-rest",
-    "version": "0.7",
+    "version": "0.8",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -38,27 +38,6 @@
           ]
         },
         {
-          "group": "javax.xml.bind",
-          "module": "jaxb-api",
-          "version": {
-            "requires": "2.3.1"
-          }
-        },
-        {
-          "group": "com.sun.xml.bind",
-          "module": "jaxb-core",
-          "version": {
-            "requires": "2.3.0.1"
-          }
-        },
-        {
-          "group": "com.sun.xml.bind",
-          "module": "jaxb-impl",
-          "version": {
-            "requires": "2.3.1"
-          }
-        },
-        {
           "group": "org.glassfish.jersey.containers",
           "module": "jersey-container-servlet",
           "version": {
@@ -156,13 +135,6 @@
           }
         },
         {
-          "group": "commons-io",
-          "module": "commons-io",
-          "version": {
-            "requires": "2.6"
-          }
-        },
-        {
           "group": "javax.json",
           "module": "javax.json-api",
           "version": {
@@ -186,13 +158,13 @@
       ],
       "files": [
         {
-          "name": "jacamo-rest-0.7.jar",
-          "url": "jacamo-rest-0.7.jar",
-          "size": 58798,
-          "sha512": "157c86f2697e85f5b8aaf8e83845344c724e33956d839642829839946056ac7f44b488f7a9c9c9d31ed30478f86a481c0183eee00b58fa94d42536c6f3cce846",
-          "sha256": "9a4904804a7880795bfca378b91ba9902fb43ce853aad9288b073a67bd3ec92b",
-          "sha1": "dbf6322b439c59884b0e2ad6bdf9eb466c1c595b",
-          "md5": "eddc36da54b214b866375b39e36747b0"
+          "name": "jacamo-rest-0.8.jar",
+          "url": "jacamo-rest-0.8.jar",
+          "size": 58784,
+          "sha512": "d4a46102d6e71d473b491c84cb42cf8826ec9453f248b7633f04d9d7e669a576cb580bd6f4ac40be5fcfec39f0e4c9d33b5bda32c19fb5fbad8161940540a35e",
+          "sha256": "8983bb4f58320c2ff103dc6b688572f934ea2bb050dca913298396069a076dd6",
+          "sha1": "7b296b024728d43b0bbfbd5db9ed9ede7ba05252",
+          "md5": "5fd58f254abcfebfdf73cd3c509f013f"
         }
       ]
     },
@@ -214,19 +186,6 @@
           }
         },
         {
-          "group": "org.jacamo",
-          "module": "jacamo",
-          "version": {
-            "requires": "1.1"
-          },
-          "excludes": [
-            {
-              "group": "org.slf4j",
-              "module": "slf4j-nop"
-            }
-          ]
-        },
-        {
           "group": "javax.xml.bind",
           "module": "jaxb-api",
           "version": {
@@ -246,6 +205,26 @@
           "version": {
             "requires": "2.3.1"
           }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jacamo",
+          "version": {
+            "requires": "1.1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-nop"
+            }
+          ]
         },
         {
           "group": "org.glassfish.jersey.containers",
@@ -345,13 +324,6 @@
           }
         },
         {
-          "group": "commons-io",
-          "module": "commons-io",
-          "version": {
-            "requires": "2.6"
-          }
-        },
-        {
           "group": "javax.json",
           "module": "javax.json-api",
           "version": {
@@ -375,13 +347,13 @@
       ],
       "files": [
         {
-          "name": "jacamo-rest-0.7.jar",
-          "url": "jacamo-rest-0.7.jar",
-          "size": 58798,
-          "sha512": "157c86f2697e85f5b8aaf8e83845344c724e33956d839642829839946056ac7f44b488f7a9c9c9d31ed30478f86a481c0183eee00b58fa94d42536c6f3cce846",
-          "sha256": "9a4904804a7880795bfca378b91ba9902fb43ce853aad9288b073a67bd3ec92b",
-          "sha1": "dbf6322b439c59884b0e2ad6bdf9eb466c1c595b",
-          "md5": "eddc36da54b214b866375b39e36747b0"
+          "name": "jacamo-rest-0.8.jar",
+          "url": "jacamo-rest-0.8.jar",
+          "size": 58784,
+          "sha512": "d4a46102d6e71d473b491c84cb42cf8826ec9453f248b7633f04d9d7e669a576cb580bd6f4ac40be5fcfec39f0e4c9d33b5bda32c19fb5fbad8161940540a35e",
+          "sha256": "8983bb4f58320c2ff103dc6b688572f934ea2bb050dca913298396069a076dd6",
+          "sha1": "7b296b024728d43b0bbfbd5db9ed9ede7ba05252",
+          "md5": "5fd58f254abcfebfdf73cd3c509f013f"
         }
       ]
     }
