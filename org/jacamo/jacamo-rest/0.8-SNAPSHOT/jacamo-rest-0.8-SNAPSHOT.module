@@ -28,7 +28,7 @@
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "1.2-SNAPSHOT"
+            "requires": "1.1"
           },
           "excludes": [
             {
@@ -175,10 +175,10 @@
           "name": "jacamo-rest-0.8-SNAPSHOT.jar",
           "url": "jacamo-rest-0.8-SNAPSHOT.jar",
           "size": 57328,
-          "sha512": "7e7f610d481905ade797c5b89a49bf9ccc78df61a22be22e5bc6f3d06eae0decb20a3d48cd84c8fe7df7a64fccb36184b7d3391a534cac5c4f3cd0697f727159",
-          "sha256": "9909c31e28185d28140196946214ec9480138e59a6b9c640c0271467eba87fd3",
-          "sha1": "39ae7444be51038699c83754052952da95dc6721",
-          "md5": "3c6f94c7aca37597595418f4646c3141"
+          "sha512": "f6486f69fe8613afd21ea54a2a736997674e515d16a561042cb6e23f6aaa97c49ac60f904ac967e1b5971e37b39083d64550d22b4e1301f17a521046e726a595",
+          "sha256": "a36c1fb8cd5572264e3574364e551dbda4fdf7b85a5a9eccb3f1331af36d1f2c",
+          "sha1": "17453eed288b9ae500e1a8b965baabbbd94cd635",
+          "md5": "29c13b473477f1d262076682313b1091"
         }
       ]
     },
@@ -224,7 +224,7 @@
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "1.2-SNAPSHOT"
+            "requires": "1.1"
           },
           "excludes": [
             {
@@ -371,10 +371,10 @@
           "name": "jacamo-rest-0.8-SNAPSHOT.jar",
           "url": "jacamo-rest-0.8-SNAPSHOT.jar",
           "size": 57328,
-          "sha512": "7e7f610d481905ade797c5b89a49bf9ccc78df61a22be22e5bc6f3d06eae0decb20a3d48cd84c8fe7df7a64fccb36184b7d3391a534cac5c4f3cd0697f727159",
-          "sha256": "9909c31e28185d28140196946214ec9480138e59a6b9c640c0271467eba87fd3",
-          "sha1": "39ae7444be51038699c83754052952da95dc6721",
-          "md5": "3c6f94c7aca37597595418f4646c3141"
+          "sha512": "f6486f69fe8613afd21ea54a2a736997674e515d16a561042cb6e23f6aaa97c49ac60f904ac967e1b5971e37b39083d64550d22b4e1301f17a521046e726a595",
+          "sha256": "a36c1fb8cd5572264e3574364e551dbda4fdf7b85a5a9eccb3f1331af36d1f2c",
+          "sha1": "17453eed288b9ae500e1a8b965baabbbd94cd635",
+          "md5": "29c13b473477f1d262076682313b1091"
         }
       ]
     }
