@@ -2,39 +2,39 @@
 <metadata modelVersion="1.1.0">
   <groupId>org.jacamo</groupId>
   <artifactId>jacamo-rest</artifactId>
-  <version>0.8-SNAPSHOT</version>
+  <version>0.7.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
-    <lastUpdated>20230316150518</lastUpdated>
+    <lastUpdated>20230317121301</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.8-SNAPSHOT</value>
-        <updated>20230316150518</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.8-SNAPSHOT</value>
-        <updated>20230316150518</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.8-SNAPSHOT</value>
-        <updated>20230316150518</updated>
+        <value>0.7.1-SNAPSHOT</value>
+        <updated>20230317121301</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>0.8-SNAPSHOT</value>
-        <updated>20230316150518</updated>
+        <value>0.7.1-SNAPSHOT</value>
+        <updated>20230317121301</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.8-SNAPSHOT</value>
-        <updated>20230316150518</updated>
+        <value>0.7.1-SNAPSHOT</value>
+        <updated>20230317121301</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.7.1-SNAPSHOT</value>
+        <updated>20230317121301</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.7.1-SNAPSHOT</value>
+        <updated>20230317121301</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
