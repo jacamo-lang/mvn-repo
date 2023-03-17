@@ -28,7 +28,7 @@
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "1.2-SNAPSHOT"
+            "requires": "1.1"
           },
           "excludes": [
             {
@@ -149,6 +149,13 @@
           }
         },
         {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "11.0.2"
+          }
+        },
+        {
           "group": "com.google.code.gson",
           "module": "gson",
           "version": {
@@ -168,6 +175,13 @@
           "version": {
             "requires": "1.1.4"
           }
+        },
+        {
+          "group": "io.swagger",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "1.6.5"
+          }
         }
       ],
       "files": [
@@ -175,10 +189,10 @@
           "name": "jacamo-rest-0.8-SNAPSHOT.jar",
           "url": "jacamo-rest-0.8-SNAPSHOT.jar",
           "size": 57328,
-          "sha512": "4904dd3c1a956266160272c26ee3293e40068791d2271b1fc0ce08163ef60fd4e61b5f90568dbb26abdaac86358c94d363ac81292188c7b9f99b73df3204db21",
-          "sha256": "025bba2dd4c608cb783fad4caf816c9de08954eef37adba25a1f8b254dc5556d",
-          "sha1": "91920e487a7fc28548ce212de786731477c7c968",
-          "md5": "8115abe3b47be781ae3708e678db8595"
+          "sha512": "70cac79a9dd3c5b8d35ee92826b4905f455ad39f5747708b5122fe14d75f2f0507f447dbb253dda7f6f77db62687466131117410e5d08b1bcd47573cb0f61744",
+          "sha256": "f4d5f8510df9375468e622f6d8a4506c5d1185086687fda7990918bc8c4ab08d",
+          "sha1": "f6054ad8ebf1636499d5c15a7cdf8ee29a8fa08b",
+          "md5": "86aec8c39ff1cbfcaa42c259e6a3566e"
         }
       ]
     },
@@ -193,20 +207,6 @@
       },
       "dependencies": [
         {
-          "group": "guru.nidi",
-          "module": "graphviz-java",
-          "version": {
-            "requires": "0.7.0"
-          }
-        },
-        {
-          "group": "com.google.guava",
-          "module": "guava",
-          "version": {
-            "requires": "11.0.2"
-          }
-        },
-        {
           "group": "commons-io",
           "module": "commons-io",
           "version": {
@@ -214,17 +214,10 @@
           }
         },
         {
-          "group": "io.swagger",
-          "module": "swagger-annotations",
-          "version": {
-            "requires": "1.6.5"
-          }
-        },
-        {
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "1.2-SNAPSHOT"
+            "requires": "1.1"
           },
           "excludes": [
             {
@@ -345,6 +338,13 @@
           }
         },
         {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "11.0.2"
+          }
+        },
+        {
           "group": "com.google.code.gson",
           "module": "gson",
           "version": {
@@ -364,6 +364,13 @@
           "version": {
             "requires": "1.1.4"
           }
+        },
+        {
+          "group": "io.swagger",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "1.6.5"
+          }
         }
       ],
       "files": [
@@ -371,10 +378,10 @@
           "name": "jacamo-rest-0.8-SNAPSHOT.jar",
           "url": "jacamo-rest-0.8-SNAPSHOT.jar",
           "size": 57328,
-          "sha512": "4904dd3c1a956266160272c26ee3293e40068791d2271b1fc0ce08163ef60fd4e61b5f90568dbb26abdaac86358c94d363ac81292188c7b9f99b73df3204db21",
-          "sha256": "025bba2dd4c608cb783fad4caf816c9de08954eef37adba25a1f8b254dc5556d",
-          "sha1": "91920e487a7fc28548ce212de786731477c7c968",
-          "md5": "8115abe3b47be781ae3708e678db8595"
+          "sha512": "70cac79a9dd3c5b8d35ee92826b4905f455ad39f5747708b5122fe14d75f2f0507f447dbb253dda7f6f77db62687466131117410e5d08b1bcd47573cb0f61744",
+          "sha256": "f4d5f8510df9375468e622f6d8a4506c5d1185086687fda7990918bc8c4ab08d",
+          "sha1": "f6054ad8ebf1636499d5c15a7cdf8ee29a8fa08b",
+          "md5": "86aec8c39ff1cbfcaa42c259e6a3566e"
         }
       ]
     }
