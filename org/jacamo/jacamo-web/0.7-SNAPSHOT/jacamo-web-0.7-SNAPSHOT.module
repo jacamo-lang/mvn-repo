@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jacamo",
+    "module": "jacamo-web",
+    "version": "0.7-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jacamo-web-0.7-SNAPSHOT.jar",
+          "url": "jacamo-web-0.7-SNAPSHOT.jar",
+          "size": 2994670,
+          "sha512": "6c5d64549b73221d9202aef8156b744ab148f8f10118812cea6364291824dbe367363ef2ac363465da2967ff2c79db8c8e4398f8585370ddff2717e98a1e302d",
+          "sha256": "364cd9cbd5861618502ea5943a28bd69b56e01c5dd165ff478307d3c3b501b7f",
+          "sha1": "aedb35ad56ab1ac1607e9c290dbe30b4f6426e58",
+          "md5": "c118b95f7d1fbff081a9a22c0622f2d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jacamo",
+          "module": "jacamo-rest",
+          "version": {
+            "requires": "0.7.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.zookeeper",
+          "module": "zookeeper",
+          "version": {
+            "requires": "3.5.4-beta"
+          }
+        },
+        {
+          "group": "org.apache.curator",
+          "module": "curator-framework",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "javax.websocket",
+          "module": "javax.websocket-api",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "org.glassfish.tyrus",
+          "module": "tyrus-server",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "org.glassfish.tyrus",
+          "module": "tyrus-container-grizzly",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "5.6.0.201912101111-r"
+          }
+        },
+        {
+          "group": "net.openhft",
+          "module": "compiler",
+          "version": {
+            "requires": "2.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-web-0.7-SNAPSHOT.jar",
+          "url": "jacamo-web-0.7-SNAPSHOT.jar",
+          "size": 2994670,
+          "sha512": "6c5d64549b73221d9202aef8156b744ab148f8f10118812cea6364291824dbe367363ef2ac363465da2967ff2c79db8c8e4398f8585370ddff2717e98a1e302d",
+          "sha256": "364cd9cbd5861618502ea5943a28bd69b56e01c5dd165ff478307d3c3b501b7f",
+          "sha1": "aedb35ad56ab1ac1607e9c290dbe30b4f6426e58",
+          "md5": "c118b95f7d1fbff081a9a22c0622f2d0"
+        }
+      ]
+    }
+  ]
+}
