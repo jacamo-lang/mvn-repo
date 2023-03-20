@@ -27,11 +27,11 @@
         {
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
-          "size": 1191128,
-          "sha512": "d0897cc73441eb4b85126462ae747b032420b3f9792d0882ec4a3363d5f331997a96e643476bde6c360578b290444e60c42aacc389cdfbc36c49d735494ceb07",
-          "sha256": "262a1eb776e39582ff73904a0630281d341ffd21eae58da74fc471c86ddcd70a",
-          "sha1": "4c49307507470a16af6c7e86238144e1529a9738",
-          "md5": "2c510cc7e35c5d4434d44df2f8566daa"
+          "size": 1191232,
+          "sha512": "9a1fbd20e081cf1f181e9a14d5be51eb5e6d3b09e2c39e566684f5f5475ea54552de1ab989850b23c321ebae22a9d3922c9afcb842ad51d9cb9b174e693cdb78",
+          "sha256": "ff266176064880b9d9c0885263c66547c2d0baaaab9ffe74f1b5616608848946",
+          "sha1": "50f1f21570e57ebef5f02939b1790bcaffbc06c2",
+          "md5": "086885d941db466cb04f16a8f52fe856"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
-          "size": 1191128,
-          "sha512": "d0897cc73441eb4b85126462ae747b032420b3f9792d0882ec4a3363d5f331997a96e643476bde6c360578b290444e60c42aacc389cdfbc36c49d735494ceb07",
-          "sha256": "262a1eb776e39582ff73904a0630281d341ffd21eae58da74fc471c86ddcd70a",
-          "sha1": "4c49307507470a16af6c7e86238144e1529a9738",
-          "md5": "2c510cc7e35c5d4434d44df2f8566daa"
+          "size": 1191232,
+          "sha512": "9a1fbd20e081cf1f181e9a14d5be51eb5e6d3b09e2c39e566684f5f5475ea54552de1ab989850b23c321ebae22a9d3922c9afcb842ad51d9cb9b174e693cdb78",
+          "sha256": "ff266176064880b9d9c0885263c66547c2d0baaaab9ffe74f1b5616608848946",
+          "sha1": "50f1f21570e57ebef5f02939b1790bcaffbc06c2",
+          "md5": "086885d941db466cb04f16a8f52fe856"
         }
       ]
     }
