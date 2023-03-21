@@ -23,15 +23,24 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
+      "dependencies": [
+        {
+          "group": "org.jacamo",
+          "module": "jacamo-rest",
+          "version": {
+            "requires": "0.7.1-SNAPSHOT"
+          }
+        }
+      ],
       "files": [
         {
           "name": "jacamo-web-0.7-SNAPSHOT.jar",
           "url": "jacamo-web-0.7-SNAPSHOT.jar",
-          "size": 2992945,
-          "sha512": "5656cd53568459469a43c950390dd9b1edf6cfe1dc03837936d7fdedc38aef37eb8f064027c0f80a5c7874b36c51870dcf344fad3ef978d9be3bf2716d647a08",
-          "sha256": "4b1f66c760c59246a2f74c18bdaa70f3e9a8fbc4af919f0a1b4194ae8f0d5290",
-          "sha1": "e0f2a279916ffe042cdbed30492c17583215fee4",
-          "md5": "1c7806d042dcc0e322c83c68be99aac1"
+          "size": 2994662,
+          "sha512": "1ba6943f2748626905a7dc0f200a7c2dd879033fa3e8c5e6921c5cf2cc2dc831c90eb3940377f5c9423dccb562b18ac1634cf78dfd3876a6ee361c3ed4e72037",
+          "sha256": "f5fddcb214287d81c882ad0174c2636851ccc7f9c8008edee55ee64f69476035",
+          "sha1": "f99a73f836beffb3fd5e935ceab61d6770a771d5",
+          "md5": "e09a29f176430d36fdd79b4a23a03a8b"
         }
       ]
     },
@@ -45,13 +54,6 @@
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
-        {
-          "group": "org.jacamo",
-          "module": "jacamo-rest",
-          "version": {
-            "requires": "0.7.1-SNAPSHOT"
-          }
-        },
         {
           "group": "org.apache.zookeeper",
           "module": "zookeeper",
@@ -100,17 +102,24 @@
           "version": {
             "requires": "2.3.1"
           }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jacamo-rest",
+          "version": {
+            "requires": "0.7.1-SNAPSHOT"
+          }
         }
       ],
       "files": [
         {
           "name": "jacamo-web-0.7-SNAPSHOT.jar",
           "url": "jacamo-web-0.7-SNAPSHOT.jar",
-          "size": 2992945,
-          "sha512": "5656cd53568459469a43c950390dd9b1edf6cfe1dc03837936d7fdedc38aef37eb8f064027c0f80a5c7874b36c51870dcf344fad3ef978d9be3bf2716d647a08",
-          "sha256": "4b1f66c760c59246a2f74c18bdaa70f3e9a8fbc4af919f0a1b4194ae8f0d5290",
-          "sha1": "e0f2a279916ffe042cdbed30492c17583215fee4",
-          "md5": "1c7806d042dcc0e322c83c68be99aac1"
+          "size": 2994662,
+          "sha512": "1ba6943f2748626905a7dc0f200a7c2dd879033fa3e8c5e6921c5cf2cc2dc831c90eb3940377f5c9423dccb562b18ac1634cf78dfd3876a6ee361c3ed4e72037",
+          "sha256": "f5fddcb214287d81c882ad0174c2636851ccc7f9c8008edee55ee64f69476035",
+          "sha1": "f99a73f836beffb3fd5e935ceab61d6770a771d5",
+          "md5": "e09a29f176430d36fdd79b4a23a03a8b"
         }
       ]
     }
