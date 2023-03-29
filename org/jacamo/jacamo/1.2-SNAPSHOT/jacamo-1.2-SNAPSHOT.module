@@ -121,11 +121,11 @@
         {
           "name": "jacamo-1.2-SNAPSHOT.jar",
           "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 560389,
-          "sha512": "009c74b32047d9d5768aec311d8a6ee75eb3d8a16a4aeeb191aa30d2781ef9b5e01dfa54034336ae3c1c2e943e7242620ba19134817f997dcdbfd7ab7c76e7df",
-          "sha256": "ece09a50f71f2ed5d5229b7064ac2d9cbe603e667837baa4b5f75adb2f7bc4c1",
-          "sha1": "de12c5bd2c1f6acdc5c253d7bc494b3f525db6ba",
-          "md5": "2e65d1f5cb63e00d257bbd53ad515ca4"
+          "size": 560394,
+          "sha512": "1497b0566c8fc3469de601a75ccacf24bb3de9ce686683427ace0733332e5ba493945b37beb53aba2fbb0539b20585029373825d8ad74b46b8304e190d01e574",
+          "sha256": "93d4c86d3318673edf7adac556afe0030ff9a41e7c625c271e6e15628e59fbaa",
+          "sha1": "bee7404657e5d9c956cf9bc182b8a7495ce4a608",
+          "md5": "6490d824342dd1510d8e2a647235c3ba"
         }
       ]
     },
@@ -326,11 +326,11 @@
         {
           "name": "jacamo-1.2-SNAPSHOT.jar",
           "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 560389,
-          "sha512": "009c74b32047d9d5768aec311d8a6ee75eb3d8a16a4aeeb191aa30d2781ef9b5e01dfa54034336ae3c1c2e943e7242620ba19134817f997dcdbfd7ab7c76e7df",
-          "sha256": "ece09a50f71f2ed5d5229b7064ac2d9cbe603e667837baa4b5f75adb2f7bc4c1",
-          "sha1": "de12c5bd2c1f6acdc5c253d7bc494b3f525db6ba",
-          "md5": "2e65d1f5cb63e00d257bbd53ad515ca4"
+          "size": 560394,
+          "sha512": "1497b0566c8fc3469de601a75ccacf24bb3de9ce686683427ace0733332e5ba493945b37beb53aba2fbb0539b20585029373825d8ad74b46b8304e190d01e574",
+          "sha256": "93d4c86d3318673edf7adac556afe0030ff9a41e7c625c271e6e15628e59fbaa",
+          "sha1": "bee7404657e5d9c956cf9bc182b8a7495ce4a608",
+          "md5": "6490d824342dd1510d8e2a647235c3ba"
         }
       ]
     }
