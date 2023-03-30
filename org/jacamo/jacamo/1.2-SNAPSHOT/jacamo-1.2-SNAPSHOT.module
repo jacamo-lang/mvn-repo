@@ -100,7 +100,7 @@
           "group": "org.jacamo",
           "module": "sai",
           "version": {
-            "requires": "0.5.1"
+            "requires": "0.5.2"
           },
           "excludes": [
             {
@@ -121,11 +121,11 @@
         {
           "name": "jacamo-1.2-SNAPSHOT.jar",
           "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 560394,
-          "sha512": "1497b0566c8fc3469de601a75ccacf24bb3de9ce686683427ace0733332e5ba493945b37beb53aba2fbb0539b20585029373825d8ad74b46b8304e190d01e574",
-          "sha256": "93d4c86d3318673edf7adac556afe0030ff9a41e7c625c271e6e15628e59fbaa",
-          "sha1": "bee7404657e5d9c956cf9bc182b8a7495ce4a608",
-          "md5": "6490d824342dd1510d8e2a647235c3ba"
+          "size": 438613,
+          "sha512": "744366c920bec20f85124381107bc119cc1493a37bba8498c966e182a3da61f6f33cf073d662b69ab3311ddacd39f0d9e4bbf7628641a52dc2400db3ac7abfab",
+          "sha256": "6160768f38e3cf94a660b0d3a4f8b3e32e76405c5bbe9b4d68cdcea3953b0eb6",
+          "sha1": "0f2dc65647533bc0ad412ca4d9d31264ccc74268",
+          "md5": "b3a9eadb5124427d5e89bf5974367c9d"
         }
       ]
     },
@@ -305,7 +305,7 @@
           "group": "org.jacamo",
           "module": "sai",
           "version": {
-            "requires": "0.5.1"
+            "requires": "0.5.2"
           },
           "excludes": [
             {
@@ -326,11 +326,11 @@
         {
           "name": "jacamo-1.2-SNAPSHOT.jar",
           "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 560394,
-          "sha512": "1497b0566c8fc3469de601a75ccacf24bb3de9ce686683427ace0733332e5ba493945b37beb53aba2fbb0539b20585029373825d8ad74b46b8304e190d01e574",
-          "sha256": "93d4c86d3318673edf7adac556afe0030ff9a41e7c625c271e6e15628e59fbaa",
-          "sha1": "bee7404657e5d9c956cf9bc182b8a7495ce4a608",
-          "md5": "6490d824342dd1510d8e2a647235c3ba"
+          "size": 438613,
+          "sha512": "744366c920bec20f85124381107bc119cc1493a37bba8498c966e182a3da61f6f33cf073d662b69ab3311ddacd39f0d9e4bbf7628641a52dc2400db3ac7abfab",
+          "sha256": "6160768f38e3cf94a660b0d3a4f8b3e32e76405c5bbe9b4d68cdcea3953b0eb6",
+          "sha1": "0f2dc65647533bc0ad412ca4d9d31264ccc74268",
+          "md5": "b3a9eadb5124427d5e89bf5974367c9d"
         }
       ]
     }
