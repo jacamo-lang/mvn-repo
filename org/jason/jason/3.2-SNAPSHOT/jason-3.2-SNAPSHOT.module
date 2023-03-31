@@ -27,11 +27,11 @@
         {
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
-          "size": 1116891,
-          "sha512": "35d4ead2e052025433341d968c4f4285fd28f8ad8ceb2224ecac5e74914adae0b8709d619791b61a3c2cf34eab6b112a95f215c501edd789bd3469e4cd749b52",
-          "sha256": "7e094fe1e89fbb10421e1c5fb9afc78a19b8c12ed2cb1a3a87c949964e1315b0",
-          "sha1": "c568fe941dfd6962f7bfa6c51fb58547e35668d0",
-          "md5": "7a6f551e701c62898e12022049134015"
+          "size": 1117071,
+          "sha512": "aa3554d95abe41f58e5e8e9558a697aa91b3f526650c13059ca248eb412aaae3623fdc174f5e295ef76ed932fee6bb4420178d863e8def03fb7effabc541630c",
+          "sha256": "85dcbdf671c3eac47778f4fa70546cfe9e8e6372c13670595d9840f845178db4",
+          "sha1": "5771e332569430aaa4e02fbda6f63d869b78566f",
+          "md5": "e18794d920caf85a0fefd0cc42daed13"
         }
       ]
     },
@@ -53,13 +53,6 @@
           }
         },
         {
-          "group": "org.apache.ant",
-          "module": "ant",
-          "version": {
-            "requires": "1.10.5"
-          }
-        },
-        {
           "group": "javax.json",
           "module": "javax.json-api",
           "version": {
@@ -78,11 +71,11 @@
         {
           "name": "jason-3.2-SNAPSHOT.jar",
           "url": "jason-3.2-SNAPSHOT.jar",
-          "size": 1116891,
-          "sha512": "35d4ead2e052025433341d968c4f4285fd28f8ad8ceb2224ecac5e74914adae0b8709d619791b61a3c2cf34eab6b112a95f215c501edd789bd3469e4cd749b52",
-          "sha256": "7e094fe1e89fbb10421e1c5fb9afc78a19b8c12ed2cb1a3a87c949964e1315b0",
-          "sha1": "c568fe941dfd6962f7bfa6c51fb58547e35668d0",
-          "md5": "7a6f551e701c62898e12022049134015"
+          "size": 1117071,
+          "sha512": "aa3554d95abe41f58e5e8e9558a697aa91b3f526650c13059ca248eb412aaae3623fdc174f5e295ef76ed932fee6bb4420178d863e8def03fb7effabc541630c",
+          "sha256": "85dcbdf671c3eac47778f4fa70546cfe9e8e6372c13670595d9840f845178db4",
+          "sha1": "5771e332569430aaa4e02fbda6f63d869b78566f",
+          "md5": "e18794d920caf85a0fefd0cc42daed13"
         }
       ]
     }
