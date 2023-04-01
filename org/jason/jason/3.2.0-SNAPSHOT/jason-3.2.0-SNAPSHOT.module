@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jason-lang",
+    "module": "jason",
+    "version": "3.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jason-3.2.0-SNAPSHOT.jar",
+          "url": "jason-3.2.0-SNAPSHOT.jar",
+          "size": 1117403,
+          "sha512": "a5194eabcdcd4ca3e7c2264600f3116aaa946c41c55f0108c5f6d9484c36777601c766fb3fff087b1719804e6b4b4b366a4110c4e98deccb97c393284551ad1d",
+          "sha256": "123d2cfa2ea2e7e547f14b050868d070b8d7fe3168fd2c1d45462372ae5332ae",
+          "sha1": "3aa16c15a37f40cb2fc827b2ecbf8e74a67055ab",
+          "md5": "370c52b3558905db32361c505f520cfe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-3.2.0-SNAPSHOT.jar",
+          "url": "jason-3.2.0-SNAPSHOT.jar",
+          "size": 1117403,
+          "sha512": "a5194eabcdcd4ca3e7c2264600f3116aaa946c41c55f0108c5f6d9484c36777601c766fb3fff087b1719804e6b4b4b366a4110c4e98deccb97c393284551ad1d",
+          "sha256": "123d2cfa2ea2e7e547f14b050868d070b8d7fe3168fd2c1d45462372ae5332ae",
+          "sha1": "3aa16c15a37f40cb2fc827b2ecbf8e74a67055ab",
+          "md5": "370c52b3558905db32361c505f520cfe"
+        }
+      ]
+    }
+  ]
+}
