@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jason-lang",
+    "module": "jason",
+    "version": "3.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-3.2.0.jar",
+          "url": "jason-3.2.0.jar",
+          "size": 1117339,
+          "sha512": "7c9200fe74843205240d290402d64f2c86554742e4e25745fdc3194b976b33f441ffd9e69d4c7314adba49de472ecdf94daf10e5c3ef58fd67215814d7ebe2d5",
+          "sha256": "c7f4b28672bd530906a30828ca67da276eb7571aa05bb2a7152cd9eae417e9a4",
+          "sha1": "24b97a9d562f829e1379fe43eef19157bdb5faa8",
+          "md5": "92c580048e0ac918276b96b734030aeb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-3.2.0.jar",
+          "url": "jason-3.2.0.jar",
+          "size": 1117339,
+          "sha512": "7c9200fe74843205240d290402d64f2c86554742e4e25745fdc3194b976b33f441ffd9e69d4c7314adba49de472ecdf94daf10e5c3ef58fd67215814d7ebe2d5",
+          "sha256": "c7f4b28672bd530906a30828ca67da276eb7571aa05bb2a7152cd9eae417e9a4",
+          "sha1": "24b97a9d562f829e1379fe43eef19157bdb5faa8",
+          "md5": "92c580048e0ac918276b96b734030aeb"
+        }
+      ]
+    }
+  ]
+}
