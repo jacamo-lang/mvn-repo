@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jason-lang",
+    "module": "jason-interpreter",
+    "version": "3.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-interpreter-3.2.0.jar",
+          "url": "jason-interpreter-3.2.0.jar",
+          "size": 1117340,
+          "sha512": "180bfc491d4473aef20c928ba1de98d4f97bffb2a133e67e2ed86004292b628b38efd6f28a61cd759411a0d15fb235956a4937840eb05c8adc1fce80a6fc0e98",
+          "sha256": "9d93c1dbfebef6931cade523a27e96ded35540b39486de4b69e86dd60cf1c7d5",
+          "sha1": "4ad2979a89d27a768effaf24e969e4a521eb9b97",
+          "md5": "3a474cc767a2e2772a4412faf7ad0deb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-interpreter-3.2.0.jar",
+          "url": "jason-interpreter-3.2.0.jar",
+          "size": 1117340,
+          "sha512": "180bfc491d4473aef20c928ba1de98d4f97bffb2a133e67e2ed86004292b628b38efd6f28a61cd759411a0d15fb235956a4937840eb05c8adc1fce80a6fc0e98",
+          "sha256": "9d93c1dbfebef6931cade523a27e96ded35540b39486de4b69e86dd60cf1c7d5",
+          "sha1": "4ad2979a89d27a768effaf24e969e4a521eb9b97",
+          "md5": "3a474cc767a2e2772a4412faf7ad0deb"
+        }
+      ]
+    }
+  ]
+}
