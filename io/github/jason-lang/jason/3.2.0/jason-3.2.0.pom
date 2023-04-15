@@ -10,6 +10,18 @@
   <groupId>io.github.jason-lang</groupId>
   <artifactId>jason</artifactId>
   <version>3.2.0</version>
+  <developers>
+    <developer>
+      <name>Jomi Fred Hubner</name>
+      <email>jomifred@gmail.com</email>
+      <url>https://jomifred.github.io</url>
+    </developer>
+    <developer>
+      <name>Rafael Heitor Bordini</name>
+      <email>rafael.bordini@pucrs.br</email>
+      <url>http://www.inf.pucrs.br/r.bordini</url>
+    </developer>
+  </developers>
   <dependencies>
     <dependency>
       <groupId>net.sf.ingenias</groupId>
