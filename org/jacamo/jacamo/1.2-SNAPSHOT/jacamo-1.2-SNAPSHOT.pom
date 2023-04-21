@@ -12,16 +12,10 @@
   <version>1.2-SNAPSHOT</version>
   <dependencies>
     <dependency>
-      <groupId>org.jason</groupId>
-      <artifactId>jason</artifactId>
-      <version>3.2-SNAPSHOT</version>
+      <groupId>io.github.jason-lang</groupId>
+      <artifactId>jason-interpreter</artifactId>
+      <version>3.2.1</version>
       <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>jade</artifactId>
-          <groupId>net.sf.ingenias</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.jacamo</groupId>
@@ -90,22 +84,16 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>net.sf.ingenias</groupId>
-      <artifactId>jade</artifactId>
-      <version>4.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.antlr</groupId>
       <artifactId>antlr4</artifactId>
       <version>4.8</version>
-      <scope>runtime</scope>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jacamo</groupId>
       <artifactId>jacamo-rest</artifactId>
       <version>0.7</version>
-      <scope>runtime</scope>
+      <scope>compile</scope>
       <exclusions>
         <exclusion>
           <artifactId>jacamo</artifactId>
@@ -114,15 +102,15 @@
       </exclusions>
     </dependency>
     <dependency>
+      <groupId>org.gradle</groupId>
+      <artifactId>gradle-tooling-api</artifactId>
+      <version>8.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>org.apache.ant</groupId>
       <artifactId>ant</artifactId>
       <version>1.10.5</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.gradle</groupId>
-      <artifactId>gradle-tooling-api</artifactId>
-      <version>7.6</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

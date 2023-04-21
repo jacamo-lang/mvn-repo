@@ -25,17 +25,11 @@
       },
       "dependencies": [
         {
-          "group": "org.jason",
-          "module": "jason",
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
           "version": {
-            "requires": "3.2-SNAPSHOT"
-          },
-          "excludes": [
-            {
-              "group": "net.sf.ingenias",
-              "module": "jade"
-            }
-          ]
+            "requires": "3.2.1"
+          }
         },
         {
           "group": "org.jacamo",
@@ -110,36 +104,6 @@
           ]
         },
         {
-          "group": "net.sf.ingenias",
-          "module": "jade",
-          "version": {
-            "requires": "4.3"
-          }
-        }
-      ],
-      "files": [
-        {
-          "name": "jacamo-1.2-SNAPSHOT.jar",
-          "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 438613,
-          "sha512": "744366c920bec20f85124381107bc119cc1493a37bba8498c966e182a3da61f6f33cf073d662b69ab3311ddacd39f0d9e4bbf7628641a52dc2400db3ac7abfab",
-          "sha256": "6160768f38e3cf94a660b0d3a4f8b3e32e76405c5bbe9b4d68cdcea3953b0eb6",
-          "sha1": "0f2dc65647533bc0ad412ca4d9d31264ccc74268",
-          "md5": "b3a9eadb5124427d5e89bf5974367c9d"
-        }
-      ]
-    },
-    {
-      "name": "runtimeElements",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
-        "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime"
-      },
-      "dependencies": [
-        {
           "group": "org.antlr",
           "module": "antlr4",
           "version": {
@@ -160,17 +124,40 @@
           ]
         },
         {
+          "group": "org.gradle",
+          "module": "gradle-tooling-api",
+          "version": {
+            "requires": "8.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-1.2-SNAPSHOT.jar",
+          "url": "jacamo-1.2-SNAPSHOT.jar",
+          "size": 564220,
+          "sha512": "195ac58f6639f183f36a0040d4705bad400b5589493dbb35913e696c65b408dae30602004b625f62d3142b123816c6aa7a8fc44663086dc324fa4b0594c74da3",
+          "sha256": "2d76e769a4db274f17ae73623fa0387c445967fa848e0d92e9f5cea998e7b51d",
+          "sha1": "c7b5e2f3bd2f3e2b9c356be1d068e3344576373b",
+          "md5": "7b65816443e76dc5556f2d6c05330793"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
           "group": "org.apache.ant",
           "module": "ant",
           "version": {
             "requires": "1.10.5"
-          }
-        },
-        {
-          "group": "org.gradle",
-          "module": "gradle-tooling-api",
-          "version": {
-            "requires": "7.6"
           }
         },
         {
@@ -230,17 +217,11 @@
           }
         },
         {
-          "group": "org.jason",
-          "module": "jason",
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
           "version": {
-            "requires": "3.2-SNAPSHOT"
-          },
-          "excludes": [
-            {
-              "group": "net.sf.ingenias",
-              "module": "jade"
-            }
-          ]
+            "requires": "3.2.1"
+          }
         },
         {
           "group": "org.jacamo",
@@ -315,10 +296,30 @@
           ]
         },
         {
-          "group": "net.sf.ingenias",
-          "module": "jade",
+          "group": "org.antlr",
+          "module": "antlr4",
           "version": {
-            "requires": "4.3"
+            "requires": "4.8"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jacamo-rest",
+          "version": {
+            "requires": "0.7"
+          },
+          "excludes": [
+            {
+              "group": "org.jacamo",
+              "module": "jacamo"
+            }
+          ]
+        },
+        {
+          "group": "org.gradle",
+          "module": "gradle-tooling-api",
+          "version": {
+            "requires": "8.0.2"
           }
         }
       ],
@@ -326,11 +327,11 @@
         {
           "name": "jacamo-1.2-SNAPSHOT.jar",
           "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 438613,
-          "sha512": "744366c920bec20f85124381107bc119cc1493a37bba8498c966e182a3da61f6f33cf073d662b69ab3311ddacd39f0d9e4bbf7628641a52dc2400db3ac7abfab",
-          "sha256": "6160768f38e3cf94a660b0d3a4f8b3e32e76405c5bbe9b4d68cdcea3953b0eb6",
-          "sha1": "0f2dc65647533bc0ad412ca4d9d31264ccc74268",
-          "md5": "b3a9eadb5124427d5e89bf5974367c9d"
+          "size": 564220,
+          "sha512": "195ac58f6639f183f36a0040d4705bad400b5589493dbb35913e696c65b408dae30602004b625f62d3142b123816c6aa7a8fc44663086dc324fa4b0594c74da3",
+          "sha256": "2d76e769a4db274f17ae73623fa0387c445967fa848e0d92e9f5cea998e7b51d",
+          "sha1": "c7b5e2f3bd2f3e2b9c356be1d068e3344576373b",
+          "md5": "7b65816443e76dc5556f2d6c05330793"
         }
       ]
     }
