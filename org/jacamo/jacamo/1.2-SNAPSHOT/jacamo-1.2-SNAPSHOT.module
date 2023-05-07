@@ -28,7 +28,7 @@
           "group": "io.github.jason-lang",
           "module": "jason-interpreter",
           "version": {
-            "requires": "3.3.0-SNAPSHOT"
+            "requires": "3.2.1-SNAPSHOT"
           }
         },
         {
@@ -135,11 +135,11 @@
         {
           "name": "jacamo-1.2-SNAPSHOT.jar",
           "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 556241,
-          "sha512": "1b429f36ed2789fece78c339dfa6187148c9e07514af21e49e2397e058fa39a6a47cadab505c6ac2ea93dcc8778683e1720012e4bf4787f5cc6f540a415285cd",
-          "sha256": "fb68267a3c649670922ec23828cf975613f996018c98510329fbaf7be1f8e622",
-          "sha1": "4a51dc96fd474cb9efe8d85b3ab44631649d954b",
-          "md5": "3046f66579999cce83b5fe146a731ef4"
+          "size": 556092,
+          "sha512": "f1f556fd0b1256c4ea536cac149c20c09e523cee5a2d3a32e0abe66a5f34e3433d03d31a05ba5d64cea96a0c096ad8398c4fd765cdccc68d417541c2ba0d7c73",
+          "sha256": "5d7d0395032915aeca92aab0da8e0aa1c47217fd426a10c8256ad5e3687dfc61",
+          "sha1": "f6df985af96fabd6443117397016d66fe8338735",
+          "md5": "b59249ab1144041c99113ec59c1b7988"
         }
       ]
     },
@@ -220,7 +220,7 @@
           "group": "io.github.jason-lang",
           "module": "jason-interpreter",
           "version": {
-            "requires": "3.3.0-SNAPSHOT"
+            "requires": "3.2.1-SNAPSHOT"
           }
         },
         {
@@ -327,11 +327,11 @@
         {
           "name": "jacamo-1.2-SNAPSHOT.jar",
           "url": "jacamo-1.2-SNAPSHOT.jar",
-          "size": 556241,
-          "sha512": "1b429f36ed2789fece78c339dfa6187148c9e07514af21e49e2397e058fa39a6a47cadab505c6ac2ea93dcc8778683e1720012e4bf4787f5cc6f540a415285cd",
-          "sha256": "fb68267a3c649670922ec23828cf975613f996018c98510329fbaf7be1f8e622",
-          "sha1": "4a51dc96fd474cb9efe8d85b3ab44631649d954b",
-          "md5": "3046f66579999cce83b5fe146a731ef4"
+          "size": 556092,
+          "sha512": "f1f556fd0b1256c4ea536cac149c20c09e523cee5a2d3a32e0abe66a5f34e3433d03d31a05ba5d64cea96a0c096ad8398c4fd765cdccc68d417541c2ba0d7c73",
+          "sha256": "5d7d0395032915aeca92aab0da8e0aa1c47217fd426a10c8256ad5e3687dfc61",
+          "sha1": "f6df985af96fabd6443117397016d66fe8338735",
+          "md5": "b59249ab1144041c99113ec59c1b7988"
         }
       ]
     }
