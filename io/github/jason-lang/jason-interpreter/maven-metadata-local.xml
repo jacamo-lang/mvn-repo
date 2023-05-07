@@ -3,12 +3,13 @@
   <groupId>io.github.jason-lang</groupId>
   <artifactId>jason-interpreter</artifactId>
   <versioning>
-    <latest>3.3.0-SNAPSHOT</latest>
+    <latest>3.2.1-SNAPSHOT</latest>
     <release>3.2.0</release>
     <versions>
       <version>3.2.0</version>
       <version>3.3.0-SNAPSHOT</version>
+      <version>3.2.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20230502144151</lastUpdated>
+    <lastUpdated>20230507121313</lastUpdated>
   </versioning>
 </metadata>
