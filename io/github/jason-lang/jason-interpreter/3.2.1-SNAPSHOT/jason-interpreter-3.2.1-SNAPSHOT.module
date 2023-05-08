@@ -50,11 +50,11 @@
         {
           "name": "jason-interpreter-3.2.1-SNAPSHOT.jar",
           "url": "jason-interpreter-3.2.1-SNAPSHOT.jar",
-          "size": 1083882,
-          "sha512": "eb02d4e9c42ad0b2e835c9aeb94d7f86a1b26f78d78e67fe5d9882cb898709e3cd281cbc4d48fc74dac2626ed9bef56aef8e502be7c2b2f03eabefdf65c5d968",
-          "sha256": "3269bed4cf4fb4625f6423650b437bc1452dd3caab8ae045efae7b647654e8e6",
-          "sha1": "32b10cfa49832efb3d914d04fa536f221cc1f04f",
-          "md5": "08a4155d410f600da1380d76cf5cf275"
+          "size": 1083921,
+          "sha512": "2f983fc8c0928d08105b8c67a862e12b89ee076c53f39591de576b07438316a8d16798437594f97092dc2f9d508f259ae633df3f6edf4d8c81e1d78ed52235a2",
+          "sha256": "797773e81d00cf2ac8ebecc43f8f0acfb248d52b3c628973e86bb90fd6acd6c9",
+          "sha1": "57e773743b0c0e8a40a4380f0ea5a66ec5e2da66",
+          "md5": "c20bd662b33c6e2d2c42222dced57e22"
         }
       ]
     },
@@ -94,11 +94,11 @@
         {
           "name": "jason-interpreter-3.2.1-SNAPSHOT.jar",
           "url": "jason-interpreter-3.2.1-SNAPSHOT.jar",
-          "size": 1083882,
-          "sha512": "eb02d4e9c42ad0b2e835c9aeb94d7f86a1b26f78d78e67fe5d9882cb898709e3cd281cbc4d48fc74dac2626ed9bef56aef8e502be7c2b2f03eabefdf65c5d968",
-          "sha256": "3269bed4cf4fb4625f6423650b437bc1452dd3caab8ae045efae7b647654e8e6",
-          "sha1": "32b10cfa49832efb3d914d04fa536f221cc1f04f",
-          "md5": "08a4155d410f600da1380d76cf5cf275"
+          "size": 1083921,
+          "sha512": "2f983fc8c0928d08105b8c67a862e12b89ee076c53f39591de576b07438316a8d16798437594f97092dc2f9d508f259ae633df3f6edf4d8c81e1d78ed52235a2",
+          "sha256": "797773e81d00cf2ac8ebecc43f8f0acfb248d52b3c628973e86bb90fd6acd6c9",
+          "sha1": "57e773743b0c0e8a40a4380f0ea5a66ec5e2da66",
+          "md5": "c20bd662b33c6e2d2c42222dced57e22"
         }
       ]
     }
