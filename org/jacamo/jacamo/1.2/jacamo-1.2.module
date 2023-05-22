@@ -1,0 +1,339 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jacamo",
+    "module": "jacamo",
+    "version": "1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "moise",
+          "version": {
+            "requires": "1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "intmas",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "sai",
+          "version": {
+            "requires": "0.5.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.8"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jacamo-rest",
+          "version": {
+            "requires": "0.7"
+          },
+          "excludes": [
+            {
+              "group": "org.jacamo",
+              "module": "jacamo"
+            }
+          ]
+        },
+        {
+          "group": "org.gradle",
+          "module": "gradle-tooling-api",
+          "version": {
+            "requires": "8.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-1.2.jar",
+          "url": "jacamo-1.2.jar",
+          "size": 616818,
+          "sha512": "d280a8c8035ad870670759cd49ce8ba86540282ec20631587d805ee743d590e89b38e92365175aff488dd2eb8138b46f5d01fe41e30c1ed640548ca862920867",
+          "sha256": "ff6e0a2559020c095b2593fe283dde100b50901efb713dd3d2aa6e0d1557479a",
+          "sha1": "3597e71d8f2f8d23976a94d5e64648210621c31c",
+          "md5": "fb2699a6093bee36b190287618b1bc27"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
+        },
+        {
+          "group": "guru.nidi",
+          "module": "graphviz-java",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-core",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-sync",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-unit",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-web",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-web-client",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.9.8"
+          }
+        },
+        {
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "moise",
+          "version": {
+            "requires": "1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "intmas",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "sai",
+          "version": {
+            "requires": "0.5.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.8"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jacamo-rest",
+          "version": {
+            "requires": "0.7"
+          },
+          "excludes": [
+            {
+              "group": "org.jacamo",
+              "module": "jacamo"
+            }
+          ]
+        },
+        {
+          "group": "org.gradle",
+          "module": "gradle-tooling-api",
+          "version": {
+            "requires": "8.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jacamo-1.2.jar",
+          "url": "jacamo-1.2.jar",
+          "size": 616818,
+          "sha512": "d280a8c8035ad870670759cd49ce8ba86540282ec20631587d805ee743d590e89b38e92365175aff488dd2eb8138b46f5d01fe41e30c1ed640548ca862920867",
+          "sha256": "ff6e0a2559020c095b2593fe283dde100b50901efb713dd3d2aa6e0d1557479a",
+          "sha1": "3597e71d8f2f8d23976a94d5e64648210621c31c",
+          "md5": "fb2699a6093bee36b190287618b1bc27"
+        }
+      ]
+    }
+  ]
+}
