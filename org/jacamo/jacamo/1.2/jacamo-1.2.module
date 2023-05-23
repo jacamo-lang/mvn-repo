@@ -94,7 +94,7 @@
           "group": "org.jacamo",
           "module": "sai",
           "version": {
-            "requires": "0.5.2"
+            "requires": "0.5.3"
           },
           "excludes": [
             {
@@ -135,11 +135,11 @@
         {
           "name": "jacamo-1.2.jar",
           "url": "jacamo-1.2.jar",
-          "size": 616680,
-          "sha512": "a2c20009a63ed04521b237c55fe682b4ba5f70332599a18449e16f306ad702c80334e3f8ce3c70ea4a8dc4d2fbf66ff464ecc24d69f12159b329ac0d1d9090ff",
-          "sha256": "b23984eed86adcd2fd3f0e90ed93486f1acead7248995116efd23676706bed47",
-          "sha1": "7ee21974948444cfee8bceb22212b7acbeff30f4",
-          "md5": "26e242b1795b1367b7fbde7fc6b2ad2f"
+          "size": 494839,
+          "sha512": "b3f798c948bc91d1126889b64ff47a01da86fdc50dc0f41dd7f400374ceb4e89bf9dab7d8d282c588ab342f7260fa61d8e57e295891081f25a083b28445a5f50",
+          "sha256": "1caebb1499aa0f0a7174c8599af813d478bd44406fd0691c38bd0047dae70567",
+          "sha1": "71f33b8b6fe04ae112d9fb0bacb54086fc51e37e",
+          "md5": "7cc8bb426f5399ed0847fb9c5ec398d3"
         }
       ]
     },
@@ -286,7 +286,7 @@
           "group": "org.jacamo",
           "module": "sai",
           "version": {
-            "requires": "0.5.2"
+            "requires": "0.5.3"
           },
           "excludes": [
             {
@@ -327,11 +327,11 @@
         {
           "name": "jacamo-1.2.jar",
           "url": "jacamo-1.2.jar",
-          "size": 616680,
-          "sha512": "a2c20009a63ed04521b237c55fe682b4ba5f70332599a18449e16f306ad702c80334e3f8ce3c70ea4a8dc4d2fbf66ff464ecc24d69f12159b329ac0d1d9090ff",
-          "sha256": "b23984eed86adcd2fd3f0e90ed93486f1acead7248995116efd23676706bed47",
-          "sha1": "7ee21974948444cfee8bceb22212b7acbeff30f4",
-          "md5": "26e242b1795b1367b7fbde7fc6b2ad2f"
+          "size": 494839,
+          "sha512": "b3f798c948bc91d1126889b64ff47a01da86fdc50dc0f41dd7f400374ceb4e89bf9dab7d8d282c588ab342f7260fa61d8e57e295891081f25a083b28445a5f50",
+          "sha256": "1caebb1499aa0f0a7174c8599af813d478bd44406fd0691c38bd0047dae70567",
+          "sha1": "71f33b8b6fe04ae112d9fb0bacb54086fc51e37e",
+          "md5": "7cc8bb426f5399ed0847fb9c5ec398d3"
         }
       ]
     }
