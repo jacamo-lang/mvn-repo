@@ -135,11 +135,11 @@
         {
           "name": "jacamo-1.2.jar",
           "url": "jacamo-1.2.jar",
-          "size": 494839,
-          "sha512": "b3f798c948bc91d1126889b64ff47a01da86fdc50dc0f41dd7f400374ceb4e89bf9dab7d8d282c588ab342f7260fa61d8e57e295891081f25a083b28445a5f50",
-          "sha256": "1caebb1499aa0f0a7174c8599af813d478bd44406fd0691c38bd0047dae70567",
-          "sha1": "71f33b8b6fe04ae112d9fb0bacb54086fc51e37e",
-          "md5": "7cc8bb426f5399ed0847fb9c5ec398d3"
+          "size": 618825,
+          "sha512": "27ed63436d5658cdd86c9aae14b7c79c1aba0e0b8e00ec585a72c1805adf95dbe6ec72607c286162bf57703204d3cd4a543d032184ff2367ff1cb115d6cd236f",
+          "sha256": "ce59b6c2c7e211d0a35955b0570d3c11f4bb5112c25b854b66afca157980aa99",
+          "sha1": "1312e28b0e9bdb3354518148b85c662eb8e5921e",
+          "md5": "48299547109b7791f79d0b5bcf81f4eb"
         }
       ]
     },
@@ -153,13 +153,6 @@
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
-        {
-          "group": "org.apache.ant",
-          "module": "ant",
-          "version": {
-            "requires": "1.10.5"
-          }
-        },
         {
           "group": "guru.nidi",
           "module": "graphviz-java",
@@ -327,11 +320,11 @@
         {
           "name": "jacamo-1.2.jar",
           "url": "jacamo-1.2.jar",
-          "size": 494839,
-          "sha512": "b3f798c948bc91d1126889b64ff47a01da86fdc50dc0f41dd7f400374ceb4e89bf9dab7d8d282c588ab342f7260fa61d8e57e295891081f25a083b28445a5f50",
-          "sha256": "1caebb1499aa0f0a7174c8599af813d478bd44406fd0691c38bd0047dae70567",
-          "sha1": "71f33b8b6fe04ae112d9fb0bacb54086fc51e37e",
-          "md5": "7cc8bb426f5399ed0847fb9c5ec398d3"
+          "size": 618825,
+          "sha512": "27ed63436d5658cdd86c9aae14b7c79c1aba0e0b8e00ec585a72c1805adf95dbe6ec72607c286162bf57703204d3cd4a543d032184ff2367ff1cb115d6cd236f",
+          "sha256": "ce59b6c2c7e211d0a35955b0570d3c11f4bb5112c25b854b66afca157980aa99",
+          "sha1": "1312e28b0e9bdb3354518148b85c662eb8e5921e",
+          "md5": "48299547109b7791f79d0b5bcf81f4eb"
         }
       ]
     }
