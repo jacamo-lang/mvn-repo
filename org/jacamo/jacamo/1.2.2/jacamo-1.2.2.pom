@@ -74,7 +74,7 @@
     <dependency>
       <groupId>org.jacamo</groupId>
       <artifactId>sai</artifactId>
-      <version>0.5.3</version>
+      <version>0.5.4-SNAPSHOT</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
@@ -86,7 +86,7 @@
     <dependency>
       <groupId>org.antlr</groupId>
       <artifactId>antlr4</artifactId>
-      <version>4.8</version>
+      <version>4.12.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

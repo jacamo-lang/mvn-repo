@@ -94,7 +94,7 @@
           "group": "org.jacamo",
           "module": "sai",
           "version": {
-            "requires": "0.5.3"
+            "requires": "0.5.4-SNAPSHOT"
           },
           "excludes": [
             {
@@ -107,7 +107,7 @@
           "group": "org.antlr",
           "module": "antlr4",
           "version": {
-            "requires": "4.8"
+            "requires": "4.12.0"
           }
         },
         {
@@ -135,11 +135,11 @@
         {
           "name": "jacamo-1.2.2.jar",
           "url": "jacamo-1.2.2.jar",
-          "size": 619012,
-          "sha512": "da169ad3db4d6c2aa77bbfbf76572287e097c0819387f9d1db99ce8fbbda3535d8dce4f503ae2941ca01e76b1ad11a136ea591129b1dd6c86d73bf69ba1c32d2",
-          "sha256": "26073148645987ec105b92294ebc98f0f5d526d30af8a21d86f49a4352979632",
-          "sha1": "205127b28b921263e34e761e8388402d7dc0a19d",
-          "md5": "62a9ba2c3ca89d8b35c00c2647a9daaa"
+          "size": 497336,
+          "sha512": "c6a11a2a18631e397ebc93ceda4394cbd7791ec9b2d51fe129be8b807bdbba46c6a43ffc6d3372298f9578306ed07b99f4d07f87770873ac6b680b38415c615e",
+          "sha256": "15ebcc79c14e31d9cf958fb366e4e860d36458ce9864d846f8fbbc153cb4431f",
+          "sha1": "fc90bdb86312356e138563a608fcb2256d89d4c3",
+          "md5": "c528ee2331a25c2f5799cf55da7a35c7"
         }
       ]
     },
@@ -279,7 +279,7 @@
           "group": "org.jacamo",
           "module": "sai",
           "version": {
-            "requires": "0.5.3"
+            "requires": "0.5.4-SNAPSHOT"
           },
           "excludes": [
             {
@@ -292,7 +292,7 @@
           "group": "org.antlr",
           "module": "antlr4",
           "version": {
-            "requires": "4.8"
+            "requires": "4.12.0"
           }
         },
         {
@@ -320,11 +320,11 @@
         {
           "name": "jacamo-1.2.2.jar",
           "url": "jacamo-1.2.2.jar",
-          "size": 619012,
-          "sha512": "da169ad3db4d6c2aa77bbfbf76572287e097c0819387f9d1db99ce8fbbda3535d8dce4f503ae2941ca01e76b1ad11a136ea591129b1dd6c86d73bf69ba1c32d2",
-          "sha256": "26073148645987ec105b92294ebc98f0f5d526d30af8a21d86f49a4352979632",
-          "sha1": "205127b28b921263e34e761e8388402d7dc0a19d",
-          "md5": "62a9ba2c3ca89d8b35c00c2647a9daaa"
+          "size": 497336,
+          "sha512": "c6a11a2a18631e397ebc93ceda4394cbd7791ec9b2d51fe129be8b807bdbba46c6a43ffc6d3372298f9578306ed07b99f4d07f87770873ac6b680b38415c615e",
+          "sha256": "15ebcc79c14e31d9cf958fb366e4e860d36458ce9864d846f8fbbc153cb4431f",
+          "sha1": "fc90bdb86312356e138563a608fcb2256d89d4c3",
+          "md5": "c528ee2331a25c2f5799cf55da7a35c7"
         }
       ]
     }
