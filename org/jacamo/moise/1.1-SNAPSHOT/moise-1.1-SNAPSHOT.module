@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.4"
+      "version": "8.3"
     }
   },
   "variants": [
@@ -41,7 +41,7 @@
           "group": "org.jacamo",
           "module": "npl",
           "version": {
-            "requires": "0.5"
+            "requires": "0.6-SNAPSHOT"
           },
           "excludes": [
             {
@@ -98,11 +98,11 @@
         {
           "name": "moise-1.1-SNAPSHOT.jar",
           "url": "moise-1.1-SNAPSHOT.jar",
-          "size": 339521,
-          "sha512": "d680d6abd43c46e653da5a97556f20d9a7a885866ed96a66876552db5be8cc4089e0ddb7a5604481602bd778af0b04bb381b5e1e250ff3a0597b1afca1e00a33",
-          "sha256": "8757b88872bc727b011c4772129cc8e75eafab1d8c75aa0acdcacededfa04aa6",
-          "sha1": "fb9d4ee5279efcf9cfa8328fe952f531b3f9a789",
-          "md5": "56f46de90fd43cb3990feeca38e8120c"
+          "size": 340386,
+          "sha512": "7b7b8177db630382dc447a45bf4222d0a16bb63fa1db154cdff73d51b1f88b695429f581ed1524e1998631a378c5b828f765ec32d1689f9d95728c2e085ea182",
+          "sha256": "659c62565bf98c20b1c722fbd04263dae52d5a87c6644cabf60329c558fd944a",
+          "sha1": "4d90e6e243c5fdd46f06b9366f05209a4f07ce1a",
+          "md5": "ff91f1075f34774e38adc70720151284"
         }
       ]
     },
@@ -175,7 +175,7 @@
           "group": "org.jacamo",
           "module": "npl",
           "version": {
-            "requires": "0.5"
+            "requires": "0.6-SNAPSHOT"
           },
           "excludes": [
             {
@@ -232,11 +232,11 @@
         {
           "name": "moise-1.1-SNAPSHOT.jar",
           "url": "moise-1.1-SNAPSHOT.jar",
-          "size": 339521,
-          "sha512": "d680d6abd43c46e653da5a97556f20d9a7a885866ed96a66876552db5be8cc4089e0ddb7a5604481602bd778af0b04bb381b5e1e250ff3a0597b1afca1e00a33",
-          "sha256": "8757b88872bc727b011c4772129cc8e75eafab1d8c75aa0acdcacededfa04aa6",
-          "sha1": "fb9d4ee5279efcf9cfa8328fe952f531b3f9a789",
-          "md5": "56f46de90fd43cb3990feeca38e8120c"
+          "size": 340386,
+          "sha512": "7b7b8177db630382dc447a45bf4222d0a16bb63fa1db154cdff73d51b1f88b695429f581ed1524e1998631a378c5b828f765ec32d1689f9d95728c2e085ea182",
+          "sha256": "659c62565bf98c20b1c722fbd04263dae52d5a87c6644cabf60329c558fd944a",
+          "sha1": "4d90e6e243c5fdd46f06b9366f05209a4f07ce1a",
+          "md5": "ff91f1075f34774e38adc70720151284"
         }
       ]
     }
