@@ -44,7 +44,7 @@
     <dependency>
       <groupId>org.jacamo</groupId>
       <artifactId>npl</artifactId>
-      <version>0.5</version>
+      <version>0.6-SNAPSHOT</version>
       <scope>runtime</scope>
       <exclusions>
         <exclusion>

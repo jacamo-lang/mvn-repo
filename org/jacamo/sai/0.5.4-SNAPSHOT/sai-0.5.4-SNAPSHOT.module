@@ -36,11 +36,11 @@
         {
           "name": "sai-0.5.4-SNAPSHOT.jar",
           "url": "sai-0.5.4-SNAPSHOT.jar",
-          "size": 312382,
-          "sha512": "3e6298307138e5d253ce33198ef27e5d6c81678332c072f4963ac701947d45b6f8c7bc68898a779e103581a11e561e3e869e0778a1f73be9c4f2a14a395a9138",
-          "sha256": "c5774657df514adf321c242d602a39af65a14acb831ed8a61c68f1f7359f2c7b",
-          "sha1": "6bd6983e1480db0b3c80317bc1ead8dfa953fd42",
-          "md5": "5f69789f4f0733d4af9171d215ab3e43"
+          "size": 312182,
+          "sha512": "4c074027328119d657f7ba7df92f92347c20d5d287daf621309f495dd8aa34817539bfb668baadf3ae32af527b93e4ebda2d6048c4063e8519ab07a3deae2b07",
+          "sha256": "d4d7a0ec3e5c07046c82e232d4e4840d61b983c3d220507d734f7233dd9743b6",
+          "sha1": "262959baa91de084d9f5b09139216b9ac34ca67c",
+          "md5": "b96685ff531223efe954d9761288d58e"
         }
       ]
     },
@@ -84,7 +84,7 @@
           "group": "org.jacamo",
           "module": "npl",
           "version": {
-            "requires": "0.5"
+            "requires": "0.6-SNAPSHOT"
           },
           "excludes": [
             {
@@ -138,11 +138,11 @@
         {
           "name": "sai-0.5.4-SNAPSHOT.jar",
           "url": "sai-0.5.4-SNAPSHOT.jar",
-          "size": 312382,
-          "sha512": "3e6298307138e5d253ce33198ef27e5d6c81678332c072f4963ac701947d45b6f8c7bc68898a779e103581a11e561e3e869e0778a1f73be9c4f2a14a395a9138",
-          "sha256": "c5774657df514adf321c242d602a39af65a14acb831ed8a61c68f1f7359f2c7b",
-          "sha1": "6bd6983e1480db0b3c80317bc1ead8dfa953fd42",
-          "md5": "5f69789f4f0733d4af9171d215ab3e43"
+          "size": 312182,
+          "sha512": "4c074027328119d657f7ba7df92f92347c20d5d287daf621309f495dd8aa34817539bfb668baadf3ae32af527b93e4ebda2d6048c4063e8519ab07a3deae2b07",
+          "sha256": "d4d7a0ec3e5c07046c82e232d4e4840d61b983c3d220507d734f7233dd9743b6",
+          "sha1": "262959baa91de084d9f5b09139216b9ac34ca67c",
+          "md5": "b96685ff531223efe954d9761288d58e"
         }
       ]
     }
