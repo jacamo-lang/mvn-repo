@@ -42,11 +42,11 @@
         {
           "name": "npl-0.6-SNAPSHOT.jar",
           "url": "npl-0.6-SNAPSHOT.jar",
-          "size": 89607,
-          "sha512": "519a115c5a0c6a9138da78b8da4307fa4aade34576f16573b73c5c9317e943017f135c1ca947c1854de93ed71f616361f66c69cc54292e7138ea64613f0261e0",
-          "sha256": "e62d71591311e699ba6af02fdb2b1f93e6cf19907bc233bff60ead34a0eb9c55",
-          "sha1": "aa0d6668add8815d04532b5182cc0aeee4f35135",
-          "md5": "d2e25103ad39467ebdc9eb8caf460812"
+          "size": 90615,
+          "sha512": "a77a0f598572a75eea5a2329d4f19773327dec73956ad3135c8a8c63a83f18028d4737241878603f95762dad570fd028fc53d90c6aa75e7cef878dfedac11113",
+          "sha256": "17dbe2deff0e621df9c68322cb7b2f6851c8e72217a8619fe1843eb585f4d576",
+          "sha1": "0ee27a50067258e17420ed095ea0f9b27353188d",
+          "md5": "4b73217e309b8799335d0b1515700268"
         }
       ]
     },
@@ -92,11 +92,11 @@
         {
           "name": "npl-0.6-SNAPSHOT.jar",
           "url": "npl-0.6-SNAPSHOT.jar",
-          "size": 89607,
-          "sha512": "519a115c5a0c6a9138da78b8da4307fa4aade34576f16573b73c5c9317e943017f135c1ca947c1854de93ed71f616361f66c69cc54292e7138ea64613f0261e0",
-          "sha256": "e62d71591311e699ba6af02fdb2b1f93e6cf19907bc233bff60ead34a0eb9c55",
-          "sha1": "aa0d6668add8815d04532b5182cc0aeee4f35135",
-          "md5": "d2e25103ad39467ebdc9eb8caf460812"
+          "size": 90615,
+          "sha512": "a77a0f598572a75eea5a2329d4f19773327dec73956ad3135c8a8c63a83f18028d4737241878603f95762dad570fd028fc53d90c6aa75e7cef878dfedac11113",
+          "sha256": "17dbe2deff0e621df9c68322cb7b2f6851c8e72217a8619fe1843eb585f4d576",
+          "sha1": "0ee27a50067258e17420ed095ea0f9b27353188d",
+          "md5": "4b73217e309b8799335d0b1515700268"
         }
       ]
     }
