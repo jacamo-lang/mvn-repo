@@ -19,16 +19,16 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
       "dependencies": [
         {
-          "group": "org.jason",
-          "module": "jason",
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
           "version": {
-            "requires": "3.1"
+            "requires": "3.2.2"
           },
           "excludes": [
             {
@@ -42,11 +42,11 @@
         {
           "name": "npl-0.6-SNAPSHOT.jar",
           "url": "npl-0.6-SNAPSHOT.jar",
-          "size": 87921,
-          "sha512": "03d5fd62b0684f77edaf4ff86fc959d8d2c420d74de86ccbd6e1cf6ffc9f5c829d9b014e647d7b77fc6b46530fb81e53e8ff1eda5df32197d47c223451b996c6",
-          "sha256": "b2b4125d91fb5d8647265172d2f9eea897455f467060349991360dac57c72ece",
-          "sha1": "3acf9f39524706594da39ef4c83433b4a2b5c108",
-          "md5": "367c5216265b3d4b35f793f1b4b8ef8f"
+          "size": 90822,
+          "sha512": "e76231bc2179f42844324baeaa2e2c55313f5862c89ced0881b87e19fe9e24761f765636a05df6a39f1caff2036066cb5968ddbc8d78dc871dd9366de45e920a",
+          "sha256": "fe207acf1766b38575b6dc65c605148a174e03912c95fffbca47d2aa6210be60",
+          "sha1": "0a084fd480351cad794826f6210464ad663cab52",
+          "md5": "83503457b8ecd67c1d567d9123fe08e9"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -75,10 +75,10 @@
           }
         },
         {
-          "group": "org.jason",
-          "module": "jason",
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
           "version": {
-            "requires": "3.1"
+            "requires": "3.2.2"
           },
           "excludes": [
             {
@@ -92,11 +92,11 @@
         {
           "name": "npl-0.6-SNAPSHOT.jar",
           "url": "npl-0.6-SNAPSHOT.jar",
-          "size": 87921,
-          "sha512": "03d5fd62b0684f77edaf4ff86fc959d8d2c420d74de86ccbd6e1cf6ffc9f5c829d9b014e647d7b77fc6b46530fb81e53e8ff1eda5df32197d47c223451b996c6",
-          "sha256": "b2b4125d91fb5d8647265172d2f9eea897455f467060349991360dac57c72ece",
-          "sha1": "3acf9f39524706594da39ef4c83433b4a2b5c108",
-          "md5": "367c5216265b3d4b35f793f1b4b8ef8f"
+          "size": 90822,
+          "sha512": "e76231bc2179f42844324baeaa2e2c55313f5862c89ced0881b87e19fe9e24761f765636a05df6a39f1caff2036066cb5968ddbc8d78dc871dd9366de45e920a",
+          "sha256": "fe207acf1766b38575b6dc65c605148a174e03912c95fffbca47d2aa6210be60",
+          "sha1": "0a084fd480351cad794826f6210464ad663cab52",
+          "md5": "83503457b8ecd67c1d567d9123fe08e9"
         }
       ]
     }
