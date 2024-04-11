@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.0.2"
+      "version": "8.6"
     }
   },
   "variants": [
@@ -50,11 +50,11 @@
         {
           "name": "jason-interpreter-3.3.0-SNAPSHOT.jar",
           "url": "jason-interpreter-3.3.0-SNAPSHOT.jar",
-          "size": 1085256,
-          "sha512": "ad1500816b57a3256e4fa1d4da621f5ceaaa22a41e126c8bb7ae07ca4a4d5df873b24ec4f24b704975d92597e0b55ac55488d9b63c7a4e21eeb07f840837ebe0",
-          "sha256": "662d93900c1d9b274a49d60316f3625e56641865af454114bec99715462cd66c",
-          "sha1": "58c4a8b72460c58278c860c6a7846e8d945e5aa5",
-          "md5": "3f61e79e98b0c9f511585bace301cfc2"
+          "size": 1086050,
+          "sha512": "c387141d005db6822a90d7361823956e578e89be985b36a28364a3026baa17e01affbe4ad3730db46b4242e43a0398a12c69bb456d3919b27d65c4b84ff5f2d0",
+          "sha256": "c1ea58e0ac6517368d9f6dfef4cda914ed246ce91ac2ff4ed983af4bc8815820",
+          "sha1": "6fbd2fd5dddc27fc773740e99a6873435e014daf",
+          "md5": "c97cf6169fc434351ee459096e93cc4c"
         }
       ]
     },
@@ -94,11 +94,11 @@
         {
           "name": "jason-interpreter-3.3.0-SNAPSHOT.jar",
           "url": "jason-interpreter-3.3.0-SNAPSHOT.jar",
-          "size": 1085256,
-          "sha512": "ad1500816b57a3256e4fa1d4da621f5ceaaa22a41e126c8bb7ae07ca4a4d5df873b24ec4f24b704975d92597e0b55ac55488d9b63c7a4e21eeb07f840837ebe0",
-          "sha256": "662d93900c1d9b274a49d60316f3625e56641865af454114bec99715462cd66c",
-          "sha1": "58c4a8b72460c58278c860c6a7846e8d945e5aa5",
-          "md5": "3f61e79e98b0c9f511585bace301cfc2"
+          "size": 1086050,
+          "sha512": "c387141d005db6822a90d7361823956e578e89be985b36a28364a3026baa17e01affbe4ad3730db46b4242e43a0398a12c69bb456d3919b27d65c4b84ff5f2d0",
+          "sha256": "c1ea58e0ac6517368d9f6dfef4cda914ed246ce91ac2ff4ed983af4bc8815820",
+          "sha1": "6fbd2fd5dddc27fc773740e99a6873435e014daf",
+          "md5": "c97cf6169fc434351ee459096e93cc4c"
         }
       ]
     }
