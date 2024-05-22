@@ -4,14 +4,14 @@
   <artifactId>moise</artifactId>
   <versioning>
     <latest>1.1-SNAPSHOT</latest>
-    <release>0.12</release>
+    <release>1.0</release>
     <versions>
-      <version>0.11</version>
-      <version>0.12-SNAPSHOT</version>
-      <version>0.12</version>
       <version>0.13-SNAPSHOT</version>
+      <version>0.13</version>
+      <version>0.14-SNAPSHOT</version>
+      <version>1.0</version>
       <version>1.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20231213085631</lastUpdated>
+    <lastUpdated>20240522121850</lastUpdated>
   </versioning>
 </metadata>
