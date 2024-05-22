@@ -3,25 +3,25 @@
   <groupId>org.jacamo</groupId>
   <artifactId>npl</artifactId>
   <versioning>
-    <lastUpdated>20240522111012</lastUpdated>
+    <lastUpdated>20240522121318</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.6-SNAPSHOT</value>
-        <updated>20240522111012</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>pom</extension>
         <value>0.6-SNAPSHOT</value>
-        <updated>20240522111012</updated>
+        <updated>20240522121318</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>0.6-SNAPSHOT</value>
-        <updated>20240522111012</updated>
+        <updated>20240522121318</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.6-SNAPSHOT</value>
+        <updated>20240522121318</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
