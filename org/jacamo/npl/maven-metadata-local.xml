@@ -4,11 +4,12 @@
   <artifactId>npl</artifactId>
   <versioning>
     <latest>0.6-SNAPSHOT</latest>
+    <release>0.5</release>
     <versions>
-      <version>0.4-SNAPSHOT</version>
       <version>0.5-SNAPSHOT</version>
+      <version>0.5</version>
       <version>0.6-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20231213125406</lastUpdated>
+    <lastUpdated>20240522111012</lastUpdated>
   </versioning>
 </metadata>

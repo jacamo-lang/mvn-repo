@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.3"
+      "version": "8.6"
     }
   },
   "variants": [
@@ -42,11 +42,11 @@
         {
           "name": "npl-0.6-SNAPSHOT.jar",
           "url": "npl-0.6-SNAPSHOT.jar",
-          "size": 90888,
-          "sha512": "df9ffa24273422d41b70c39a4ab91bf512e65938aa185b010cc36d93c96cd500b32c57d44b763b5293578cca2f525e47dfc524fae51aa523f1515c7179b3fa94",
-          "sha256": "a0caf83c7752090bb8fefcec64f8b1789cb6c60fdbb921cd6c2feaeb203aa977",
-          "sha1": "dbfa8b56ac7e65df5fa0c6432a85b197c834dc8f",
-          "md5": "ab73fbca4c91cb83566ea8f0837ca04b"
+          "size": 91214,
+          "sha512": "f34d4a25a7653965ef7d25e95cc5a373be2990a9d2902ecb1659def0f6fa13d9a65e05c2e025dd1e3112e885485126b7eb480d9eef92238db5e20a1650a4a671",
+          "sha256": "34ad3d1d4243fa4e714584fd784deefe8cc87a09be2ef11a01abf1080e910050",
+          "sha1": "d9a5c55a7daf8002fa3ed18982b1629a3ddf0de8",
+          "md5": "21e0fcf1d852bd76f0c6d4f2a29a6f59"
         }
       ]
     },
@@ -92,11 +92,11 @@
         {
           "name": "npl-0.6-SNAPSHOT.jar",
           "url": "npl-0.6-SNAPSHOT.jar",
-          "size": 90888,
-          "sha512": "df9ffa24273422d41b70c39a4ab91bf512e65938aa185b010cc36d93c96cd500b32c57d44b763b5293578cca2f525e47dfc524fae51aa523f1515c7179b3fa94",
-          "sha256": "a0caf83c7752090bb8fefcec64f8b1789cb6c60fdbb921cd6c2feaeb203aa977",
-          "sha1": "dbfa8b56ac7e65df5fa0c6432a85b197c834dc8f",
-          "md5": "ab73fbca4c91cb83566ea8f0837ca04b"
+          "size": 91214,
+          "sha512": "f34d4a25a7653965ef7d25e95cc5a373be2990a9d2902ecb1659def0f6fa13d9a65e05c2e025dd1e3112e885485126b7eb480d9eef92238db5e20a1650a4a671",
+          "sha256": "34ad3d1d4243fa4e714584fd784deefe8cc87a09be2ef11a01abf1080e910050",
+          "sha1": "d9a5c55a7daf8002fa3ed18982b1629a3ddf0de8",
+          "md5": "21e0fcf1d852bd76f0c6d4f2a29a6f59"
         }
       ]
     }

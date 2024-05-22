@@ -18,8 +18,8 @@
       <scope>compile</scope>
       <exclusions>
         <exclusion>
-          <artifactId>jade</artifactId>
           <groupId>net.sf.ingenias</groupId>
+          <artifactId>jade</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
