@@ -135,11 +135,11 @@
         {
           "name": "jacamo-1.2.3.jar",
           "url": "jacamo-1.2.3.jar",
-          "size": 602324,
-          "sha512": "b4bdc37a918362b4d052dc2752c215e78ad8f97842e6b1e436e809565eadd62aad666fa5948bd96a1e53cad5dbfd3766569855a19ae64d5d35ba03a8235f4548",
-          "sha256": "278b994900a0743c11989137cde4110ea3b0ef4ffb6c85351267a46090ad3428",
-          "sha1": "3a703407a2d7e1fb611a6868d4038bcab51679cb",
-          "md5": "cc4a1cdff69f4fb818fd76b1d7073809"
+          "size": 619127,
+          "sha512": "3cd9b9dbafbc772b8232e88bfcea3dd85da759a6bd7b275981379819376da68f30b29796f04af59d2901b17b14b5fd542bbd6d585f3efa25bd1e6f4105e9f771",
+          "sha256": "1d2bc3b2b1b31f8dd6e371a2c81efb84d7d50d663c111d82f0584564f03ea435",
+          "sha1": "1a588547bc99c4e7408c538fb1817ff34bd7855b",
+          "md5": "be4dc23975ff340a62c01c76b4b65629"
         }
       ]
     },
@@ -320,11 +320,11 @@
         {
           "name": "jacamo-1.2.3.jar",
           "url": "jacamo-1.2.3.jar",
-          "size": 602324,
-          "sha512": "b4bdc37a918362b4d052dc2752c215e78ad8f97842e6b1e436e809565eadd62aad666fa5948bd96a1e53cad5dbfd3766569855a19ae64d5d35ba03a8235f4548",
-          "sha256": "278b994900a0743c11989137cde4110ea3b0ef4ffb6c85351267a46090ad3428",
-          "sha1": "3a703407a2d7e1fb611a6868d4038bcab51679cb",
-          "md5": "cc4a1cdff69f4fb818fd76b1d7073809"
+          "size": 619127,
+          "sha512": "3cd9b9dbafbc772b8232e88bfcea3dd85da759a6bd7b275981379819376da68f30b29796f04af59d2901b17b14b5fd542bbd6d585f3efa25bd1e6f4105e9f771",
+          "sha256": "1d2bc3b2b1b31f8dd6e371a2c81efb84d7d50d663c111d82f0584564f03ea435",
+          "sha1": "1a588547bc99c4e7408c538fb1817ff34bd7855b",
+          "md5": "be4dc23975ff340a62c01c76b4b65629"
         }
       ]
     }
