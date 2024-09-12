@@ -3,25 +3,25 @@
   <groupId>org.jacamo</groupId>
   <artifactId>moise</artifactId>
   <versioning>
-    <lastUpdated>20240912201548</lastUpdated>
+    <lastUpdated>20240912201952</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.1-SNAPSHOT</value>
-        <updated>20240912201548</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>module</extension>
         <value>1.1-SNAPSHOT</value>
-        <updated>20240912201548</updated>
+        <updated>20240912201952</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>1.1-SNAPSHOT</value>
-        <updated>20240912201548</updated>
+        <updated>20240912201952</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.1-SNAPSHOT</value>
+        <updated>20240912201952</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
