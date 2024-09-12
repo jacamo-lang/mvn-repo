@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.6"
+      "version": "8.10"
     }
   },
   "variants": [
@@ -98,11 +98,11 @@
         {
           "name": "moise-1.1-SNAPSHOT.jar",
           "url": "moise-1.1-SNAPSHOT.jar",
-          "size": 340581,
-          "sha512": "d6bdafb042e0ae8ff9b0844556bde534ad6f7e2bece7149167b8e26544b6a34385b0236ef1e073deb9487f1ed4d1cf544378e8bb445e9de70ba7978c859300ac",
-          "sha256": "ae08b4aa253d9800b913bfb1a43969eb503645854adec3bddb040f265bf5829c",
-          "sha1": "26c9941d6add41c4093bc7602070dd0ccc7691ec",
-          "md5": "5daf87256c4d2af5244a3d3ec5bc56ee"
+          "size": 340595,
+          "sha512": "260de614e536b38cf596852f93dadb8ade44eae1f96d9930ce142a563b0765ff30847f4352d141c7a1f1a341b0e35b587905603d9d3b6c7d5fc220fc3bb5cb29",
+          "sha256": "4454df2b28dc4af048cc96a0f263fb2590552b34782f6af5ea0c79040c136846",
+          "sha1": "24bd230fd992e784732c7a9e0501105e40a13d03",
+          "md5": "e3ecdccc68ef503c973c7b9d36c6622c"
         }
       ]
     },
@@ -232,11 +232,11 @@
         {
           "name": "moise-1.1-SNAPSHOT.jar",
           "url": "moise-1.1-SNAPSHOT.jar",
-          "size": 340581,
-          "sha512": "d6bdafb042e0ae8ff9b0844556bde534ad6f7e2bece7149167b8e26544b6a34385b0236ef1e073deb9487f1ed4d1cf544378e8bb445e9de70ba7978c859300ac",
-          "sha256": "ae08b4aa253d9800b913bfb1a43969eb503645854adec3bddb040f265bf5829c",
-          "sha1": "26c9941d6add41c4093bc7602070dd0ccc7691ec",
-          "md5": "5daf87256c4d2af5244a3d3ec5bc56ee"
+          "size": 340595,
+          "sha512": "260de614e536b38cf596852f93dadb8ade44eae1f96d9930ce142a563b0765ff30847f4352d141c7a1f1a341b0e35b587905603d9d3b6c7d5fc220fc3bb5cb29",
+          "sha256": "4454df2b28dc4af048cc96a0f263fb2590552b34782f6af5ea0c79040c136846",
+          "sha1": "24bd230fd992e784732c7a9e0501105e40a13d03",
+          "md5": "e3ecdccc68ef503c973c7b9d36c6622c"
         }
       ]
     }
