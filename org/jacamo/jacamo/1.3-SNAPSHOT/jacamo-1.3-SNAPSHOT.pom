@@ -24,8 +24,8 @@
       <scope>compile</scope>
       <exclusions>
         <exclusion>
-          <artifactId>*</artifactId>
           <groupId>*</groupId>
+          <artifactId>*</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
@@ -36,8 +36,8 @@
       <scope>compile</scope>
       <exclusions>
         <exclusion>
-          <artifactId>*</artifactId>
           <groupId>*</groupId>
+          <artifactId>*</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
@@ -48,8 +48,8 @@
       <scope>compile</scope>
       <exclusions>
         <exclusion>
-          <artifactId>*</artifactId>
           <groupId>*</groupId>
+          <artifactId>*</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
@@ -60,8 +60,8 @@
       <scope>compile</scope>
       <exclusions>
         <exclusion>
-          <artifactId>*</artifactId>
           <groupId>*</groupId>
+          <artifactId>*</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
@@ -78,8 +78,8 @@
       <scope>compile</scope>
       <exclusions>
         <exclusion>
-          <artifactId>*</artifactId>
           <groupId>*</groupId>
+          <artifactId>*</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
@@ -96,15 +96,15 @@
       <scope>compile</scope>
       <exclusions>
         <exclusion>
-          <artifactId>jacamo</artifactId>
           <groupId>org.jacamo</groupId>
+          <artifactId>jacamo</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
     <dependency>
       <groupId>org.gradle</groupId>
       <artifactId>gradle-tooling-api</artifactId>
-      <version>8.0.2</version>
+      <version>8.10</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
