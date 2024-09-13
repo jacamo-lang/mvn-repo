@@ -98,11 +98,11 @@
         {
           "name": "moise-1.1-SNAPSHOT.jar",
           "url": "moise-1.1-SNAPSHOT.jar",
-          "size": 340652,
-          "sha512": "201ddb1633fafe1e7c08e1371e0ce7a0cd09f2f5a8cb0608765afedfebe21e932445464e1b2b6105d978b232bce05c8819956ead784e9e9199e20f6741b859ad",
-          "sha256": "a39e2aade6e857d884fcaa7992f486f914bb2d1e1d9934e976f972d4bdea18cd",
-          "sha1": "386cac54f8ac484fe97226cb5a2f1003f322167b",
-          "md5": "b122014e6c1ce0153bbd4491e31f6c47"
+          "size": 340541,
+          "sha512": "184a8c0b3b3dec188919dff9d74c16b23e6bc763a8d853930dc5fe3270adb1d2024cd38bb6fa5a3f8dc16fbb7de5810a1ff22ab7b7cd19784e9958981d229b3b",
+          "sha256": "a2c835bd6b5ba83be12ea1c1eb7106e6e3669003fedfa3efb75b45accf8a3fb2",
+          "sha1": "2ce72e1afbaa8cec0346ed35fc1dd56a547d6574",
+          "md5": "776b84eb1a68b4fd7bce8d2431e063d4"
         }
       ]
     },
@@ -232,11 +232,11 @@
         {
           "name": "moise-1.1-SNAPSHOT.jar",
           "url": "moise-1.1-SNAPSHOT.jar",
-          "size": 340652,
-          "sha512": "201ddb1633fafe1e7c08e1371e0ce7a0cd09f2f5a8cb0608765afedfebe21e932445464e1b2b6105d978b232bce05c8819956ead784e9e9199e20f6741b859ad",
-          "sha256": "a39e2aade6e857d884fcaa7992f486f914bb2d1e1d9934e976f972d4bdea18cd",
-          "sha1": "386cac54f8ac484fe97226cb5a2f1003f322167b",
-          "md5": "b122014e6c1ce0153bbd4491e31f6c47"
+          "size": 340541,
+          "sha512": "184a8c0b3b3dec188919dff9d74c16b23e6bc763a8d853930dc5fe3270adb1d2024cd38bb6fa5a3f8dc16fbb7de5810a1ff22ab7b7cd19784e9958981d229b3b",
+          "sha256": "a2c835bd6b5ba83be12ea1c1eb7106e6e3669003fedfa3efb75b45accf8a3fb2",
+          "sha1": "2ce72e1afbaa8cec0346ed35fc1dd56a547d6574",
+          "md5": "776b84eb1a68b4fd7bce8d2431e063d4"
         }
       ]
     }
