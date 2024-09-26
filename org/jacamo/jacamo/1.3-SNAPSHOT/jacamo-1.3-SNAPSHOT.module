@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -135,11 +135,11 @@
         {
           "name": "jacamo-1.3-SNAPSHOT.jar",
           "url": "jacamo-1.3-SNAPSHOT.jar",
-          "size": 603296,
-          "sha512": "2654d1a29689197d13a58a26b738f2add437394c4af30cd910db738ca728d73dc6ca3ee7a0f75e928be9cc0623c4085cc0c07ac49591d684aed0025b3472e036",
-          "sha256": "e4119e3bb3d379513326fa041e3a91c5e64cf52a62562ed31bea371090956d92",
-          "sha1": "38dfa4f130533b658460ac9ee9c59b63ea5717be",
-          "md5": "5a8e00df04b65901dc45219a53988d20"
+          "size": 603347,
+          "sha512": "f887b5c902a4c2caf94a9069009aebd6142a074508b6186873393db57882cda3b050281472394313759f0090a8df8d58c6270a3bf8a071dc52485644618a6598",
+          "sha256": "9c9d40a770f82f4172a19f34bf76b84364305499c49e63dc4763d359041de86e",
+          "sha1": "3ec473498fb4d483ebfd5807fe98028310568c3e",
+          "md5": "2810f44e4177528863cfbe7258cc8bf7"
         }
       ]
     },
@@ -148,7 +148,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -320,11 +320,11 @@
         {
           "name": "jacamo-1.3-SNAPSHOT.jar",
           "url": "jacamo-1.3-SNAPSHOT.jar",
-          "size": 603296,
-          "sha512": "2654d1a29689197d13a58a26b738f2add437394c4af30cd910db738ca728d73dc6ca3ee7a0f75e928be9cc0623c4085cc0c07ac49591d684aed0025b3472e036",
-          "sha256": "e4119e3bb3d379513326fa041e3a91c5e64cf52a62562ed31bea371090956d92",
-          "sha1": "38dfa4f130533b658460ac9ee9c59b63ea5717be",
-          "md5": "5a8e00df04b65901dc45219a53988d20"
+          "size": 603347,
+          "sha512": "f887b5c902a4c2caf94a9069009aebd6142a074508b6186873393db57882cda3b050281472394313759f0090a8df8d58c6270a3bf8a071dc52485644618a6598",
+          "sha256": "9c9d40a770f82f4172a19f34bf76b84364305499c49e63dc4763d359041de86e",
+          "sha1": "3ec473498fb4d483ebfd5807fe98028310568c3e",
+          "md5": "2810f44e4177528863cfbe7258cc8bf7"
         }
       ]
     }

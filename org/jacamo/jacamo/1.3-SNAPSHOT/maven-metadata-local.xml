@@ -3,25 +3,25 @@
   <groupId>org.jacamo</groupId>
   <artifactId>jacamo</artifactId>
   <versioning>
-    <lastUpdated>20240913154645</lastUpdated>
+    <lastUpdated>20240926104250</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
+        <extension>pom</extension>
         <value>1.3-SNAPSHOT</value>
-        <updated>20240913154645</updated>
+        <updated>20240926104250</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>1.3-SNAPSHOT</value>
-        <updated>20240913154645</updated>
+        <updated>20240926104250</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
+        <extension>module</extension>
         <value>1.3-SNAPSHOT</value>
-        <updated>20240913154645</updated>
+        <updated>20240926104250</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
