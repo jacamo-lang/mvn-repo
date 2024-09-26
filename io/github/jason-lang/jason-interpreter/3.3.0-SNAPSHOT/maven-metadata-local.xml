@@ -3,7 +3,7 @@
   <groupId>io.github.jason-lang</groupId>
   <artifactId>jason-interpreter</artifactId>
   <versioning>
-    <lastUpdated>20240924180359</lastUpdated>
+    <lastUpdated>20240926103314</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,17 +11,17 @@
       <snapshotVersion>
         <extension>jar</extension>
         <value>3.3.0-SNAPSHOT</value>
-        <updated>20240924180359</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>3.3.0-SNAPSHOT</value>
-        <updated>20240924180359</updated>
+        <updated>20240926103314</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
         <value>3.3.0-SNAPSHOT</value>
-        <updated>20240924180359</updated>
+        <updated>20240926103314</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.3.0-SNAPSHOT</value>
+        <updated>20240926103314</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
