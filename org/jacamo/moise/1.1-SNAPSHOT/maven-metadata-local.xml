@@ -2,28 +2,28 @@
 <metadata modelVersion="1.1.0">
   <groupId>org.jacamo</groupId>
   <artifactId>moise</artifactId>
+  <version>1.1-SNAPSHOT</version>
   <versioning>
-    <lastUpdated>20240913153110</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
+    <lastUpdated>20231213085631</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.1-SNAPSHOT</value>
-        <updated>20240913153110</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>1.1-SNAPSHOT</value>
-        <updated>20240913153110</updated>
+        <updated>20231213085631</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>1.1-SNAPSHOT</value>
-        <updated>20240913153110</updated>
+        <updated>20231213085631</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.1-SNAPSHOT</value>
+        <updated>20231213085631</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
-  <version>1.1-SNAPSHOT</version>
 </metadata>

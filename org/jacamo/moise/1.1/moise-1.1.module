@@ -3,14 +3,14 @@
   "component": {
     "group": "org.jacamo",
     "module": "moise",
-    "version": "1.1-SNAPSHOT",
+    "version": "1.1",
     "attributes": {
-      "org.gradle.status": "integration"
+      "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "8.3"
+      "version": "8.10.2"
     }
   },
   "variants": [
@@ -19,16 +19,16 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
       "dependencies": [
         {
-          "group": "org.jason",
-          "module": "jason",
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
           "version": {
-            "requires": "3.1"
+            "requires": "3.3.0"
           },
           "excludes": [
             {
@@ -41,7 +41,7 @@
           "group": "org.jacamo",
           "module": "npl",
           "version": {
-            "requires": "0.6-SNAPSHOT"
+            "requires": "0.6"
           },
           "excludes": [
             {
@@ -96,13 +96,13 @@
       ],
       "files": [
         {
-          "name": "moise-1.1-SNAPSHOT.jar",
-          "url": "moise-1.1-SNAPSHOT.jar",
-          "size": 340463,
-          "sha512": "0d0cbadb56cb647f999834f1556d87008b09a0c0a3ccf6d68786e3a218aafc19653f9cd31ba878ce37dcac261d4b9e231b406080043c5aacd40ce668f784de53",
-          "sha256": "216aac1f788fcef479002219726ba245630a93fff6183e0124c3b1bffb942a51",
-          "sha1": "01ab1ab1020a6badddca9d485557d5cebf4bf5dd",
-          "md5": "43ce9100043b9b0d676051023df70201"
+          "name": "moise-1.1.jar",
+          "url": "moise-1.1.jar",
+          "size": 342470,
+          "sha512": "2d507ded9bafe34b247f9f9a501c39c089d88f86f398e46bc25b5c9701233709c13b488ce28f5f55a507da4240589d2a1217700efbd9edd00b1c18921e6064e2",
+          "sha256": "2b7d0415c5ec0bcf060a430c7d12753aa02bdf769172922d10ff2909870161a8",
+          "sha1": "51d669573a2c60018ecd4e24d1177f21a0a6b6bb",
+          "md5": "c972c62efe906c2319395b9aa291e71c"
         }
       ]
     },
@@ -111,7 +111,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 15,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -159,10 +159,10 @@
           }
         },
         {
-          "group": "org.jason",
-          "module": "jason",
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
           "version": {
-            "requires": "3.1"
+            "requires": "3.3.0"
           },
           "excludes": [
             {
@@ -175,7 +175,7 @@
           "group": "org.jacamo",
           "module": "npl",
           "version": {
-            "requires": "0.6-SNAPSHOT"
+            "requires": "0.6"
           },
           "excludes": [
             {
@@ -230,13 +230,13 @@
       ],
       "files": [
         {
-          "name": "moise-1.1-SNAPSHOT.jar",
-          "url": "moise-1.1-SNAPSHOT.jar",
-          "size": 340463,
-          "sha512": "0d0cbadb56cb647f999834f1556d87008b09a0c0a3ccf6d68786e3a218aafc19653f9cd31ba878ce37dcac261d4b9e231b406080043c5aacd40ce668f784de53",
-          "sha256": "216aac1f788fcef479002219726ba245630a93fff6183e0124c3b1bffb942a51",
-          "sha1": "01ab1ab1020a6badddca9d485557d5cebf4bf5dd",
-          "md5": "43ce9100043b9b0d676051023df70201"
+          "name": "moise-1.1.jar",
+          "url": "moise-1.1.jar",
+          "size": 342470,
+          "sha512": "2d507ded9bafe34b247f9f9a501c39c089d88f86f398e46bc25b5c9701233709c13b488ce28f5f55a507da4240589d2a1217700efbd9edd00b1c18921e6064e2",
+          "sha256": "2b7d0415c5ec0bcf060a430c7d12753aa02bdf769172922d10ff2909870161a8",
+          "sha1": "51d669573a2c60018ecd4e24d1177f21a0a6b6bb",
+          "md5": "c972c62efe906c2319395b9aa291e71c"
         }
       ]
     }
