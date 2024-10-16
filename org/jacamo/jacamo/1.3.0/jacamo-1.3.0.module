@@ -61,7 +61,7 @@
           "group": "org.jacamo",
           "module": "moise",
           "version": {
-            "requires": "1.1-SNAPSHOT"
+            "requires": "1.1"
           },
           "excludes": [
             {
@@ -74,7 +74,7 @@
           "group": "org.jacamo",
           "module": "npl",
           "version": {
-            "requires": "0.6-SNAPSHOT"
+            "requires": "0.6"
           },
           "excludes": [
             {
@@ -135,11 +135,11 @@
         {
           "name": "jacamo-1.3.0.jar",
           "url": "jacamo-1.3.0.jar",
-          "size": 603418,
-          "sha512": "1bc7761e00dcece5a255809acbd4d7255691379f6f0e2dec32adda192608ded890a96e0232eb1515dbb6e21f63291c1ee9cbfe02a37a5125bfb92fe945780dd3",
-          "sha256": "721ba125494e62342a0c3a8ceed2f66e0cf8e2a29a819286cd507fb0d7945c59",
-          "sha1": "8b0a5981f3135b24ef9571a5cf67656a10c45a76",
-          "md5": "8bea3773e6623e1435526b3f05abe4e0"
+          "size": 480218,
+          "sha512": "ebcfbb5e4dc5e56150b3d73183fa4bb172a0d66acaf77e347d8edae9cd2bd31ae32944c42b246ff0ecc75f7af2cdf1459e5028f19c19f2af86961d9bd6a676b3",
+          "sha256": "7d68e31c9f173fe35c43164846e7bf0aa90df2164ca2f17d850b414454813697",
+          "sha1": "f11b9cf8d6ebd6059adfdb508a4067efdc16653f",
+          "md5": "6cbd8ce2d0585c06f7156040d53cf0a9"
         }
       ]
     },
@@ -246,7 +246,7 @@
           "group": "org.jacamo",
           "module": "moise",
           "version": {
-            "requires": "1.1-SNAPSHOT"
+            "requires": "1.1"
           },
           "excludes": [
             {
@@ -259,7 +259,7 @@
           "group": "org.jacamo",
           "module": "npl",
           "version": {
-            "requires": "0.6-SNAPSHOT"
+            "requires": "0.6"
           },
           "excludes": [
             {
@@ -320,11 +320,11 @@
         {
           "name": "jacamo-1.3.0.jar",
           "url": "jacamo-1.3.0.jar",
-          "size": 603418,
-          "sha512": "1bc7761e00dcece5a255809acbd4d7255691379f6f0e2dec32adda192608ded890a96e0232eb1515dbb6e21f63291c1ee9cbfe02a37a5125bfb92fe945780dd3",
-          "sha256": "721ba125494e62342a0c3a8ceed2f66e0cf8e2a29a819286cd507fb0d7945c59",
-          "sha1": "8b0a5981f3135b24ef9571a5cf67656a10c45a76",
-          "md5": "8bea3773e6623e1435526b3f05abe4e0"
+          "size": 480218,
+          "sha512": "ebcfbb5e4dc5e56150b3d73183fa4bb172a0d66acaf77e347d8edae9cd2bd31ae32944c42b246ff0ecc75f7af2cdf1459e5028f19c19f2af86961d9bd6a676b3",
+          "sha256": "7d68e31c9f173fe35c43164846e7bf0aa90df2164ca2f17d850b414454813697",
+          "sha1": "f11b9cf8d6ebd6059adfdb508a4067efdc16653f",
+          "md5": "6cbd8ce2d0585c06f7156040d53cf0a9"
         }
       ]
     }
