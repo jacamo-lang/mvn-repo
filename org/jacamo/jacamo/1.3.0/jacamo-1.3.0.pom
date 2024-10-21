@@ -74,7 +74,7 @@
     <dependency>
       <groupId>org.jacamo</groupId>
       <artifactId>sai</artifactId>
-      <version>0.5.4-SNAPSHOT</version>
+      <version>0.5.4</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
