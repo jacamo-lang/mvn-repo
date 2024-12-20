@@ -64,11 +64,11 @@
         {
           "name": "jason-cli-3.3.0.jar",
           "url": "jason-cli-3.3.0.jar",
-          "size": 56295,
-          "sha512": "bbd8a85f35fe99ebfcabf2b6a4f59d5a58c488d99ea10346b82890c18d47c935e599239f9300065237c0d297df8aa3e9c80f206b09a58c8c3fd90435900f6cd2",
-          "sha256": "4eca4c2cf37ef62567587875a16f34a603103c4d3d830f4cb8d4f5cb722d5df5",
-          "sha1": "20e04c7ed286870d68e30727c05dfb04c3a6b5c7",
-          "md5": "c75cf724cbefe08462d4eccac6fb883b"
+          "size": 56462,
+          "sha512": "07000463e79a46f85fd946dba1fbcf59b907fae42102005e7f93576b07d4c1316d72bfd04dd7ad77c707fba2a76cd6f4ab9aa3711602b06d8eabd085dfaf9272",
+          "sha256": "5cc11e0fe41a560170a946fdb2b58f105ae39c0de8db320705a9d2b1bd478678",
+          "sha1": "a9675bc0e47c7f5002dc34a90607ceab0f38ddc6",
+          "md5": "e97484d91c55369b4eeeb11694527779"
         }
       ]
     },
@@ -129,11 +129,11 @@
         {
           "name": "jason-cli-3.3.0.jar",
           "url": "jason-cli-3.3.0.jar",
-          "size": 56295,
-          "sha512": "bbd8a85f35fe99ebfcabf2b6a4f59d5a58c488d99ea10346b82890c18d47c935e599239f9300065237c0d297df8aa3e9c80f206b09a58c8c3fd90435900f6cd2",
-          "sha256": "4eca4c2cf37ef62567587875a16f34a603103c4d3d830f4cb8d4f5cb722d5df5",
-          "sha1": "20e04c7ed286870d68e30727c05dfb04c3a6b5c7",
-          "md5": "c75cf724cbefe08462d4eccac6fb883b"
+          "size": 56462,
+          "sha512": "07000463e79a46f85fd946dba1fbcf59b907fae42102005e7f93576b07d4c1316d72bfd04dd7ad77c707fba2a76cd6f4ab9aa3711602b06d8eabd085dfaf9272",
+          "sha256": "5cc11e0fe41a560170a946fdb2b58f105ae39c0de8db320705a9d2b1bd478678",
+          "sha1": "a9675bc0e47c7f5002dc34a90607ceab0f38ddc6",
+          "md5": "e97484d91c55369b4eeeb11694527779"
         }
       ]
     }
