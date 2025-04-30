@@ -3,14 +3,14 @@
   "component": {
     "group": "org.jacamo",
     "module": "npl",
-    "version": "0.6-SNAPSHOT",
+    "version": "0.6.1",
     "attributes": {
-      "org.gradle.status": "integration"
+      "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "8.6"
+      "version": "8.10.2"
     }
   },
   "variants": [
@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -28,7 +28,7 @@
           "group": "io.github.jason-lang",
           "module": "jason-interpreter",
           "version": {
-            "requires": "3.2.2"
+            "requires": "3.3.0"
           },
           "excludes": [
             {
@@ -40,13 +40,13 @@
       ],
       "files": [
         {
-          "name": "npl-0.6-SNAPSHOT.jar",
-          "url": "npl-0.6-SNAPSHOT.jar",
-          "size": 91223,
-          "sha512": "10f0969829b9ef85342f7e454b1852bdb0093944277d7bf89a1a5c0f6166cc5b20916e5a1a5bfda12dc1943d43a156c0969412749fad9f3c89a0b960d8a7f5bc",
-          "sha256": "61be97b083a9953e2edf2ce5739d88021f02aa16f46d309ea2cb35a05e0533cd",
-          "sha1": "c988087b1c3c738e2a21514d31fc54cbafb2c398",
-          "md5": "f89251fb4ae2d3470dd9a4b586e9eb44"
+          "name": "npl-0.6.1.jar",
+          "url": "npl-0.6.1.jar",
+          "size": 90772,
+          "sha512": "7000605dabe014b2b33d94d5b7ce17efe2975d7abeb3026a71172bb44589cdd60d123071fc755088d86713bdce6f2a3aeabd9c6779d21e87dfffa1d32a8d5e05",
+          "sha256": "d1a559ac83d9b360bcdc75adf3d9c0d6c5c83b229e1ed9bc2c0a612a286250e0",
+          "sha1": "b60311f7a215e69915a08379f187643f440bb340",
+          "md5": "2f3bc15186968deb4fe0c9cf6a5c0308"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -78,7 +78,7 @@
           "group": "io.github.jason-lang",
           "module": "jason-interpreter",
           "version": {
-            "requires": "3.2.2"
+            "requires": "3.3.0"
           },
           "excludes": [
             {
@@ -90,13 +90,13 @@
       ],
       "files": [
         {
-          "name": "npl-0.6-SNAPSHOT.jar",
-          "url": "npl-0.6-SNAPSHOT.jar",
-          "size": 91223,
-          "sha512": "10f0969829b9ef85342f7e454b1852bdb0093944277d7bf89a1a5c0f6166cc5b20916e5a1a5bfda12dc1943d43a156c0969412749fad9f3c89a0b960d8a7f5bc",
-          "sha256": "61be97b083a9953e2edf2ce5739d88021f02aa16f46d309ea2cb35a05e0533cd",
-          "sha1": "c988087b1c3c738e2a21514d31fc54cbafb2c398",
-          "md5": "f89251fb4ae2d3470dd9a4b586e9eb44"
+          "name": "npl-0.6.1.jar",
+          "url": "npl-0.6.1.jar",
+          "size": 90772,
+          "sha512": "7000605dabe014b2b33d94d5b7ce17efe2975d7abeb3026a71172bb44589cdd60d123071fc755088d86713bdce6f2a3aeabd9c6779d21e87dfffa1d32a8d5e05",
+          "sha256": "d1a559ac83d9b360bcdc75adf3d9c0d6c5c83b229e1ed9bc2c0a612a286250e0",
+          "sha1": "b60311f7a215e69915a08379f187643f440bb340",
+          "md5": "2f3bc15186968deb4fe0c9cf6a5c0308"
         }
       ]
     }

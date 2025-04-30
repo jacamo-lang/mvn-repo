@@ -2,28 +2,28 @@
 <metadata modelVersion="1.1.0">
   <groupId>org.jacamo</groupId>
   <artifactId>npl</artifactId>
-  <version>0.6-SNAPSHOT</version>
   <versioning>
+    <lastUpdated>20240522121318</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
-    <lastUpdated>20231213125406</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.6-SNAPSHOT</value>
-        <updated>20231213125406</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.6-SNAPSHOT</value>
-        <updated>20231213125406</updated>
+        <updated>20240522121318</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>0.6-SNAPSHOT</value>
-        <updated>20231213125406</updated>
+        <updated>20240522121318</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.6-SNAPSHOT</value>
+        <updated>20240522121318</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
+  <version>0.6-SNAPSHOT</version>
 </metadata>
