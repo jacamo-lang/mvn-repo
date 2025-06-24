@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jason-lang",
+    "module": "jason-cli",
+    "version": "3.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "info.picocli",
+          "module": "picocli-shell-jline3",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline",
+          "version": {
+            "requires": "3.22.0"
+          }
+        },
+        {
+          "group": "org.fusesource.jansi",
+          "module": "jansi",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.gradle",
+          "module": "gradle-tooling-api",
+          "version": {
+            "requires": "8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-cli-3.3.1.jar",
+          "url": "jason-cli-3.3.1.jar",
+          "size": 58144,
+          "sha512": "570937865b92ccd77ab5e818e0859daa9a01286891873bc07f1cad6f6ea1c138e47a932df64be3ac56ec7e3041e98a463de6189eac5dae155b77e106ebd0c14c",
+          "sha256": "4fb2a64bf712060c9b60f7b352b6d01f250a9bbd52c781e18a6240fdefef3c78",
+          "sha1": "f95e49caa5a51f0e7a8bc8684ccf0a8906d37e09",
+          "md5": "d8cea83a47e1171c0fdcf776ee4e89e3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "info.picocli",
+          "module": "picocli-shell-jline3",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline",
+          "version": {
+            "requires": "3.22.0"
+          }
+        },
+        {
+          "group": "org.fusesource.jansi",
+          "module": "jansi",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.gradle",
+          "module": "gradle-tooling-api",
+          "version": {
+            "requires": "8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-cli-3.3.1.jar",
+          "url": "jason-cli-3.3.1.jar",
+          "size": 58144,
+          "sha512": "570937865b92ccd77ab5e818e0859daa9a01286891873bc07f1cad6f6ea1c138e47a932df64be3ac56ec7e3041e98a463de6189eac5dae155b77e106ebd0c14c",
+          "sha256": "4fb2a64bf712060c9b60f7b352b6d01f250a9bbd52c781e18a6240fdefef3c78",
+          "sha1": "f95e49caa5a51f0e7a8bc8684ccf0a8906d37e09",
+          "md5": "d8cea83a47e1171c0fdcf776ee4e89e3"
+        }
+      ]
+    }
+  ]
+}
