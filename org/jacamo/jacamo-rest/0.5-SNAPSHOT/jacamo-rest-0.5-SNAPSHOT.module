@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.2.2",
-      "buildId": "es2hy6ekrnatvknkia6fag25mq"
+      "buildId": "5372et2fwzbgrbw3txymfiu3iy"
     }
   },
   "variants": [
@@ -24,191 +24,15 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
-      "dependencies": [
-        {
-          "group": "org.jacamo",
-          "module": "jacamo",
-          "version": {
-            "requires": "0.9-SNAPSHOT"
-          }
-        },
-        {
-          "group": "org.jason-lang",
-          "module": "jason",
-          "version": {
-            "requires": "2.5-SNAPSHOT"
-          }
-        },
-        {
-          "group": "javax.xml.bind",
-          "module": "jaxb-api",
-          "version": {
-            "requires": "2.3.1"
-          }
-        },
-        {
-          "group": "com.sun.xml.bind",
-          "module": "jaxb-core",
-          "version": {
-            "requires": "2.3.0.1"
-          }
-        },
-        {
-          "group": "com.sun.xml.bind",
-          "module": "jaxb-impl",
-          "version": {
-            "requires": "2.3.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.containers",
-          "module": "jersey-container-servlet",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.containers",
-          "module": "jersey-container-servlet-core",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.inject",
-          "module": "jersey-hk2",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey",
-          "module": "jersey-bom",
-          "version": {
-            "requires": "2.29.1"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ],
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "jersey-bom",
-              "type": "pom",
-              "extension": "pom"
-            }
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.core",
-          "module": "jersey-server",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.core",
-          "module": "jersey-client",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.media",
-          "module": "jersey-media-multipart",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.media",
-          "module": "jersey-media-json-jackson",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.containers",
-          "module": "jersey-container-grizzly2-http",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.grizzly",
-          "module": "grizzly-http-server",
-          "version": {
-            "requires": "2.4.4"
-          }
-        },
-        {
-          "group": "org.apache.zookeeper",
-          "module": "zookeeper",
-          "version": {
-            "requires": "3.5.4-beta"
-          }
-        },
-        {
-          "group": "org.apache.curator",
-          "module": "curator-framework",
-          "version": {
-            "requires": "4.0.1"
-          }
-        },
-        {
-          "group": "org.apache.curator",
-          "module": "curator-x-async",
-          "version": {
-            "requires": "4.0.1"
-          }
-        },
-        {
-          "group": "guru.nidi",
-          "module": "graphviz-java",
-          "version": {
-            "requires": "0.7.0"
-          }
-        },
-        {
-          "group": "com.google.guava",
-          "module": "guava",
-          "version": {
-            "requires": "11.0.2"
-          }
-        },
-        {
-          "group": "com.google.code.gson",
-          "module": "gson",
-          "version": {
-            "requires": "2.8.5"
-          }
-        },
-        {
-          "group": "commons-io",
-          "module": "commons-io",
-          "version": {
-            "requires": "2.6"
-          }
-        },
-        {
-          "group": "io.swagger",
-          "module": "swagger-annotations",
-          "version": {
-            "requires": "1.6.1"
-          }
-        }
-      ],
       "files": [
         {
           "name": "jacamo-rest-0.5-SNAPSHOT.jar",
           "url": "jacamo-rest-0.5-SNAPSHOT.jar",
-          "size": 51476,
-          "sha512": "926643b6df3923a070b86647598471d0ea95251565b65e71ae63d06ec48352c18d427b5002d55a5be158ade1b0f36f719171e014aa3e0f35cfd388a194726302",
-          "sha256": "d19dbcce1816a5bc3634288e9ee3901b2b2c4f649345395b2ff4c00281811a06",
-          "sha1": "7b34b99209862747259f8a1000fb30d5b246a848",
-          "md5": "509ab2d2ad0777dad3deb2c955af3951"
+          "size": 52166,
+          "sha512": "748d6555d28aa84e795f6cd105fdd369f6115446382a0a6ff024a45f08e51d9375f8b12fb876ca63cc71a4726b83c3044f09d25752efe777a630de324a4643eb",
+          "sha256": "fef7c1a7f3e59da372f5f2dfaa663e1007b0c4a18e27fed7654d525ba347e917",
+          "sha1": "72a711b78d322d4516210e8dcc82d0958d0e79c8",
+          "md5": "b6d71c70e49b54ee0bb68afe2fdd531e"
         }
       ]
     },
@@ -401,11 +225,11 @@
         {
           "name": "jacamo-rest-0.5-SNAPSHOT.jar",
           "url": "jacamo-rest-0.5-SNAPSHOT.jar",
-          "size": 51476,
-          "sha512": "926643b6df3923a070b86647598471d0ea95251565b65e71ae63d06ec48352c18d427b5002d55a5be158ade1b0f36f719171e014aa3e0f35cfd388a194726302",
-          "sha256": "d19dbcce1816a5bc3634288e9ee3901b2b2c4f649345395b2ff4c00281811a06",
-          "sha1": "7b34b99209862747259f8a1000fb30d5b246a848",
-          "md5": "509ab2d2ad0777dad3deb2c955af3951"
+          "size": 52166,
+          "sha512": "748d6555d28aa84e795f6cd105fdd369f6115446382a0a6ff024a45f08e51d9375f8b12fb876ca63cc71a4726b83c3044f09d25752efe777a630de324a4643eb",
+          "sha256": "fef7c1a7f3e59da372f5f2dfaa663e1007b0c4a18e27fed7654d525ba347e917",
+          "sha1": "72a711b78d322d4516210e8dcc82d0958d0e79c8",
+          "md5": "b6d71c70e49b54ee0bb68afe2fdd531e"
         }
       ]
     }

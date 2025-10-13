@@ -3,15 +3,14 @@
   "component": {
     "group": "org.jacamo",
     "module": "jacamo-rest",
-    "version": "0.6-SNAPSHOT",
+    "version": "0.9-SNAPSHOT",
     "attributes": {
       "org.gradle.status": "integration"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "6.2.2",
-      "buildId": "t3re3upwr5fojiwcssvpigt57m"
+      "version": "8.13"
     }
   },
   "variants": [
@@ -20,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 8,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -29,7 +28,7 @@
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "0.9-SNAPSHOT"
+            "requires": "1.3.0"
           },
           "excludes": [
             {
@@ -39,10 +38,10 @@
           ]
         },
         {
-          "group": "org.jason-lang",
-          "module": "jason",
+          "group": "org.apache.ant",
+          "module": "ant",
           "version": {
-            "requires": "2.5-SNAPSHOT"
+            "requires": "1.10.5"
           }
         },
         {
@@ -150,20 +149,6 @@
           }
         },
         {
-          "group": "guru.nidi",
-          "module": "graphviz-java",
-          "version": {
-            "requires": "0.7.0"
-          }
-        },
-        {
-          "group": "com.google.guava",
-          "module": "guava",
-          "version": {
-            "requires": "11.0.2"
-          }
-        },
-        {
           "group": "com.google.code.gson",
           "module": "gson",
           "version": {
@@ -171,29 +156,29 @@
           }
         },
         {
-          "group": "commons-io",
-          "module": "commons-io",
+          "group": "javax.json",
+          "module": "javax.json-api",
           "version": {
-            "requires": "2.6"
+            "requires": "1.1.4"
           }
         },
         {
-          "group": "io.swagger",
-          "module": "swagger-annotations",
+          "group": "org.glassfish",
+          "module": "javax.json",
           "version": {
-            "requires": "1.6.1"
+            "requires": "1.1.4"
           }
         }
       ],
       "files": [
         {
-          "name": "jacamo-rest-0.6-SNAPSHOT.jar",
-          "url": "jacamo-rest-0.6-SNAPSHOT.jar",
-          "size": 51914,
-          "sha512": "4da1bd0fa31bb333c4a80adb3913b22f5dea6de19c5e7887f3ed1491e795f7615b6a92834e15bb05015be956fcbc4c4b29bf335d2d4216e335f4089722dd3bbe",
-          "sha256": "c6bed014a17d7f77cca2da0884b7ae836baf71ffe8480c17f4e63adcbbf93cbc",
-          "sha1": "70f293f0b15cd03d9b01efa03d67033baf33740e",
-          "md5": "58461171e113d26e55408a4baae1e587"
+          "name": "jacamo-rest-0.9-SNAPSHOT.jar",
+          "url": "jacamo-rest-0.9-SNAPSHOT.jar",
+          "size": 57690,
+          "sha512": "1e26fdea1f63e6a24f4b6a95e9b9709bca6d69c0536292ec7efd0e3e3ccdece9283d482bbe3e1c90dcbcb90c005478e291fc9b49a1de23d01580e4b540aca523",
+          "sha256": "fa00bc7efa4702651ee3ed603dd1712391fdb9ffbed95a53357aae63a3dc9848",
+          "sha1": "3db76c188c08a38ef67ad3b37f5424040ea15a76",
+          "md5": "ba9f676d2e0c4afadee09ee007f4e9fb"
         }
       ]
     },
@@ -202,16 +187,44 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 8,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
         {
+          "group": "guru.nidi",
+          "module": "graphviz-java",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "11.0.2"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "io.swagger",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "1.6.5"
+          }
+        },
+        {
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "0.9-SNAPSHOT"
+            "requires": "1.3.0"
           },
           "excludes": [
             {
@@ -221,10 +234,10 @@
           ]
         },
         {
-          "group": "org.jason-lang",
-          "module": "jason",
+          "group": "org.apache.ant",
+          "module": "ant",
           "version": {
-            "requires": "2.5-SNAPSHOT"
+            "requires": "1.10.5"
           }
         },
         {
@@ -332,20 +345,6 @@
           }
         },
         {
-          "group": "guru.nidi",
-          "module": "graphviz-java",
-          "version": {
-            "requires": "0.7.0"
-          }
-        },
-        {
-          "group": "com.google.guava",
-          "module": "guava",
-          "version": {
-            "requires": "11.0.2"
-          }
-        },
-        {
           "group": "com.google.code.gson",
           "module": "gson",
           "version": {
@@ -353,29 +352,29 @@
           }
         },
         {
-          "group": "commons-io",
-          "module": "commons-io",
+          "group": "javax.json",
+          "module": "javax.json-api",
           "version": {
-            "requires": "2.6"
+            "requires": "1.1.4"
           }
         },
         {
-          "group": "io.swagger",
-          "module": "swagger-annotations",
+          "group": "org.glassfish",
+          "module": "javax.json",
           "version": {
-            "requires": "1.6.1"
+            "requires": "1.1.4"
           }
         }
       ],
       "files": [
         {
-          "name": "jacamo-rest-0.6-SNAPSHOT.jar",
-          "url": "jacamo-rest-0.6-SNAPSHOT.jar",
-          "size": 51914,
-          "sha512": "4da1bd0fa31bb333c4a80adb3913b22f5dea6de19c5e7887f3ed1491e795f7615b6a92834e15bb05015be956fcbc4c4b29bf335d2d4216e335f4089722dd3bbe",
-          "sha256": "c6bed014a17d7f77cca2da0884b7ae836baf71ffe8480c17f4e63adcbbf93cbc",
-          "sha1": "70f293f0b15cd03d9b01efa03d67033baf33740e",
-          "md5": "58461171e113d26e55408a4baae1e587"
+          "name": "jacamo-rest-0.9-SNAPSHOT.jar",
+          "url": "jacamo-rest-0.9-SNAPSHOT.jar",
+          "size": 57690,
+          "sha512": "1e26fdea1f63e6a24f4b6a95e9b9709bca6d69c0536292ec7efd0e3e3ccdece9283d482bbe3e1c90dcbcb90c005478e291fc9b49a1de23d01580e4b540aca523",
+          "sha256": "fa00bc7efa4702651ee3ed603dd1712391fdb9ffbed95a53357aae63a3dc9848",
+          "sha1": "3db76c188c08a38ef67ad3b37f5424040ea15a76",
+          "md5": "ba9f676d2e0c4afadee09ee007f4e9fb"
         }
       ]
     }

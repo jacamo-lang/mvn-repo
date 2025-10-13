@@ -23,176 +23,15 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
-      "dependencies": [
-        {
-          "group": "org.jacamo",
-          "module": "jacamo",
-          "version": {
-            "requires": "1.1"
-          },
-          "excludes": [
-            {
-              "group": "org.slf4j",
-              "module": "slf4j-nop"
-            }
-          ]
-        },
-        {
-          "group": "javax.xml.bind",
-          "module": "jaxb-api",
-          "version": {
-            "requires": "2.3.1"
-          }
-        },
-        {
-          "group": "com.sun.xml.bind",
-          "module": "jaxb-core",
-          "version": {
-            "requires": "2.3.0.1"
-          }
-        },
-        {
-          "group": "com.sun.xml.bind",
-          "module": "jaxb-impl",
-          "version": {
-            "requires": "2.3.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.containers",
-          "module": "jersey-container-servlet",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.containers",
-          "module": "jersey-container-servlet-core",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.inject",
-          "module": "jersey-hk2",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey",
-          "module": "jersey-bom",
-          "version": {
-            "requires": "2.29.1"
-          },
-          "excludes": [
-            {
-              "group": "*",
-              "module": "*"
-            }
-          ],
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "jersey-bom",
-              "type": "pom",
-              "extension": "pom"
-            }
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.core",
-          "module": "jersey-server",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.core",
-          "module": "jersey-client",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.media",
-          "module": "jersey-media-multipart",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.media",
-          "module": "jersey-media-json-jackson",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.jersey.containers",
-          "module": "jersey-container-grizzly2-http",
-          "version": {
-            "requires": "2.29.1"
-          }
-        },
-        {
-          "group": "org.glassfish.grizzly",
-          "module": "grizzly-http-server",
-          "version": {
-            "requires": "2.4.4"
-          }
-        },
-        {
-          "group": "guru.nidi",
-          "module": "graphviz-java",
-          "version": {
-            "requires": "0.7.0"
-          }
-        },
-        {
-          "group": "com.google.code.gson",
-          "module": "gson",
-          "version": {
-            "requires": "2.8.5"
-          }
-        },
-        {
-          "group": "commons-io",
-          "module": "commons-io",
-          "version": {
-            "requires": "2.6"
-          }
-        },
-        {
-          "group": "javax.json",
-          "module": "javax.json-api",
-          "version": {
-            "requires": "1.1.4"
-          }
-        },
-        {
-          "group": "org.glassfish",
-          "module": "javax.json",
-          "version": {
-            "requires": "1.1.4"
-          }
-        },
-        {
-          "group": "io.swagger",
-          "module": "swagger-annotations",
-          "version": {
-            "requires": "1.6.5"
-          }
-        }
-      ],
       "files": [
         {
           "name": "jacamo-rest-0.7.jar",
           "url": "jacamo-rest-0.7.jar",
-          "size": 58798,
-          "sha512": "157c86f2697e85f5b8aaf8e83845344c724e33956d839642829839946056ac7f44b488f7a9c9c9d31ed30478f86a481c0183eee00b58fa94d42536c6f3cce846",
-          "sha256": "9a4904804a7880795bfca378b91ba9902fb43ce853aad9288b073a67bd3ec92b",
-          "sha1": "dbf6322b439c59884b0e2ad6bdf9eb466c1c595b",
-          "md5": "eddc36da54b214b866375b39e36747b0"
+          "size": 58813,
+          "sha512": "232e5bb2f7ee366070b415b7cf794952ce7db1db37c47e504841780b2239225aa4c7e49229868b0c68330264b1415cc42dded704fdfb23c3e2ad03b00ab45794",
+          "sha256": "1079925244e6444ca7741d52ec69d5a4544ca74403612c7611da06fbca71db10",
+          "sha1": "48327b330a702b9502fc1eebf07f9a5d5ef3e768",
+          "md5": "4694772b5e677b5924d4ede480d8c5cc"
         }
       ]
     },
@@ -207,17 +46,10 @@
       },
       "dependencies": [
         {
-          "group": "org.apache.ant",
-          "module": "ant",
-          "version": {
-            "requires": "1.10.5"
-          }
-        },
-        {
           "group": "org.jacamo",
           "module": "jacamo",
           "version": {
-            "requires": "1.1"
+            "requires": "1.1-SNAPSHOT"
           },
           "excludes": [
             {
@@ -225,6 +57,13 @@
               "module": "slf4j-nop"
             }
           ]
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.5"
+          }
         },
         {
           "group": "javax.xml.bind",
@@ -338,6 +177,13 @@
           }
         },
         {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "11.0.2"
+          }
+        },
+        {
           "group": "com.google.code.gson",
           "module": "gson",
           "version": {
@@ -377,11 +223,11 @@
         {
           "name": "jacamo-rest-0.7.jar",
           "url": "jacamo-rest-0.7.jar",
-          "size": 58798,
-          "sha512": "157c86f2697e85f5b8aaf8e83845344c724e33956d839642829839946056ac7f44b488f7a9c9c9d31ed30478f86a481c0183eee00b58fa94d42536c6f3cce846",
-          "sha256": "9a4904804a7880795bfca378b91ba9902fb43ce853aad9288b073a67bd3ec92b",
-          "sha1": "dbf6322b439c59884b0e2ad6bdf9eb466c1c595b",
-          "md5": "eddc36da54b214b866375b39e36747b0"
+          "size": 58813,
+          "sha512": "232e5bb2f7ee366070b415b7cf794952ce7db1db37c47e504841780b2239225aa4c7e49229868b0c68330264b1415cc42dded704fdfb23c3e2ad03b00ab45794",
+          "sha256": "1079925244e6444ca7741d52ec69d5a4544ca74403612c7611da06fbca71db10",
+          "sha1": "48327b330a702b9502fc1eebf07f9a5d5ef3e768",
+          "md5": "4694772b5e677b5924d4ede480d8c5cc"
         }
       ]
     }

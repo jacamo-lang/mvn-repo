@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.jacamo</groupId>
+  <artifactId>jacamo-rest</artifactId>
+  <versioning>
+    <lastUpdated>20251013143819</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.9-SNAPSHOT</value>
+        <updated>20251013143819</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.9-SNAPSHOT</value>
+        <updated>20251013143819</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.9-SNAPSHOT</value>
+        <updated>20251013143819</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.9-SNAPSHOT</version>
+</metadata>
