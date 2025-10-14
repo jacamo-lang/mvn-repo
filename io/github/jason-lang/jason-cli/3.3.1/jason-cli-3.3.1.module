@@ -28,7 +28,7 @@
           "group": "io.github.jason-lang",
           "module": "jason-interpreter",
           "version": {
-            "requires": "3.3.1"
+            "requires": "3.3.0"
           }
         },
         {
@@ -64,11 +64,11 @@
         {
           "name": "jason-cli-3.3.1.jar",
           "url": "jason-cli-3.3.1.jar",
-          "size": 58144,
-          "sha512": "570937865b92ccd77ab5e818e0859daa9a01286891873bc07f1cad6f6ea1c138e47a932df64be3ac56ec7e3041e98a463de6189eac5dae155b77e106ebd0c14c",
-          "sha256": "4fb2a64bf712060c9b60f7b352b6d01f250a9bbd52c781e18a6240fdefef3c78",
-          "sha1": "f95e49caa5a51f0e7a8bc8684ccf0a8906d37e09",
-          "md5": "d8cea83a47e1171c0fdcf776ee4e89e3"
+          "size": 58145,
+          "sha512": "948a758f0eb35a89ec804708e73a0b6f389d4395b52c66f5d58b3ae675bde931519cee0503a6e4c1b83c969e60a244e62c2845f8595289ffa041e14293064342",
+          "sha256": "d67200d75fb80643a85634b2c13b60e76f2a1f8f4bf1c6f3891aaff1340cb6c8",
+          "sha1": "4ddddb2a49031e5cb96d4f98d5aa6201b2e4acde",
+          "md5": "512b1082ce80a3d517c73d7c3e6c2e54"
         }
       ]
     },
@@ -93,7 +93,7 @@
           "group": "io.github.jason-lang",
           "module": "jason-interpreter",
           "version": {
-            "requires": "3.3.1"
+            "requires": "3.3.0"
           }
         },
         {
@@ -129,11 +129,11 @@
         {
           "name": "jason-cli-3.3.1.jar",
           "url": "jason-cli-3.3.1.jar",
-          "size": 58144,
-          "sha512": "570937865b92ccd77ab5e818e0859daa9a01286891873bc07f1cad6f6ea1c138e47a932df64be3ac56ec7e3041e98a463de6189eac5dae155b77e106ebd0c14c",
-          "sha256": "4fb2a64bf712060c9b60f7b352b6d01f250a9bbd52c781e18a6240fdefef3c78",
-          "sha1": "f95e49caa5a51f0e7a8bc8684ccf0a8906d37e09",
-          "md5": "d8cea83a47e1171c0fdcf776ee4e89e3"
+          "size": 58145,
+          "sha512": "948a758f0eb35a89ec804708e73a0b6f389d4395b52c66f5d58b3ae675bde931519cee0503a6e4c1b83c969e60a244e62c2845f8595289ffa041e14293064342",
+          "sha256": "d67200d75fb80643a85634b2c13b60e76f2a1f8f4bf1c6f3891aaff1340cb6c8",
+          "sha1": "4ddddb2a49031e5cb96d4f98d5aa6201b2e4acde",
+          "md5": "512b1082ce80a3d517c73d7c3e6c2e54"
         }
       ]
     }
