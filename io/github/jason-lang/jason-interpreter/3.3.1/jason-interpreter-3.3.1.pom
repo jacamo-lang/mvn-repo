@@ -13,6 +13,12 @@
   <name>Jason</name>
   <description>Jason is a programming language to develop BDI/cognitive agents</description>
   <url>https://jason-lang.github.io</url>
+  <licenses>
+    <license>
+      <name>LGPLv3</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.html</url>
+    </license>
+  </licenses>
   <developers>
     <developer>
       <name>Jomi Fred Hubner</name>
