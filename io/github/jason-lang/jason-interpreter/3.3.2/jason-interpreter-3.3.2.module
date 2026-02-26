@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.jason-lang",
+    "module": "jason-interpreter",
+    "version": "3.3.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-interpreter-3.3.2.jar",
+          "url": "jason-interpreter-3.3.2.jar",
+          "size": 1093740,
+          "sha512": "042086130ae4fa2584e7d30e1820ffd686f91ee5cf43f93ad6bc8073f04dfa11e988efb2a4ce67a63a552f668c6385c3055beaee30eed087183be1ba8fecc6c0",
+          "sha256": "2ebeb0b24440ed58dce37e21a8d51dd54a73b42b0c9a01657890f1253ec7b26f",
+          "sha1": "ce81281a5069cca803f0f972a66aaf04a8473190",
+          "md5": "b86f87f5db6b30f650cd7a79d98215c6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.ingenias",
+          "module": "jade",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jason-interpreter-3.3.2.jar",
+          "url": "jason-interpreter-3.3.2.jar",
+          "size": 1093740,
+          "sha512": "042086130ae4fa2584e7d30e1820ffd686f91ee5cf43f93ad6bc8073f04dfa11e988efb2a4ce67a63a552f668c6385c3055beaee30eed087183be1ba8fecc6c0",
+          "sha256": "2ebeb0b24440ed58dce37e21a8d51dd54a73b42b0c9a01657890f1253ec7b26f",
+          "sha1": "ce81281a5069cca803f0f972a66aaf04a8473190",
+          "md5": "b86f87f5db6b30f650cd7a79d98215c6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jason-interpreter-3.3.2-javadoc.jar",
+          "url": "jason-interpreter-3.3.2-javadoc.jar",
+          "size": 1696298,
+          "sha512": "1bf4c6380b0a50f33108644d970926f23bc72774646358ed1186332f53203124d0b37d80c2122f659497f4d71a1b1e75a99dfbd29dcd8e57d45c29e90f56a018",
+          "sha256": "f3bbd14de35308d7993b96e2f1afb8c2f5fc635307d0630542efafffdf1560be",
+          "sha1": "e2080c884ba0f88cbe02f983b7cac0e40697141d",
+          "md5": "53aa76092e809132219922765aa66147"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jason-interpreter-3.3.2-sources.jar",
+          "url": "jason-interpreter-3.3.2-sources.jar",
+          "size": 653133,
+          "sha512": "1eeadd7be427d8471f6185cf2b06aab47d5a78a9fcc38e3f303ebc09016e871430fc4428b18fff1c692f373c25151a2e462fdf57395b484af9203fa7e9001e6d",
+          "sha256": "87d1dad2a90d01288f467b6acfc3af2f47526c29ab7ba23c7fd8898f7267ac1b",
+          "sha1": "064cbc7135ac3293e942521c78592db4510a26ab",
+          "md5": "7d7ef88819a95c25d69d17a2aa5ec40f"
+        }
+      ]
+    }
+  ]
+}
