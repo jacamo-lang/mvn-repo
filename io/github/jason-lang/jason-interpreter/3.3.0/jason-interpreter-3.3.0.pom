@@ -10,6 +10,31 @@
   <groupId>io.github.jason-lang</groupId>
   <artifactId>jason-interpreter</artifactId>
   <version>3.3.0</version>
+  <name>Jason</name>
+  <description>Jason is a programming language to develop BDI/cognitive agents</description>
+  <url>https://jason-lang.github.io</url>
+  <licenses>
+    <license>
+      <name>LGPLv3</name>
+      <url>https://www.gnu.org/licenses/lgpl-3.0.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Jomi Fred Hubner</name>
+      <email>jomifred@gmail.com</email>
+      <url>https://jomifred.github.io</url>
+    </developer>
+    <developer>
+      <name>Rafael Heitor Bordini</name>
+      <email>rafael.h.bordini@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jason-lang/jason</connection>
+    <developerConnection>scm:git:https://github.com/jason-lang/jason</developerConnection>
+    <url>https://github.com/jason-lang/jason</url>
+  </scm>
   <dependencies>
     <dependency>
       <groupId>net.sf.ingenias</groupId>
